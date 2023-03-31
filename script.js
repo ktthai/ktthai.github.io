@@ -1,7 +1,7 @@
 window.onload = function() {
     var csvData = document.getElementById('csvData');
     var csvRequest = new XMLHttpRequest();
-    csvRequest.open('GET', '', true);
+    csvRequest.open('GET', 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/PlayerData.csv', true);
     csvRequest.send();
     csvRequest.onreadystatechange = function() {
         if (csvRequest.readyState == 4 && csvRequest.status == 200) {
