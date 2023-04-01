@@ -25,6 +25,24 @@ window.onload = function() {
             }
             table += "</tbody>";
             csvData.innerHTML = table;
+
+             // Search functionality
+             var searchInput = document.getElementById('searchInput');
+             searchInput.addEventListener('input', function() {
+                 var filter = searchInput.value.toLowerCase();
+                 var rows = csvData.getElementsByTagName('tr');
+                 for (var i = 0; i < rows.length; i++) {
+                     var cells = rows[i].getElementsByTagName('td');
+                     var visible = false;
+                     for (var j = 0; j < cells.length; j++) {
+                         if (cells[j].innerHTML.toLowerCase().indexOf(filter) > -1) {
+                             visible = true;
+                             break;
+                         }
+                     }
+                     rows[i].style.display = visible ? '' : 'none';
+                 }
+             });
         }
     }
 }
