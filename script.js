@@ -26,6 +26,10 @@ window.onload = function() {
             table += "</tbody>";
             csvData.innerHTML = table;
 
+            $(function() {
+                $("#csvData").tablesorter();
+            });
+
              // Search functionality
             var searchInput = document.getElementById('searchInput');
             searchInput.addEventListener('input', function() {
