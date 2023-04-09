@@ -30,6 +30,10 @@ window.onload = function() {
                 $("#csvData").tablesorter();
             });
 
+            // Count functionality
+            var countSpan = document.getElementById('count');
+            countSpan.textContent = rows.length - 1; // exclude header row
+
              // Search functionality
             var searchInput = document.getElementById('searchInput');
             searchInput.addEventListener('input', function() {

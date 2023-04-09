@@ -1,4 +1,22 @@
-.container {
+/* Search bar container */
+.searchbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+
+.csvdatatable-container {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    padding: 20px;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -20,25 +38,3 @@ th {
     background-color: #f2f2f2;
     font-weight: bold;
 }
-
-
-/* Set the position of the search bar and container */
-.search-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .container {
-    position: fixed;
-    top: 80px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow-y: auto;
-    padding: 20px;
-  }

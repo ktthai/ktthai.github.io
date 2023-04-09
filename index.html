@@ -8,10 +8,11 @@
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
 </head>
 <body>
-	<div class="search-container">
+	<div class="searchbar-container">
 		<input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search...">
 	</div>
-	<div class="container">
+	<div class="csvdatatable-container">			
+		<p>Number of entries: <span id="count"></span></p>
 		<table id="csvData"></table>
 	</div>
 </body>
