@@ -50,9 +50,6 @@ window.onload = function() {
                 document.getElementById('serverCounts').appendChild(countSpan);
             }
             
-            // Get the table rows
-            var rows = document.getElementById('csvData').getElementsByTagName('tr');
-        
              // Search functionality
             var searchInput = document.getElementById('searchInput');
             searchInput.addEventListener('input', function() {
