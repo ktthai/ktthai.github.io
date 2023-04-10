@@ -34,6 +34,25 @@ window.onload = function() {
             var countSpan = document.getElementById('count');
             countSpan.textContent = rows.length - 1; // exclude header row
 
+            // Count players on each server
+            var servers = ['Mari', 'Ruairi', 'Tarlach', 'Nao', 'Alexina', 'Erinn'];
+            for (var i = 0; i < servers.length; i++) {
+                var server = servers[i];
+                var count = 0;
+                for (var j = 1; j < rows.length; j++) {
+                    var cells = rows[j].split(",");
+                    if (cells[4].trim() === server) {
+                        count++;
+                    }
+                }
+                var countSpan = document.createElement('span');
+                countSpan.textContent = server + ': ' + count + ' | ';
+                document.getElementById('serverCounts').appendChild(countSpan);
+            }
+            
+            // Get the table rows
+            var rows = document.getElementById('csvData').getElementsByTagName('tr');
+        
              // Search functionality
             var searchInput = document.getElementById('searchInput');
             searchInput.addEventListener('input', function() {
