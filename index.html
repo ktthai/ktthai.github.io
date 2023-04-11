@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Mabinogi Player Data</title>
 	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="searchbar">
+			<h1>Mabinogi Player Data</h1>
+			<input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search...">
+		</div>
+		<div class="csvdatatable">
+			<div class="table-header">
+				<p>Server Counts:</p>
+				<div id="serverCounts"></div>
+			</div>
+			<div class="playerinfo">
+				<!-- <p>Total Players:</p>
+				<span id="totalPlayerCount"></span> -->
+				<p class="total-players">Total players: <span id="totalPlayerCount"></span></p>
+			</div>
+			<table id="csvData"></table>
+		</div>
+	</div>
+
 	<script src="script.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
-</head>
-<body>
-	<div class="searchbar-container">
-		<input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search...">
-	</div>
-	<div class="csvdatatable-container">			
-		<div id="serverCounts"></div>
-		<p>Total players: <span id="count"></span></p>
-		<table id="csvData"></table>
-	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
 </body>
+
 </html>

@@ -1,40 +1,9 @@
-/* Search bar container */
-.searchbar-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-  }
-
-.csvdatatable-container {
-    position: fixed;
-    top: 80px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow-y: auto;
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
 th, td {
-    border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #92d3f8;
     font-weight: bold;
 }

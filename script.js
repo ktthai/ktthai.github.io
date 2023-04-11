@@ -31,7 +31,7 @@ window.onload = function() {
             });
 
             // Count functionality
-            var countSpan = document.getElementById('count');
+            var countSpan = document.getElementById('totalPlayerCount');
             countSpan.textContent = rows.length - 1; // exclude header row
 
             // Count players on each server
