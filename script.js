@@ -1,76 +1,91 @@
-window.onload = function() {
-    var csvData = document.getElementById('csvData');
-    var csvRequest = new XMLHttpRequest();
-    csvRequest.open('GET', 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/PlayerData.csv', true);
-    csvRequest.send();
-    csvRequest.onreadystatechange = function() {
-        if (csvRequest.readyState == 4 && csvRequest.status == 200) {
-            var data = csvRequest.responseText;
-            var rows = data.split("\n");
-            var table = "<thead><tr>";
-            var headers = rows[0].split(",");
-            for (var i = 0; i < headers.length; i++) {
-                table += "<th>" + headers[i] + "</th>";
-            }
-            table += "</tr></thead><tbody>";
-            for (var i = 1; i < rows.length; i++) {
-                var cells = rows[i].split(",");
-                if (cells.length > 1) {
-                    table += "<tr>";
-                    for (var j = 0; j < cells.length; j++) {
-                        table += "<td>" + cells[j] + "</td>";
-                    }
-                    table += "</tr>";
-                }
-            }
-            table += "</tbody>";
-            csvData.innerHTML = table;
+function generateTable(data) {
+    let tableHead = document.createElement('thead')
+    let tableBody = document.createElement('tbody')
 
-            $(function() {
-                $("#csvData").tablesorter();
-            });
-
-            // Count functionality
-            var countSpan = document.getElementById('totalPlayerCount');
-            countSpan.textContent = rows.length - 1; // exclude header row
-
-            // Count players on each server
-            var servers = ['Mari', 'Ruairi', 'Tarlach', 'Nao', 'Alexina', 'Erinn'];
-            for (var i = 0; i < servers.length; i++) {
-                var server = servers[i];
-                var count = 0;
-                for (var j = 1; j < rows.length; j++) {
-                    var cells = rows[j].split(",");
-                    if (cells[4].trim() === server) {
-                        count++;
-                    }
-                }
-                var countSpan = document.createElement('span');
-                countSpan.textContent = server + ': ' + count + ' | ';
-                document.getElementById('serverCounts').appendChild(countSpan);
-            }
-            
-             // Search functionality
-            var searchInput = document.getElementById('searchInput');
-            searchInput.addEventListener('input', function() {
-                var filter = searchInput.value.toLowerCase();
-                var rows = csvData.getElementsByTagName('tr');
-                for (var i = 0; i < rows.length; i++) {
-                    var cells = rows[i].getElementsByTagName('td');
-                    var visible = false;
-                    if (i === 0) { // Check if this is the header row
-                        visible = true;
-                    } else {
-                        for (var j = 0; j < cells.length; j++) {
-                            if (cells[j].innerHTML.toLowerCase().indexOf(filter) > -1) {
-                                visible = true;
-                                break;
-                            }
-                        }
-                    }
-                    rows[i].style.display = visible ? '' : 'none';
-                }
-            });
-        }
+    // Generate headers for table.
+    let row = document.createElement('tr')
+    
+    for (const headerText of data[0].split(",")) {
+        let header = document.createElement('th')
+        header.appendChild(document.createTextNode(headerText))
+        row.appendChild(header)
     }
+
+    tableHead.appendChild(row)
+
+    serverCounts = {}
+
+    // Iterate over every player.
+    data.slice(1).forEach((rowText) => {
+        row = document.createElement('tr')
+        rowText = rowText.split(",")
+
+        // Generate every table cell
+        rowText.forEach((cellText) => {
+            let cell = document.createElement('td')
+            cell.appendChild(document.createTextNode(cellText))
+            row.appendChild(cell)
+        })
+
+        // Tabulate player count per server.
+        let server = rowText[4].trim()
+
+        if (server !== "") {
+            serverCounts[server] = serverCounts[server] ? serverCounts[server] + 1 : 1
+        }
+
+        tableBody.appendChild(row)
+    })
+
+    document.getElementById('csvData').appendChild(tableHead)
+    document.getElementById('csvData').appendChild(tableBody)
+
+    // Create server count text
+    let countSpan = document.getElementById('totalPlayerCount');
+    countSpan.textContent = data.length - 1; // exclude header row
+
+    for (const [server, count] of Object.entries(serverCounts)) {
+        const countSpan = document.createElement('span')
+        countSpan.textContent = server + ": " + count + " | "
+        document.getElementById('serverCounts').appendChild(countSpan)
+    }
+}
+
+window.onload = async function() {
+    const url = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/PlayerData.csv'
+    const response = await fetch(url)
+    let data = await response.text()
+
+    if (response.status !== 200) {
+        throw new Error("Data could not be fetched!")
+    }
+
+    data = data.split("\n")
+    generateTable(data)
+
+    $(() => {
+        $("#csvData").tablesorter();
+    });
+
+    // Search functionality
+    var searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('input', function() {
+        var filter = searchInput.value.toLowerCase();
+        var rows = csvData.getElementsByTagName('tr');
+        for (var i = 0; i < rows.length; i++) {
+            var cells = rows[i].getElementsByTagName('td');
+            var visible = false;
+            if (i === 0) { // Check if this is the header row
+                visible = true;
+            } else {
+                for (var j = 0; j < cells.length; j++) {
+                    if (cells[j].innerHTML.toLowerCase().indexOf(filter) > -1) {
+                        visible = true;
+                        break;
+                    }
+                }
+            }
+            rows[i].style.display = visible ? '' : 'none';
+        }
+    });
 }
