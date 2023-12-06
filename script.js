@@ -1,3 +1,5 @@
+import * as d3 from "d3";
+
 function generateTable(data) {
     let tableHead = document.createElement('thead')
     let tableBody = document.createElement('tbody')
@@ -13,7 +15,7 @@ function generateTable(data) {
 
     tableHead.appendChild(row)
 
-    serverCounts = {}
+    const serverCounts = {}
 
     // Iterate over every player.
     data.slice(1).forEach((rowText) => {
@@ -45,10 +47,54 @@ function generateTable(data) {
     countSpan.textContent = data.length - 1; // exclude header row
 
     for (const [server, count] of Object.entries(serverCounts)) {
+        let percentage = count / (data.length - 1)
+        // Hate javascript rounding.
+        percentage = Math.round(percentage * 10000) / 100
+
         const countSpan = document.createElement('span')
-        countSpan.textContent = server + ": " + count + " | "
+        countSpan.appendChild(document.createTextNode(server + ": " + count + " (" + percentage + "%) | "))
         document.getElementById('serverCounts').appendChild(countSpan)
     }
+
+    return serverCounts
+}
+
+function generatePieChart(data, graphNode, width, height) {
+    let svg = d3.select(graphNode)
+        .append('svg')
+            .attr('width', width)
+            .attr('height', height);
+    let g = svg.append('g')
+        .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
+    
+    const radius = Math.min(width, height) / 2
+    const color = d3.scaleOrdinal(['red', 'yellow', 'orange', 'green', 'cyan', 'purple'])
+    const pie = d3.pie()
+    const arc = d3.arc()
+        .innerRadius(0)
+        .outerRadius(radius);
+    const label = d3.arc()
+        .innerRadius(radius - 75)
+        .outerRadius(radius);
+
+    const labels = Object.keys(data)
+    const values = Object.values(data)
+    
+    const arcs = g.selectAll("arc")
+        .data(pie(values))
+        .enter()
+        .append('g')
+        .attr('class', 'arc');
+
+    arcs.append("path")
+        .attr('fill', (d, i) => color(i))
+        .attr('d', arc);
+
+    arcs.append("text")
+        .attr('transform', d => {return "translate(" + label.centroid(d) + ")"})
+        .call(text => text.append('tspan'))
+            .attr('y', '1em')
+            .text((d, i) => {return labels[i]});
 }
 
 window.onload = async function() {
@@ -61,7 +107,8 @@ window.onload = async function() {
     }
 
     data = data.split("\n")
-    generateTable(data)
+    const serverCounts = generateTable(data)
+    generatePieChart(serverCounts, "div.serverCountsGraph", 300, 300)
 
     $(() => {
         $("#csvData").tablesorter();
