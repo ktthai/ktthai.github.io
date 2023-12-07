@@ -1,4 +1,6 @@
 import * as d3 from "d3";
+import $ from "jquery";
+import 'tablesorter';
 
 function generateTable(data) {
     let tableHead = document.createElement('thead')
@@ -97,7 +99,7 @@ function generatePieChart(data, graphNode, width, height) {
             .text((d, i) => {return labels[i]});
 }
 
-window.onload = async function() {
+$(async () => {
     const url = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/PlayerData.csv'
     const response = await fetch(url)
     let data = await response.text()
@@ -108,31 +110,18 @@ window.onload = async function() {
 
     data = data.split("\n")
     const serverCounts = generateTable(data)
-    generatePieChart(serverCounts, "div.serverCountsGraph", 300, 300)
-
-    $(() => {
-        $("#csvData").tablesorter();
-    });
+    generatePieChart(serverCounts, "div.serverCountsGraph", 300, 300)    
 
     // Search functionality
-    var searchInput = document.getElementById('searchInput');
-    searchInput.addEventListener('input', function() {
-        var filter = searchInput.value.toLowerCase();
-        var rows = csvData.getElementsByTagName('tr');
-        for (var i = 0; i < rows.length; i++) {
-            var cells = rows[i].getElementsByTagName('td');
-            var visible = false;
-            if (i === 0) { // Check if this is the header row
-                visible = true;
-            } else {
-                for (var j = 0; j < cells.length; j++) {
-                    if (cells[j].innerHTML.toLowerCase().indexOf(filter) > -1) {
-                        visible = true;
-                        break;
-                    }
-                }
-            }
-            rows[i].style.display = visible ? '' : 'none';
-        }
-    });
-}
+    $("#csvData").tablesorter();
+
+    $("#searchInput").on("keyup", function () {
+        const filter = $(this).val().toLowerCase()
+        console.log(filter)
+    
+        $("#csvData tbody tr").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(filter) > -1)
+        })
+    })
+})
+

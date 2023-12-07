@@ -2,6 +2,7 @@
   "name": "mabiplayerlogger",
   "version": "1.0.0",
   "main": "script.js",
+  "type": "module",
   "scripts": {
     "dev": "vite"
   },
@@ -9,9 +10,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "d3": "^7.8.5"
+    "d3": "^7.8.5",
+    "jquery": "^3.7.1",
+    "tablesorter": "^2.31.3"
   },
   "devDependencies": {
-    "vite": "^5.0.6"
+    "vite": "^5.0.6",
+    "vite-plugin-node-polyfills": "^0.17.0"
   }
 }
