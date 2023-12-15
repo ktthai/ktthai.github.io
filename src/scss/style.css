@@ -1,0 +1,12 @@
+@import "./node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "./node_modules/bootstrap-table/dist/bootstrap-table.min.css";
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #92d3f8;
+    font-weight: bold;
+}
