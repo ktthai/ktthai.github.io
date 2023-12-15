@@ -16,14 +16,14 @@ async function parseDataTable(url) {
     }
 
     rawData = rawData.replace("\r", "").split("\n");
-    const headers = rawData[0].split(",");
+    const headers = rawData.shift().split(",");
 
     const data = [];
     const serverCounter = {};
     const raceCounter = {};
     const levelCounter = {};
 
-    for (let i = 1; i < rawData.length; i++) {
+    for (let i = 0; i < rawData.length; i++) {
         let row = {};
         let text = rawData[i].split(",");
 
@@ -83,9 +83,7 @@ async function parseDataTable(url) {
     };
 }
 
-function buildServerChart(data) {
-    const serverTotal = Object.values(data).reduce((a, b) => a + b, 0);
-
+function buildServerChart(data, playerTotal) {
     new Chart(
         document.getElementById("serverData"),
         {
@@ -102,33 +100,28 @@ function buildServerChart(data) {
                         callbacks: {
                             footer: function(tooltipItems) {
                                 const y = tooltipItems[0].parsed.y;
-                                const percentage = Math.round(y / serverTotal * 10000) / 100;
+                                const percentage = Math.round(y / playerTotal * 10000) / 100;
                                 return "(" + percentage + "%)";
                             }
                         }
                     }
-                },
-                scales: {
-                    x: { title: { display: true, text: "Server" }},
-                    y: { title: { display: true, text: "Player Count" }}
                 }
             }
         }
     );
 }
 
-function buildRaceChart(data) {
+function buildRaceChart(data, playerTotal) {
     const raceTotal = {};
     const genderTotal = {};
 
+    // Accumulators for race and genders.
     for (const [race, x] of Object.entries(data)) {
         for (const [gender, y] of Object.entries(x)) {
             raceTotal[race] = raceTotal[race] ? raceTotal[race] + y : y;
             genderTotal[gender] = genderTotal[gender] ? genderTotal[gender] + y: y;
         }
     }
-
-    const serverTotal = Object.values(raceTotal).reduce((a, b) => a + b, 0);
 
     new Chart(
         document.getElementById("raceData"),
@@ -151,6 +144,9 @@ function buildRaceChart(data) {
             },
             options: {
                 plugins: {
+                    legend: {
+                        display: false
+                    },
                     tooltip: {
                         callbacks: {
                             footer: function(tooltipItems) {
@@ -160,11 +156,11 @@ function buildRaceChart(data) {
 
                                 const genderPercent = Math.round(count / genderTotal[gender] * 10000) / 100;
                                 const racePercent = Math.round(count / raceTotal[race] * 10000) / 100;
-                                const totalPercent = Math.round(count / serverTotal * 10000) / 100;
+                                const totalPercent = Math.round(count / playerTotal * 10000) / 100;
 
-                                let tooltip = "(" + genderPercent + "% of " + genderTotal[gender] + " " + gender + "s)\n";
+                                let tooltip = "\n(" + genderPercent + "% of " + genderTotal[gender] + " " + gender + "s)\n";
                                 tooltip += "(" + racePercent + "% of " + raceTotal[race] + " " + race + "s)\n";
-                                tooltip += "(" + totalPercent + "% of " + serverTotal + " Players)";
+                                tooltip += "(" + totalPercent + "% of " + playerTotal + " Players)";
 
                                 return tooltip;
                             }
@@ -173,11 +169,9 @@ function buildRaceChart(data) {
                 },
                 scales: {
                     x: { 
-                        title: { display: true, text: "Gender" },
                         stacked: true
                     },
                     y: { 
-                        title: { display: true, text: "Player Count" },
                         stacked: true
                     }
                 }
@@ -186,22 +180,26 @@ function buildRaceChart(data) {
     );
 }
 
-$(async () => {
-    const url = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/PlayerData.csv';
-    const dataObj = await parseDataTable(url);
+function buildLevelChart(data, playerTotal) {
+    // Generate array of cumulative keys sorted by level.
+    let levels = Object.keys(data);
+    levels = levels.map(ele => parseInt(ele));
+    levels = levels.sort((a, b) => a - b);
 
-    console.log(dataObj);
-    buildServerChart(dataObj.serverCounter);
-    buildRaceChart(dataObj.raceCounter);
-
-    const serverTotal = Object.values(dataObj.levelCounter).reduce((a, b) => a + b, 0);
+    // Reduce array to find accumulative players per level breakpoint.
+    let accumulator = [0];
+    levels.forEach((level, index) => {accumulator.push(accumulator[index] + data[level]);});
+    accumulator = accumulator.map(val => val / playerTotal * 100);
+    accumulator.shift();
 
     new Chart(
         document.getElementById("levelData"),
         {
-            type: "bar",
             data: {
-                datasets: [{ data: dataObj.levelCounter }]
+                datasets: [
+                    { type: "bar", data: data, yAxisID: "y" },
+                    { type: "line", data: accumulator, yAxisID: "y2" }
+                ]
             },
             options: {
                 plugins: {
@@ -210,26 +208,42 @@ $(async () => {
                     },
                     tooltip: {
                         callbacks: {
+                            title: function(tooltipItems) {
+                                // Switching to level based tooltip titles.
+                                const x = tooltipItems[0].label;
+                                if (x > 0) return "Level " + x + "000 to " + x + "999"; 
+                                else return "Level 1 to 999";
+                            },
+                            label: function(context) {
+                                // Switching to percentage for cumulative.
+                                if (context.datasetIndex === 1) {
+                                    const y = Math.round(context.parsed.y * 100) / 100;
+                                    if (y >= 50) return "Top " + y + "% of all players";
+                                    else return "Bottom " + y + "% of all players";
+                                }
+                            },
                             footer: function(tooltipItems) {
-                                const y = tooltipItems[0].parsed.y;
-                                const percentage = Math.round(y / serverTotal * 10000) / 100;
-                                return "(" + percentage + "%)";
+                                // Switching to percentage of total players in bracket.
+                                if (tooltipItems[0].datasetIndex === 0) {
+                                    const y = tooltipItems[0].parsed.y;
+                                    const percentage = Math.round(y / playerTotal * 10000) / 100;
+                                    return "(" + percentage + "%)";
+                                }
                             }
                         }
                     }
                 },
                 scales: {
                     x: { title: { display: true, text: "Total Level (x1000)" }},
-                    y: {
-                        title: { display: true, text: "Player Count" }, 
-                        // type: "logarithmic",
-                        // min: 0.9
-                    }
-                }
+                    y2: { display: false }
+                },
+                maintainAspectRatio: false
             }
         }
     );
+}
 
+function buildPlayerTable(data) {
     $("#playerData").bootstrapTable({
         columns: [
             {field: "IGN", title: "Name", sortable: true},
@@ -238,7 +252,7 @@ $(async () => {
             {field: "Gender", title: "Gender", sortable: true},
             {field: "Total Level", title: "Total Level", sortable: true}
         ],
-        data: dataObj.data,
+        data: data,
         pagination: true,
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
             return "Showing " + pageFrom + "-" + pageTo + " of " + totalRows + " players.";
@@ -250,4 +264,15 @@ $(async () => {
         sortName: "Total Level",
         sortOrder: "desc"
     });
+}
+
+$(async () => {
+    const url = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/PlayerData.csv';
+    const dataObj = await parseDataTable(url);
+
+    const playerTotal = Object.values(dataObj.levelCounter).reduce((a, b) => a + b, 0);
+    buildServerChart(dataObj.serverCounter, playerTotal);
+    buildRaceChart(dataObj.raceCounter, playerTotal);
+    buildLevelChart(dataObj.levelCounter, playerTotal);
+    buildPlayerTable(dataObj.data);
 });
