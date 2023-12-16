@@ -250,7 +250,7 @@ function buildPlayerTable(data) {
             {field: "Server", title: "Server", sortable: true},
             {field: "Race", title: "Race", sortable: true},
             {field: "Gender", title: "Gender", sortable: true},
-            {field: "Total Level", title: "Total Level", sortable: true}
+            {field: "Total Level", title: "Total Level", sortable: true},
         ],
         data: data,
         pagination: true,
