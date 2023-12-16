@@ -212,9 +212,8 @@ function buildLevelChart(data, playerTotal) {
                             label: function(context) {
                                 // Switching to percentage for cumulative.
                                 if (context.datasetIndex === 1) {
-                                    const y = Math.round(context.parsed.y * 100) / 100;
-                                    if (y >= 50) return "Top " + y + "% of all players";
-                                    else return "Bottom " + y + "% of all players";
+                                    const y = Math.round((100 - Math.round(context.parsed.y * 100) / 100) * 100) / 100;
+                                    return "Top " + Math.max(y, 0.01) + "% of all players";
                                 }
                             },
                             footer: function(tooltipItems) {
