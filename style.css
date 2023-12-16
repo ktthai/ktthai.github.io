@@ -1,3 +1,6 @@
+@import "./node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "./node_modules/bootstrap-table/dist/bootstrap-table.min.css";
+
 th, td {
     padding: 8px;
     text-align: left;
@@ -6,4 +9,23 @@ th, td {
 th {
     background-color: #92d3f8;
     font-weight: bold;
+}
+
+.graph-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 650px;
+    max-height: 650px;
+}
+
+.small-graph-div {
+    width: 300px;
+    height: 300px;
+}
+
+.large-graph-div {
+    width: 1000px;
+    height: 600px;
 }
