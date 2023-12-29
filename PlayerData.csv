@@ -1,6 +1,6 @@
 IGN,Race,Total Level,ID,Server
 Sanaki,Female Human,20058,6079,Mari
-Lyonet,Female Human,23392,6088,Mari
+Lyonet,Female Human,23413,6088,Mari
 Reinforce,Female Human,58996,6221,Mari
 Jelly,Male Human,41721,6230,Mari
 Sake+Mari,Male Human,33747,6318,Mari
@@ -15,8 +15,8 @@ Taiga+Mari,Female Human,20896,6964,Mari
 Aska,Female Human,36985,7014,Mari
 Badger,Female Human,28236,7155,Mari
 Kalif+Mari,Female Human,1345,7221,Mari
-Rook,Male Human,32633,7528,Mari
-Alexrosehear,Male Human,8694,7649,Mari
+Rook,Male Human,38123,7528,Mari
+Alexrosehear,Male Human,11620,7649,Mari
 Orca,Male Human,144510,7842,Mari
 Gabby,Female Human,22081,8228,Mari
 Mimi+Mari,Female Human,29834,8336,Mari
@@ -29,6 +29,7 @@ Shinnryuu+Mari,Male Human,13744,9228,Mari
 Michi+Mari,Male Human,73188,9411,Mari
 nemesis+Mari,Male Human,1019,9414,Mari
 Aquwin,Male Human,54580,9497,Mari
+Gwenni+Mari,Female Human,25520,9658,Mari
 tommr,Female Human,52278,9709,Mari
 ZippyThePunisher,Female Human,74962,9728,Mari
 Aira+Mari,Female Human,26133,9967,Mari
@@ -63,9 +64,10 @@ Spidy,Male Human,57750,21799,Mari
 Yaya,Female Human,11963,22241,Mari
 Lolli+Mari,Male Human,10144,22295,Mari
 Omegablayzix,Male Human,27309,22473,Mari
+riku1+Mari,Female Human,28902,22652,Mari
 Jae,Male Human,63554,23675,Mari
 Milfeulle,Female Human,70894,25264,Mari
-Jujin,Female Human,5269,25712,Mari
+Jujin,Female Human,6255,25712,Mari
 Jooln,Male Human,6121,25995,Mari
 kkz9203,Female Human,44250,27225,Mari
 CKMo,Male Human,25760,27776,Mari
@@ -81,7 +83,7 @@ float+Mari,Female Human,674,32238,Mari
 Lacosette,Male Human,30873,34143,Mari
 Ian,Male Human,40000,34304,Mari
 Squallion,Male Human,893,34453,Mari
-Ryoung,Male Human,70308,37602,Mari
+Ryoung,Male Human,82691,37602,Mari
 oumaru,Male Human,26033,37762,Mari
 Sped,Male Human,54066,37927,Mari
 Luckycat,Female Human,34478,37939,Mari
@@ -135,7 +137,7 @@ Steelbutter,Male Human,20256,70050,Mari
 Goldwing,Male Human,65278,71305,Mari
 Alerih,Male Human,28806,71596,Mari
 Flinkerdinky,Male Human,17051,72715,Mari
-Codyspirits,Male Human,16108,72834,Mari
+Codyspirits,Male Human,16651,72834,Mari
 rex934,Male Human,8501,74261,Mari
 Amoru,Male Human,33431,74484,Mari
 Snowdays+Mari,Female Human,10854,76435,Mari
@@ -150,7 +152,7 @@ Kevie,Male Human,34401,82794,Mari
 THEHULK+Mari,Male Human,1884,83226,Mari
 Seiyonce,Female Human,44346,83913,Mari
 Starlyght,Female Human,42138,84311,Mari
-Semm,Male Human,28529,85304,Mari
+Semm,Male Human,39203,85304,Mari
 eikoden,Female Human,21593,86277,Mari
 Jibigami,Male Human,25947,87213,Mari
 Gogo,Female Human,63657,88188,Mari
@@ -175,7 +177,7 @@ seaclaw,Male Human,28499,96223,Mari
 Lightside,Male Human,34393,96249,Mari
 iris14,Female Human,36834,96466,Mari
 wind0207,Male Human,113953,97231,Mari
-Maelstorm,Male Human,84040,97595,Mari
+Maelstorm,Male Human,84632,97595,Mari
 Ryuchan,Female Human,23864,98135,Mari
 Mythanthar,Male Human,24264,99423,Mari
 marleaf,Male Human,50577,99839,Mari
@@ -191,7 +193,7 @@ Shybluedevil,Female Human,39068,105961,Mari
 Triggerbell,Male Human,24726,106029,Mari
 Riuk,Female Human,41320,106181,Mari
 Seshui,Male Human,41350,107037,Mari
-Luffyking,Male Human,81872,107079,Mari
+Luffyking,Male Human,83072,107079,Mari
 Morichi,Male Human,17243,108500,Mari
 Yamihime,Female Human,25835,110544,Mari
 Auraai,Female Human,24011,111770,Mari
@@ -219,8 +221,8 @@ RayzexZaine,Male Human,33991,128751,Mari
 Rhinozz,Male Human,31351,128915,Mari
 False,Female Human,30055,129554,Mari
 Television+Mari,Male Human,1690,129576,Mari
-Sorath,Female Human,29373,130422,Mari
-Kenma,Male Human,39535,130785,Mari
+Sorath,Female Human,33469,130422,Mari
+Kenma,Male Human,44470,130785,Mari
 sonkku2,Female Human,21123,131966,Mari
 Sinnerangel,Female Human,56281,133924,Mari
 angelofdexterity,Female Human,33742,135185,Mari
@@ -249,7 +251,7 @@ Smelly76,Male Human,21427,150653,Mari
 Exa,Female Human,63176,150809,Mari
 Pallas,Female Human,47470,153207,Mari
 Altmarrios+Mari,Male Human,60441,153993,Mari
-Mito,Female Human,54781,154020,Mari
+Mito,Female Human,55561,154020,Mari
 Jugi155,Male Human,32731,154404,Mari
 Anaideia,Female Human,10290,154452,Mari
 Knoll,Male Human,49992,155065,Mari
@@ -338,7 +340,7 @@ somename2,Female Human,18437,213605,Mari
 Mabismithy,Male Human,20427,213856,Mari
 szelong2004,Female Human,9776,214776,Mari
 Funkay14,Female Human,36481,215552,Mari
-Zeigh,Male Human,42327,216238,Mari
+Zeigh,Male Human,46155,216238,Mari
 Dous,Male Human,11197,216335,Mari
 Neoko,Female Human,5532,216356,Mari
 Acteaon,Male Human,52354,216593,Mari
@@ -361,7 +363,7 @@ Saixan,Female Human,22121,235103,Mari
 Kenjiiro,Male Human,30375,235917,Mari
 Harang,Male Human,38882,237826,Mari
 Agony,Female Human,53606,239030,Mari
-lspiers,Male Human,21893,239739,Mari
+lspiers,Male Human,22637,239739,Mari
 zacharietzu,Male Human,72,240703,Mari
 Chiya,Female Human,43505,241178,Mari
 Nokito,Female Human,24536,244164,Mari
@@ -371,7 +373,7 @@ seth009,Male Human,70303,252933,Mari
 Nindri,Male Human,56453,253254,Mari
 Akkedo,Male Human,56547,253485,Mari
 Momohime,Female Human,11367,253522,Mari
-Revolge,Female Human,40547,254054,Mari
+Revolge,Female Human,43483,254054,Mari
 ranger9123,Male Human,23921,257158,Mari
 Leiyoi,Female Human,19871,257584,Mari
 Aerosplotch,Male Human,8769,258528,Mari
@@ -388,7 +390,7 @@ Blulectric,Male Human,33298,272283,Mari
 johahaha,Male Human,9830,272593,Mari
 Saskia12,Female Human,31119,272888,Mari
 Lunaeri,Female Human,20919,274402,Mari
-Lavi,Male Human,36837,275166,Mari
+Lavi,Male Human,40855,275166,Mari
 destinyazn,Female Human,39393,276215,Mari
 Shadow5880,Male Human,26753,277076,Mari
 Luke,Male Human,34122,278149,Mari
@@ -452,7 +454,7 @@ Groot,Male Elf,57851,316871,Mari
 Esiap,Female Elf,40027,316919,Mari
 Eissac,Female Elf,820,316936,Mari
 Chief,Male Elf,28441,317229,Mari
-mina,Female Elf,44779,317555,Mari
+mina,Female Elf,48162,317555,Mari
 Rinistorm,Female Giant,56306,317598,Mari
 Dourm,Male Giant,337,317738,Mari
 Beleren,Female Elf,54952,318379,Mari
@@ -461,7 +463,7 @@ Hikikomori,Female Elf,24163,318540,Mari
 Epid,Male Elf,54012,318614,Mari
 Red,Male Elf,57267,318687,Mari
 Valorkun,Female Giant,2136,319209,Mari
-Tannadis,Female Elf,25354,319504,Mari
+Tannadis,Female Elf,28073,319504,Mari
 Dragonute,Male Giant,9999,319783,Mari
 Luck,Male Elf,24679,319845,Mari
 Rijjien,Male Elf,32154,319973,Mari
@@ -485,6 +487,7 @@ Hanscel,Male Human,20957,327285,Mari
 Kenronin,Male Giant,23731,327544,Mari
 Soupshop,Male Elf,110,328095,Mari
 Ronzell,Male Human,12452,328295,Mari
+Nidian+Mari,Female Elf,4477,328531,Mari
 Lyrano,Male Human,33992,328832,Mari
 Reikayo,Female Elf,22586,329001,Mari
 Avalora,Female Human,21385,330090,Mari
@@ -514,7 +517,7 @@ Riftencross,Female Giant,16939,344934,Mari
 Cocogoatie,Female Elf,53416,345152,Mari
 Mika,Female Human,17392,345493,Mari
 Meankidd,Male Human,36545,347279,Mari
-Cheshire,Male Elf,91800,348129,Mari
+Cheshire,Male Elf,96200,348129,Mari
 Icerlain,Female Human,26457,350705,Mari
 Ndawg,Male Elf,5754,351341,Mari
 livilu,Female Elf,293,353100,Mari
@@ -562,8 +565,8 @@ Patchbobo+Mari,Male Human,292,376819,Mari
 TOXICXANIME,Male Human,3991,376938,Mari
 Svelthana,Male Giant,25907,377368,Mari
 Harry,Female Elf,59705,377505,Mari
-Meyki,Female Human,46137,378233,Mari
-Broheme,Female Human,37173,378748,Mari
+Meyki,Female Human,46863,378233,Mari
+Broheme,Female Human,37773,378748,Mari
 Wuoy,Female Human,27042,380916,Mari
 Cinamorol,Male Human,2244,381828,Mari
 Anjoli,Female Human,25003,382034,Mari
@@ -635,11 +638,11 @@ Mahira,Female Human,33208,441125,Mari
 Aybad,Male Human,24402,441249,Mari
 Orencia,Male Human,21345,441358,Mari
 Milfena,Female Elf,25859,445515,Mari
-Minnty,Female Elf,57335,445552,Mari
+Minnty,Female Elf,60935,445552,Mari
 Melontonin,Male Human,23273,445741,Mari
 Seresia+Mari,Female Human,27929,447527,Mari
 Musician,Female Elf,6813,447543,Mari
-Rimuru,Male Human,25919,447875,Mari
+Rimuru,Male Human,25985,447875,Mari
 Oalga,Male Human,16702,448389,Mari
 kirbystar,Male Human,67881,448625,Mari
 Later,Female Elf,32714,448944,Mari
@@ -673,7 +676,7 @@ Owain,Male Giant,40754,471856,Mari
 Boreastain,Male Giant,28990,471860,Mari
 Angelsora,Female Human,12307,472883,Mari
 Fabraiclamh,Female Human,28309,476091,Mari
-Duothedouble,Male Human,23321,476837,Mari
+Duothedouble,Male Human,23936,476837,Mari
 Mullan,Female Human,30660,478591,Mari
 aabbhuman,Male Human,13127,479348,Mari
 Kaitesue,Female Elf,21914,479778,Mari
@@ -720,8 +723,8 @@ Nirvana,Female Human,13636,526824,Mari
 Kagamichu,Female Elf,24609,526832,Mari
 Zeil,Male Elf,4367,527102,Mari
 Theshiz,Male Human,46387,527227,Mari
-Noss,Male Human,80538,527880,Mari
-Pieman57,Male Human,36322,527998,Mari
+Noss,Male Human,84361,527880,Mari
+Pieman57,Male Human,44590,527998,Mari
 Ashyslashy,Female Human,5212,528125,Mari
 Goodmorningb,Male Giant,27050,528291,Mari
 Kainara,Female Human,28612,532056,Mari
@@ -769,7 +772,7 @@ Inukazutachi,Female Giant,32820,561995,Mari
 Violyns,Male Elf,32832,563449,Mari
 Swifttempo,Male Human,23783,564499,Mari
 Saguaro,Female Human,14693,566106,Mari
-Jordan,Female Human,26755,566811,Mari
+Jordan,Female Human,28564,566811,Mari
 Muscosa,Male Human,20231,567964,Mari
 Atero,Male Human,26480,569257,Mari
 Hezekiah,Female Human,22504,569513,Mari
@@ -779,8 +782,8 @@ Koreaboi,Male Human,26251,575849,Mari
 Jarms,Male Human,26566,576416,Mari
 Fluff,Female Elf,13598,578833,Mari
 Fefnir09,Male Giant,30148,579009,Mari
-Nightwatcher,Female Human,53711,579357,Mari
-Ayaya,Female Human,31028,579619,Mari
+Nightwatcher,Female Human,57711,579357,Mari
+Ayaya,Female Human,31994,579619,Mari
 Tengenl,Female Human,7497,579636,Mari
 Posterity,Male Human,33543,581274,Mari
 Ushido,Male Human,25650,581275,Mari
@@ -840,7 +843,7 @@ Juggaloace,Male Human,911,640305,Mari
 nekobow,Female Elf,245,640415,Mari
 Zaelia,Female Human,27569,642214,Mari
 Kuranekaname,Male Human,54770,642600,Mari
-Pickle,Female Human,28227,642772,Mari
+Pickle,Female Human,28386,642772,Mari
 Melinor,Male Human,23152,642780,Mari
 ISassy,Male Human,20249,642832,Mari
 Filenia,Female Elf,9811,644146,Mari
@@ -857,7 +860,7 @@ Silently,Male Elf,73469,656391,Mari
 drkrose,Female Elf,620,658360,Mari
 Doomslayer,Female Human,7114,660612,Mari
 ilriana,Female Human,30565,661394,Mari
-Mirorie,Female Elf,35828,661490,Mari
+Mirorie,Female Elf,39236,661490,Mari
 Skywalker2,Female Human,6873,662376,Mari
 Kusajika,Male Elf,23960,662817,Mari
 Locket,Female Human,64990,663291,Mari
@@ -893,7 +896,7 @@ Leifon,Male Elf,50211,704434,Mari
 Luckgear,Male Human,1272,704578,Mari
 Kould,Male Giant,28193,706041,Mari
 scarlettears,Female Human,32384,706641,Mari
-Keebo,Male Human,59816,706971,Mari
+Keebo,Male Human,66616,706971,Mari
 Smileyjade,Female Elf,26120,707746,Mari
 Misydia,Female Human,21861,711775,Mari
 Annechovi,Female Elf,9054,716119,Mari
@@ -925,7 +928,7 @@ Arrowz1,Male Human,1637,747064,Mari
 Atlas,Female Giant,38406,747712,Mari
 Kuyoi,Female Human,26936,747800,Mari
 Draftwind,Female Elf,34601,749311,Mari
-Rovince,Male Human,34924,751042,Mari
+Rovince,Male Human,36584,751042,Mari
 Entail,Female Human,6572,751130,Mari
 Bow,Male Human,33502,751842,Mari
 Yuechia,Female Elf,66229,753033,Mari
@@ -944,12 +947,12 @@ Wraistlin,Male Human,27430,787003,Mari
 Raeon,Female Human,40373,788527,Mari
 Kangae,Male Elf,11545,788647,Mari
 Ashi,Female Human,68501,790440,Mari
-Shiki,Male Human,69889,790775,Mari
+Shiki,Male Human,75089,790775,Mari
 Yummiee+Mari,Female Human,2694,791368,Mari
 Kiinako,Female Elf,60293,794198,Mari
 Yukishiki,Male Human,65614,794825,Mari
 Tsukiyu,Female Human,23729,795369,Mari
-Purpledino,Female Elf,58391,796049,Mari
+Purpledino,Female Elf,62587,796049,Mari
 Rosimier,Male Elf,58424,796295,Mari
 Ashleyxb,Female Elf,28060,796504,Mari
 Balancoir,Female Human,11530,798382,Mari
@@ -975,6 +978,7 @@ Siliphia,Female Elf,5488,832736,Mari
 Woahsonrae,Male Human,799,833344,Mari
 Atheist00,Female Giant,33033,833519,Mari
 Ayanoki+Mari,Female Human,3537,833551,Mari
+Yukimiyabi,Female Human,44648,835280,Mari
 Nikolaevich,Male Human,24957,836138,Mari
 Asia,Male Human,25215,837022,Mari
 Kyushiku,Female Human,14787,837037,Mari
@@ -1013,13 +1017,14 @@ Naphal+Mari,Female Human,5617,898303,Mari
 Outraged,Female Giant,17705,898391,Mari
 Xylanze,Male Human,29994,901106,Mari
 shikahril,Male Human,39160,901357,Mari
-Derelictdawn,Male Human,23240,904047,Mari
+Derelictdawn,Male Human,26040,904047,Mari
 Shadowtivani,Male Giant,27475,904374,Mari
 Gummii+Mari,Male Giant,35,904874,Mari
 Graril,Male Elf,23967,905029,Mari
 Kieran,Male Giant,45161,906310,Mari
 Fayewind,Female Human,33293,907061,Mari
 Soap,Male Human,46741,910088,Mari
+Mrlonelycat,Male Giant,26858,910374,Mari
 Luffy25,Male Human,23463,913496,Mari
 Lifelez,Female Human,4001,913980,Mari
 Firestar,Male Human,23557,915378,Mari
@@ -1033,7 +1038,7 @@ xgrimangelx,Male Human,21887,934281,Mari
 frostxxninja,Male Human,25657,935066,Mari
 Kyrie7,Female Human,23050,935851,Mari
 Rise,Male Human,17655,936291,Mari
-Jakeonwind,Male Human,22745,937608,Mari
+Jakeonwind,Male Human,23974,937608,Mari
 Tranni,Female Elf,17397,937997,Mari
 Gigiagogo,Female Human,2510,939007,Mari
 Tswvyim+Mari,Male Giant,21682,939113,Mari
@@ -1057,13 +1062,14 @@ Elfpha,Female Elf,22257,960755,Mari
 Harnett,Male Human,999,961816,Mari
 Avyrindai,Female Human,141,962174,Mari
 Caiti,Female Human,23005,970024,Mari
+Drviper,Female Human,23250,970051,Mari
 Amadieu,Male Human,35150,971023,Mari
 Selzyr,Male Human,21896,971280,Mari
 Castaneta,Female Elf,1290,973588,Mari
 Enfra,Female Human,1686,974815,Mari
 Shasos,Female Human,69190,976801,Mari
 Tinnelamh,Male Human,29584,976931,Mari
-Amachia,Female Giant,30403,976944,Mari
+Amachia,Female Giant,30773,976944,Mari
 Karmacoma,Female Elf,27831,977401,Mari
 Giegue,Female Human,48915,978284,Mari
 imapotato+Mari,Male Elf,7621,978454,Mari
@@ -1072,7 +1078,7 @@ Hivere,Male Human,6778,978547,Mari
 Henyuu,Female Elf,59407,979110,Mari
 Luciel,Male Elf,50629,979694,Mari
 Immafish,Female Human,6906,979810,Mari
-Sihiro,Male Human,33934,979886,Mari
+Sihiro,Male Human,35901,979886,Mari
 Neonapulsar,Female Elf,21706,979893,Mari
 Loko,Male Elf,43040,980229,Mari
 Peiper+Mari,Female Human,5859,980285,Mari
@@ -1115,7 +1121,7 @@ Iillith+Mari,Female Human,57,1007822,Mari
 Tohkairis,Male Elf,22319,1008981,Mari
 Brojeta,Male Human,44928,1011041,Mari
 Lestren,Female Human,28266,1011373,Mari
-Mii,Female Human,37203,1011705,Mari
+Mii,Female Human,42308,1011705,Mari
 Diakonos,Male Giant,26798,1012240,Mari
 Ancientmonk,Male Human,27153,1012465,Mari
 Chande,Male Human,4351,1015320,Mari
@@ -1132,6 +1138,7 @@ Sukazu,Female Human,21820,1025046,Mari
 archingalc,Male Elf,23320,1026688,Mari
 Mechageno,Male Human,22602,1031062,Mari
 Nattalina,Female Elf,42773,1031442,Mari
+blay+Mari,Male Human,2137,1032452,Mari
 Noushilown,Male Human,23984,1033038,Mari
 Gendou+Mari,Male Giant,3483,1045005,Mari
 Teslabolt,Male Human,41600,1048207,Mari
@@ -1146,10 +1153,10 @@ Vortexknight,Male Human,16014,1057039,Mari
 Severinette,Female Human,67980,1057135,Mari
 Vtzorella,Female Human,25962,1057529,Mari
 ico21,Male Human,17029,1061067,Mari
-Yvesu,Female Elf,33455,1061245,Mari
+Yvesu,Female Elf,34437,1061245,Mari
 Tamapyon,Female Elf,20329,1061908,Mari
 Akikasa,Female Human,25183,1062968,Mari
-Tripflag,Female Human,26981,1062998,Mari
+Tripflag,Female Human,29190,1062998,Mari
 Kagomei,Female Human,21108,1067380,Mari
 Azreaal,Female Human,22640,1070730,Mari
 Syphiki,Male Human,32303,1072775,Mari
@@ -1198,7 +1205,7 @@ Creep303,Male Human,26768,1142562,Mari
 Graffiiti,Male Elf,46765,1143819,Mari
 Hanagasumi,Female Human,23966,1144708,Mari
 Shuran,Male Human,32406,1144802,Mari
-Mizte,Female Elf,24053,1145682,Mari
+Mizte,Female Elf,24268,1145682,Mari
 Bhafel,Male Elf,34785,1150134,Mari
 Bigshasos,Male Giant,8015,1152829,Mari
 Advertizing,Female Human,6290,1153835,Mari
@@ -1208,7 +1215,7 @@ Silentdance,Female Elf,5291,1157850,Mari
 Winterwaltz,Female Human,51597,1158734,Mari
 Epicadven,Male Human,56656,1159128,Mari
 Deruma,Male Human,7060,1160321,Mari
-Freyfrost,Female Human,22154,1160608,Mari
+Freyfrost,Female Human,24161,1160608,Mari
 altffor,Male Human,33466,1162221,Mari
 luwizito,Male Elf,53302,1163117,Mari
 Wickedgood+Mari,Female Human,23296,1165463,Mari
@@ -1244,7 +1251,7 @@ Sasumy,Female Human,29347,1191294,Mari
 Bexie,Female Human,16794,1192539,Mari
 Ayerscarpe,Female Human,13342,1193126,Mari
 Asuriel,Female Human,22019,1194218,Mari
-GGHermano,Male Human,42052,1194552,Mari
+GGHermano,Male Human,43852,1194552,Mari
 Dragonvcat,Male Giant,24173,1194667,Mari
 masterguru2,Male Human,11398,1194784,Mari
 Boyarrow,Male Human,25881,1196892,Mari
@@ -1259,7 +1266,7 @@ Halimps,Male Human,55628,1205200,Mari
 Tomedashi,Male Human,54286,1205211,Mari
 windgirlwynn,Female Human,6106,1205815,Mari
 Neologia,Male Human,35058,1207891,Mari
-Kimestu,Male Human,38867,1209702,Mari
+Kimestu,Male Human,43267,1209702,Mari
 Moosecaboose,Male Human,8522,1211450,Mari
 Xin,Female Human,43373,1212040,Mari
 Tsunsilver,Male Human,200,1213765,Mari
@@ -1275,13 +1282,13 @@ Sanotu,Female Elf,49760,1218941,Mari
 Nozamii,Female Elf,30430,1220179,Mari
 liagnu,Female Human,1372,1221087,Mari
 Morusfen,Male Human,22731,1222350,Mari
-Taemin5,Female Human,10165,1224581,Mari
+Taemin5,Female Human,22912,1224581,Mari
 Nekrokot,Female Human,27669,1225210,Mari
 Toxic,Male Elf,51340,1225664,Mari
 Julipea,Female Elf,22579,1235029,Mari
 Cosmitokki,Female Human,23475,1235593,Mari
 Altai,Male Elf,31351,1236418,Mari
-Tsukisky,Female Elf,46145,1238359,Mari
+Tsukisky,Female Elf,54589,1238359,Mari
 PRAISEskiro,Female Elf,488,1239433,Mari
 Honeymoon,Female Human,10923,1240322,Mari
 Syndara,Female Human,38217,1248288,Mari
@@ -1304,6 +1311,7 @@ Naotsugu,Male Giant,669,1272063,Mari
 JPO,Female Human,149,1276843,Mari
 Spy,Male Elf,59504,1276854,Mari
 Ylleta,Female Human,9898,1278638,Mari
+Yancha,Male Giant,22471,1282045,Mari
 Draiocht,Female Elf,22387,1282346,Mari
 Amanie6655,Male Elf,21915,1282562,Mari
 Artemiy,Male Giant,35926,1284853,Mari
@@ -1380,12 +1388,12 @@ noirrose,Female Human,5387,1351684,Mari
 Kyojou,Male Human,11798,1352122,Mari
 Neneth,Female Elf,14893,1353712,Mari
 Rokhu,Male Giant,32462,1353856,Mari
-Altlos,Male Human,24747,1355352,Mari
+Altlos,Male Human,25565,1355352,Mari
 Implode,Male Human,39183,1355395,Mari
-Nisakiru,Male Giant,45174,1357033,Mari
+Nisakiru,Male Giant,45774,1357033,Mari
 Amelialavoie,Female Human,23705,1357588,Mari
 Alan,Male Giant,20761,1357976,Mari
-Alicia,Female Human,24366,1364072,Mari
+Alicia,Female Human,28152,1364072,Mari
 tyrantrider,Female Human,25336,1366076,Mari
 Naiiya,Female Elf,4990,1366286,Mari
 Talullah+Mari,Female Human,26620,1366846,Mari
@@ -1393,7 +1401,7 @@ Selulis,Male Human,22709,1367276,Mari
 Asuna0930,Female Elf,52927,1368096,Mari
 Shadowlet,Male Human,31884,1368592,Mari
 Dieanah,Female Giant,21058,1370076,Mari
-Zellos,Male Human,29533,1370385,Mari
+Zellos,Male Human,35866,1370385,Mari
 Livy,Female Human,42233,1370727,Mari
 Vitelly,Male Human,35570,1371072,Mari
 lucasdarnell,Male Human,66703,1374278,Mari
@@ -1460,7 +1468,7 @@ Mailacob3,Female Human,79079,1423180,Mari
 Peachpia,Female Elf,34915,1424519,Mari
 Siedz,Male Giant,32771,1425726,Mari
 Rosary,Female Elf,28203,1427792,Mari
-Izanamii,Female Human,14729,1432693,Mari
+Izanamii,Female Human,14732,1432693,Mari
 kokyaw7,Male Elf,31791,1433795,Mari
 Sweetly,Female Giant,12455,1434211,Mari
 Arueksu,Male Human,56966,1437563,Mari
@@ -1474,6 +1482,7 @@ Kagaminokimi,Female Human,41912,1447666,Mari
 Atropos11,Female Giant,42507,1450638,Mari
 Maeralya,Female Elf,48874,1450820,Mari
 Raygun21+Mari,Male Human,6530,1451669,Mari
+Riwer,Female Human,27677,1452346,Mari
 Extra1+Mari,Female Elf,2196,1453215,Mari
 Extra2+Mari,Female Elf,2943,1453231,Mari
 Meryuu,Female Human,23840,1453993,Mari
@@ -1481,7 +1490,7 @@ Sukinatsumi,Female Human,3361,1457119,Mari
 Keladryarwen,Female Elf,2672,1457624,Mari
 cutiekatz,Female Human,21591,1458436,Mari
 Nepko,Female Elf,32068,1461603,Mari
-Wistari,Male Elf,54515,1466831,Mari
+Wistari,Male Elf,56251,1466831,Mari
 Chinaski,Male Elf,46072,1468097,Mari
 Maldron,Male Human,20529,1468327,Mari
 hashtagnight,Female Human,22089,1470557,Mari
@@ -1585,7 +1594,7 @@ Shunkasumi,Male Human,1851,1607614,Mari
 Hellhind,Female Elf,37300,1609189,Mari
 Auri,Female Elf,47530,1610480,Mari
 Berry38,Female Elf,146,1610488,Mari
-Kho,Male Giant,40054,1622818,Mari
+Kho,Male Giant,43854,1622818,Mari
 Elluin,Male Elf,25822,1623638,Mari
 Unn,Female Elf,2344,1626061,Mari
 Reinzen,Female Human,21207,1626169,Mari
@@ -1599,6 +1608,7 @@ Anhariel,Female Elf,23094,1635238,Mari
 Mercedez,Female Elf,25046,1635375,Mari
 Mikarai,Female Elf,25929,1635619,Mari
 Ysadore,Female Human,188,1637085,Mari
+Kaylosh,Male Elf,20560,1638037,Mari
 Killvmaim,Male Giant,19,1639065,Mari
 Sunbun,Female Elf,21121,1639137,Mari
 Banish,Female Elf,5396,1641314,Mari
@@ -1614,6 +1624,7 @@ Inoplaygiant,Female Giant,16789,1660053,Mari
 Maeriella,Female Human,5301,1660613,Mari
 Bom,Female Human,32386,1664612,Mari
 Servant,Male Human,10791,1665840,Mari
+Gigantas,Female Giant,43,1667056,Mari
 Cjchas3,Male Elf,41983,1667093,Mari
 Discovercard,Male Giant,31744,1672566,Mari
 Shoyoto,Female Giant,24513,1673036,Mari
@@ -1629,7 +1640,7 @@ Blueblooded,Female Elf,2864,1688179,Mari
 lilalteria,Female Human,204,1688365,Mari
 Reekola,Male Human,3778,1688405,Mari
 Deneuki,Male Human,2976,1688509,Mari
-Taffy,Female Human,20638,1688869,Mari
+Taffy,Female Human,24248,1688869,Mari
 Sennil,Female Human,6320,1690224,Mari
 Twistedf,Male Human,6466,1691015,Mari
 Vershl,Male Elf,6470,1691402,Mari
@@ -1651,6 +1662,7 @@ Metatonia,Female Elf,7873,1709552,Mari
 Bromthrax,,,1714013,Mari
 Merrielle,Female Elf,25100,1714237,Mari
 Goldenmaster,Male Giant,2329,1715050,Mari
+Protagkun,Male Human,15762,1716186,Mari
 Shadyfish,Female Human,10063,1717520,Mari
 Alloys,Male Human,30670,1720290,Mari
 Dinosarus,Male Human,27134,1722198,Mari
@@ -1670,7 +1682,7 @@ Honeybun,Female Human,15326,1742375,Mari
 Lilliua,Female Human,22523,1742523,Mari
 Rorschachrev,Male Human,3745,1743000,Mari
 Uijilyeog,Male Human,1439,1743315,Mari
-Nanthaleine,Female Elf,30873,1743526,Mari
+Nanthaleine,Female Elf,32813,1743526,Mari
 Rahiimu,Male Elf,17883,1743730,Mari
 Destroyer,Male Human,28563,1744066,Mari
 Kienura,Female Human,7529,1744991,Mari
@@ -1706,7 +1718,7 @@ magetsuneku,Male Giant,52648,1783484,Mari
 Giovannaa,Female Human,999,1787311,Mari
 QRN,Male Giant,7767,1787397,Mari
 Megeistjr,Female Human,26256,1788307,Mari
-Kitsuntsun,Male Elf,45816,1788498,Mari
+Kitsuntsun,Male Elf,48616,1788498,Mari
 Frug,Male Elf,39192,1788983,Mari
 Tehonlyhero,Male Human,30056,1789017,Mari
 Grimedavos,Male Giant,27159,1790264,Mari
@@ -1716,7 +1728,7 @@ Yamidarkhun,Male Human,25483,1790850,Mari
 Muranoha,Female Giant,9440,1791456,Mari
 Qxeen,Female Elf,24106,1794230,Mari
 crv,Female Giant,205,1794312,Mari
-Apdo,Male Giant,20121,1794726,Mari
+Apdo,Male Giant,26238,1794726,Mari
 Yungkenny,Female Human,22266,1795021,Mari
 Porzingod+Mari,Male Giant,976,1795716,Mari
 Wedges,Male Giant,5284,1796522,Mari
@@ -1748,13 +1760,13 @@ Reivax7,Male Human,12368,1816593,Mari
 Yueran,Male Elf,66923,1818165,Mari
 Judaee,Female Human,7581,1819226,Mari
 WW3,Female Elf,6550,1819395,Mari
-Sontori,Male Human,35551,1823343,Mari
+Sontori,Male Human,44957,1823343,Mari
 Irilusama,Female Elf,6424,1823655,Mari
 Bubbub,Male Elf,22871,1825154,Mari
 Piwo,Female Elf,5127,1827525,Mari
 corncheese,Female Human,27525,1827833,Mari
 Captain,Male Human,40681,1828894,Mari
-Tokicchi,Female Elf,38162,1831113,Mari
+Tokicchi,Female Elf,41799,1831113,Mari
 killmplz,Female Elf,150,1834189,Mari
 Chiisse,Female Elf,5478,1834300,Mari
 Xruglia,Female Human,26543,1834841,Mari
@@ -1764,6 +1776,7 @@ Harjaz,Female Elf,11018,1843722,Mari
 Amydnic,Female Elf,52300,1845220,Mari
 Tamaki,Female Elf,5806,1845251,Mari
 Gerik,Male Elf,644,1849242,Mari
+There,Male Elf,22128,1850504,Mari
 Colton352,Male Elf,1917,1851224,Mari
 Luseiva,Male Giant,35394,1852624,Mari
 Spacebank,Female Giant,12303,1856179,Mari
@@ -1776,7 +1789,7 @@ Llassar,Male Human,4634,1868623,Mari
 Norah77,Female Human,4914,1872049,Mari
 Shiki261,Female Human,1085,1872525,Mari
 Sirental,Female Human,17892,1872687,Mari
-Anoyo,Male Human,39235,1873002,Mari
+Anoyo,Male Human,39415,1873002,Mari
 Oath,Female Elf,27360,1875011,Mari
 Yorunna,Female Human,36924,1875419,Mari
 Edgykun,Male Human,13512,1875772,Mari
@@ -1803,7 +1816,7 @@ Poppyrain,Female Giant,911,1898045,Mari
 Vasana,Female Elf,15586,1899654,Mari
 Bruiseddream,Female Elf,1217,1901752,Mari
 eventlover20,Male Human,679,1905342,Mari
-Lillychee,Female Human,53258,1905675,Mari
+Lillychee,Female Human,55118,1905675,Mari
 Dandelion,Female Elf,9487,1905894,Mari
 Laken,Female Human,36392,1907147,Mari
 sokkamickle,Male Human,7604,1908516,Mari
@@ -1835,7 +1848,7 @@ HALLOWEINER3,Female Elf,134,1924715,Mari
 Null,Female Giant,10709,1925692,Mari
 Mockiato,Female Giant,7017,1926383,Mari
 Blockchain,Female Elf,493,1926581,Mari
-Kenyre,Male Human,50200,1927149,Mari
+Kenyre,Male Human,52800,1927149,Mari
 Rondladar,Female Giant,27970,1928363,Mari
 Katiezx3,Female Human,132,1928785,Mari
 Dongchong,Female Human,132,1929143,Mari
@@ -1904,6 +1917,7 @@ Sazuke,Female Human,33003,1984766,Ruairi
 aznknight102,Male Human,27880,1984788,Ruairi
 RoseHime,Female Human,28917,1984896,Ruairi
 Lanther,Female Human,21870,1984983,Ruairi
+Delphius,Female Human,4785,1985081,Ruairi
 nari+Ruairi,Female Human,330,1985093,Ruairi
 Kurundo,Male Human,23707,1985124,Ruairi
 Days,Female Human,11216,1985198,Ruairi
@@ -1913,7 +1927,7 @@ Dave,Male Human,59613,1985460,Ruairi
 igglybuff,Female Human,49697,1985942,Ruairi
 Saffielia,Female Human,8850,1985977,Ruairi
 Riki+Ruairi,Female Human,13167,1986181,Ruairi
-planetkeeper,Female Human,24017,1986246,Ruairi
+planetkeeper,Female Human,24392,1986246,Ruairi
 Goldenflower,Female Human,21110,1986619,Ruairi
 Rosario,Male Human,36240,1987685,Ruairi
 Holun,Female Human,13315,1988199,Ruairi
@@ -1929,7 +1943,7 @@ Kittysama,Female Human,51188,1991893,Ruairi
 Xtremebeanz,Female Human,55845,1992362,Ruairi
 Damien,Male Human,32919,1992385,Ruairi
 Kristian,Male Human,37550,1993235,Ruairi
-Nyuu,Female Human,24571,1993242,Ruairi
+Nyuu,Female Human,24597,1993242,Ruairi
 Isabeau+Ruairi,Female Human,7086,1994106,Ruairi
 Watari,Female Human,18522,1994310,Ruairi
 Chise,Female Human,52195,1995190,Ruairi
@@ -1950,6 +1964,7 @@ Kaiidth,Female Human,22581,2000497,Ruairi
 Semantics,Female Human,58114,2001102,Ruairi
 Kame,Male Human,30306,2003446,Ruairi
 Demo+Ruairi,Female Human,21793,2003686,Ruairi
+mokuba,Male Human,33576,2004170,Ruairi
 Cloversby,Male Human,27676,2005745,Ruairi
 Alina,Female Human,22007,2006628,Ruairi
 Divineriku,Male Human,48839,2007970,Ruairi
@@ -2055,7 +2070,7 @@ Hylia,Female Human,42537,2057232,Ruairi
 tylerman+Ruairi,Male Human,5651,2057828,Ruairi
 Cokeslayer,Male Human,40949,2060191,Ruairi
 Mayl,Female Human,23961,2061154,Ruairi
-Sapphirah,Female Human,28960,2061315,Ruairi
+Sapphirah,Female Human,29718,2061315,Ruairi
 Rin,Female Human,38188,2061702,Ruairi
 Napoleon,Male Human,14443,2062133,Ruairi
 Mystical,Female Human,83687,2062428,Ruairi
@@ -2094,6 +2109,7 @@ Yugure1,Female Human,53568,2078674,Ruairi
 Aesthete,Female Human,23084,2078896,Ruairi
 Wolfeyez+Ruairi,Female Human,7571,2079159,Ruairi
 Daikun,Female Human,26119,2079502,Ruairi
+Terayse,Female Human,16640,2079513,Ruairi
 Drantino,Male Human,52469,2080002,Ruairi
 magicessence,Male Human,28654,2081093,Ruairi
 ABR1,Male Human,53658,2081807,Ruairi
@@ -2151,9 +2167,10 @@ missash,Female Human,23760,2109384,Ruairi
 Precise+Ruairi,Male Human,3310,2109456,Ruairi
 Krispy,Male Human,20698,2109709,Ruairi
 Ciara,Female Human,28271,2110539,Ruairi
-tubtub991,Female Human,33588,2111524,Ruairi
+tubtub991,Female Human,38109,2111524,Ruairi
 Valkyrienite,Female Human,11729,2111611,Ruairi
 AIianto,Male Human,25236,2112161,Ruairi
+Karch,Male Human,6866,2113403,Ruairi
 Chrissan,Female Human,29679,2113888,Ruairi
 Drpunks,Male Human,32156,2113962,Ruairi
 Atenchan,Male Human,31133,2114428,Ruairi
@@ -2177,7 +2194,7 @@ Zarix,Male Human,3799,2122651,Ruairi
 konota00,Female Human,21612,2123889,Ruairi
 Ciya,Female Human,27755,2123903,Ruairi
 JADENTHEONE,Male Human,9660,2124102,Ruairi
-Theron,Male Human,28260,2124164,Ruairi
+Theron,Male Human,30613,2124164,Ruairi
 shisu+Ruairi,Male Human,8772,2125624,Ruairi
 Darkmusicion,Male Human,25820,2125663,Ruairi
 Aokiryuu,Male Human,27697,2126122,Ruairi
@@ -2232,7 +2249,7 @@ Shinokoku,Male Human,31348,2147953,Ruairi
 ravenhold,Male Human,4504,2148173,Ruairi
 moonlight335,Female Human,7933,2148806,Ruairi
 Haou,Female Elf,36278,2150064,Ruairi
-Kazurado,Male Giant,12708,2150081,Ruairi
+Kazurado,Male Giant,21770,2150081,Ruairi
 Boozebear,Male Giant,39238,2150171,Ruairi
 Tylersama,Female Elf,29955,2150189,Ruairi
 Yamza,Female Elf,29754,2150302,Ruairi
@@ -2272,7 +2289,7 @@ Yukariakira,Female Elf,8291,2157046,Ruairi
 Emcha,Male Giant,14653,2157375,Ruairi
 Delfina,Female Elf,31240,2157504,Ruairi
 Xargath,Male Giant,22447,2157508,Ruairi
-Giant5,Male Giant,53077,2157782,Ruairi
+Giant5,Male Giant,58841,2157782,Ruairi
 trousersnake,Male Elf,8664,2157823,Ruairi
 Taz,Male Giant,8068,2157979,Ruairi
 Alfheim,Female Elf,14480,2158238,Ruairi
@@ -2312,6 +2329,7 @@ Galac,Male Giant,24982,2171747,Ruairi
 Kurochiin,Female Giant,108,2171953,Ruairi
 Superbardock,Male Human,47927,2171974,Ruairi
 Phantasmagoria,Female Giant,20981,2171978,Ruairi
+Banehollow,Male Human,42289,2172160,Ruairi
 Meonketer2,Male Human,53824,2172300,Ruairi
 Cuteney,Female Human,21486,2172709,Ruairi
 Enanita+Ruairi,Female Human,13613,2172750,Ruairi
@@ -2347,7 +2365,7 @@ Soprano+Ruairi,Male Elf,994,2181972,Ruairi
 Phorsythea,Female Elf,24251,2182143,Ruairi
 hokiduonu,Male Human,11447,2182430,Ruairi
 Kohaki,Male Human,62350,2182533,Ruairi
-Sharrin,Female Elf,37419,2182599,Ruairi
+Sharrin,Female Elf,41305,2182599,Ruairi
 Soren00,Male Human,24477,2182794,Ruairi
 msaznangel,Female Human,3209,2183282,Ruairi
 Ghos,Female Giant,22131,2183998,Ruairi
@@ -2383,7 +2401,7 @@ mlinkm,Male Elf,5972,2194538,Ruairi
 Komurachiki,Male Human,6475,2194556,Ruairi
 Rainclouds,Female Elf,57426,2194637,Ruairi
 nekocat,Female Human,33149,2194947,Ruairi
-Toast,Male Human,38629,2195098,Ruairi
+Toast,Male Human,41964,2195098,Ruairi
 Anistasia,Female Human,1783,2195256,Ruairi
 Gweneth+Ruairi,Female Human,9877,2196279,Ruairi
 zura,Female Human,29908,2196993,Ruairi
@@ -2397,13 +2415,13 @@ Kyoune,Female Elf,19055,2199314,Ruairi
 Roarke+Ruairi,Male Giant,876,2199741,Ruairi
 starlunar,Female Human,26429,2200407,Ruairi
 Hera,Female Human,30958,2200784,Ruairi
-Starfirex,Female Elf,30818,2201165,Ruairi
+Starfirex,Female Elf,32685,2201165,Ruairi
 Light,Female Human,31693,2201357,Ruairi
 Asha,Female Elf,25139,2201875,Ruairi
 Eredris,Female Human,30126,2201974,Ruairi
 Mazerux,Male Giant,54056,2202194,Ruairi
 Dalty,Male Human,32178,2202349,Ruairi
-Jaivius,Male Human,36088,2202401,Ruairi
+Jaivius,Male Human,36488,2202401,Ruairi
 Ashleyw,Male Human,4395,2203710,Ruairi
 danygrl,Female Elf,24270,2203865,Ruairi
 Peachi,Female Elf,24112,2204113,Ruairi
@@ -2412,7 +2430,7 @@ korakaza,Male Human,3378,2204804,Ruairi
 Kobayasu,Male Elf,37344,2204885,Ruairi
 Syndicate,Male Human,31496,2206136,Ruairi
 Firetolu,Male Human,31833,2206241,Ruairi
-Rubyclover,Female Human,45287,2206927,Ruairi
+Rubyclover,Female Human,49234,2206927,Ruairi
 Sakeda,Male Human,176,2207819,Ruairi
 Justin2001,Male Human,43970,2207870,Ruairi
 Kiret,Male Human,24586,2208534,Ruairi
@@ -2430,10 +2448,10 @@ Ost,Female Human,70354,2212116,Ruairi
 Viha,Female Human,57285,2212142,Ruairi
 Aurall,Female Elf,53580,2212871,Ruairi
 Lanaar,Female Elf,43265,2213525,Ruairi
-Hinike,Female Human,11753,2213557,Ruairi
-Wingly,Female Elf,52511,2214048,Ruairi
+Hinike,Female Human,11986,2213557,Ruairi
+Wingly,Female Elf,57250,2214048,Ruairi
 nekoelf,Female Elf,12696,2214218,Ruairi
-Nerolilium,Female Human,31890,2214370,Ruairi
+Nerolilium,Female Human,33490,2214370,Ruairi
 Nevercross+Ruairi,Female Human,8729,2216071,Ruairi
 heros1,Male Human,70512,2217114,Ruairi
 Motzart,Male Human,23778,2217230,Ruairi
@@ -2450,8 +2468,8 @@ Cryonicbreed,Male Human,25128,2222145,Ruairi
 XPwnall,Male Human,5532,2222936,Ruairi
 Izumi,Female Elf,16149,2224294,Ruairi
 Luxcavae,Male Human,40144,2224319,Ruairi
-Shadowroy,Male Giant,52036,2224637,Ruairi
-Sakanagi,Female Human,43883,2225361,Ruairi
+Shadowroy,Male Giant,54036,2224637,Ruairi
+Sakanagi,Female Human,46700,2225361,Ruairi
 Tarlachh,Male Human,22351,2225555,Ruairi
 Arlekin,Female Human,15185,2226414,Ruairi
 Kad,Female Elf,33427,2226850,Ruairi
@@ -2460,8 +2478,9 @@ AZULASTRIKES,Female Human,22791,2227314,Ruairi
 Stephenie,Female Human,30960,2227374,Ruairi
 diedia130,Female Human,31727,2228567,Ruairi
 Rahleigh,Female Human,51201,2229087,Ruairi
+Nincea,Female Human,32836,2229349,Ruairi
 JoevHoang,Male Human,22268,2229860,Ruairi
-lgglybuff,Male Human,33260,2230764,Ruairi
+lgglybuff,Male Human,38428,2230764,Ruairi
 Chamisul,Female Giant,41189,2231395,Ruairi
 Ken,Female Elf,69861,2231593,Ruairi
 Elisa,Female Human,51072,2232696,Ruairi
@@ -2508,18 +2527,19 @@ Keiicha,Female Human,5565,2245564,Ruairi
 Hunny,Female Elf,16333,2245667,Ruairi
 Donjay+Ruairi,Male Elf,23782,2246265,Ruairi
 alekvic,Male Human,43678,2246847,Ruairi
-Lalisa,Female Human,60468,2247852,Ruairi
+Lalisa,Female Human,60478,2247852,Ruairi
 Yuen,Male Human,24528,2248691,Ruairi
 crazydonkey,Male Human,40492,2248775,Ruairi
 Gear,Male Human,60215,2249404,Ruairi
 Nitiara,Male Human,49928,2250437,Ruairi
 nightyuki,Female Elf,24473,2250597,Ruairi
-Ugkyo,Male Human,35015,2251028,Ruairi
+Ugkyo,Male Human,35618,2251028,Ruairi
 Vanderwood,Male Human,49672,2251110,Ruairi
 Arraynull,Male Human,25255,2252011,Ruairi
 blingbling+Ruairi,Female Human,17559,2252631,Ruairi
+Wuje,Male Elf,14838,2252657,Ruairi
 AMARAZ,Female Elf,54111,2253421,Ruairi
-playboy14,Female Human,22188,2254481,Ruairi
+playboy14,Female Human,22744,2254481,Ruairi
 Dragonknighs,Male Human,25449,2254805,Ruairi
 fed651,Male Elf,42347,2257374,Ruairi
 Lysanith,Male Human,25403,2257635,Ruairi
@@ -2622,20 +2642,20 @@ Lindahh,Female Human,8250,2304801,Ruairi
 Ikenai+Ruairi,Female Human,326,2304802,Ruairi
 Vulcain,Male Giant,24867,2304871,Ruairi
 Kukazu,Male Human,25632,2305535,Ruairi
-kkickass,Male Elf,38448,2305966,Ruairi
+kkickass,Male Elf,45438,2305966,Ruairi
 Reenji,Male Elf,1605,2307155,Ruairi
 Ying,Female Elf,8373,2307173,Ruairi
 Lykias,Male Human,788,2307319,Ruairi
-Venn,Male Giant,12389,2307937,Ruairi
+Venn,Male Giant,21011,2307937,Ruairi
 Lilianavess,Female Elf,43605,2308639,Ruairi
 stovy,Male Elf,30109,2308994,Ruairi
 Lightxyagami+Ruairi,Male Human,39245,2309144,Ruairi
 Bao,Female Human,40616,2309255,Ruairi
 Torres,Male Human,62570,2309438,Ruairi
-Fovos,Male Human,46887,2310278,Ruairi
+Joji,Male Human,49287,2310278,Ruairi
 Nayavani,Female Elf,10418,2310624,Ruairi
 Telixx,Male Human,28131,2311188,Ruairi
-Lumina,Female Human,43932,2311248,Ruairi
+Lumina,Female Human,44414,2311248,Ruairi
 Exiabrb,Male Human,4057,2311280,Ruairi
 Exiaplz,Female Human,6186,2311284,Ruairi
 Cocoa,Male Elf,610,2312186,Ruairi
@@ -2689,18 +2709,18 @@ Shibuyax,Male Human,24755,2331962,Ruairi
 Critto,Male Elf,9929,2333173,Ruairi
 Bora,Female Human,24160,2333217,Ruairi
 Reaperofdark,Male Human,39039,2334430,Ruairi
-Keviin,Male Human,54412,2334809,Ruairi
+Keviin,Male Human,59212,2334809,Ruairi
 Hexic,Male Giant,49444,2335080,Ruairi
 Zeromusic,Female Human,713,2335263,Ruairi
 Cessin,Male Human,22453,2335430,Ruairi
-Treason,Male Human,59599,2335454,Ruairi
+Treason,Male Human,70599,2335454,Ruairi
 Faune,Female Human,41641,2335999,Ruairi
 Thyme,Male Elf,40205,2336259,Ruairi
 Saesoos,Female Human,14835,2336509,Ruairi
 Albanai,Male Human,50174,2336638,Ruairi
 Kynrika,Female Human,25900,2336868,Ruairi
 IHero,Male Human,53404,2336874,Ruairi
-Lieke+Ruairi,Female Giant,25859,2336960,Ruairi
+Lieke+Ruairi,Female Giant,26923,2336960,Ruairi
 Tyck,Male Human,47537,2337465,Ruairi
 cecirad,Female Human,6100,2338052,Ruairi
 Ameth,Female Human,29338,2339788,Ruairi
@@ -2714,7 +2734,7 @@ Bluevamp,Female Human,40974,2342090,Ruairi
 Jefaridia,Female Giant,8388,2342674,Ruairi
 Littlewolff,Male Giant,25926,2343027,Ruairi
 Tophergasm,Male Human,23294,2343408,Ruairi
-Astylis,Female Human,27492,2343480,Ruairi
+Astylis,Female Human,27561,2343480,Ruairi
 Boar,Male Giant,22103,2343911,Ruairi
 Ardhoniel,Female Giant,20704,2343941,Ruairi
 Faywell,Male Human,15661,2343982,Ruairi
@@ -2722,7 +2742,7 @@ Rakchi,Male Human,26242,2344291,Ruairi
 isellthings+Ruairi,Male Human,7237,2344404,Ruairi
 Xsaaweetzz,Female Giant,26204,2344691,Ruairi
 Fanabanana,Male Giant,56243,2345000,Ruairi
-kyon9854,Male Human,7972,2345028,Ruairi
+kyon9854,Male Human,8806,2345028,Ruairi
 Nyuuhokusai,Female Human,20274,2345061,Ruairi
 Softlykill,Male Human,45139,2345290,Ruairi
 eldrais,Male Human,14531,2346129,Ruairi
@@ -2751,6 +2771,7 @@ Obbligato,Male Human,8131,2357673,Ruairi
 Hikarixp+Ruairi,Male Giant,5294,2358849,Ruairi
 Stranded,Male Elf,14347,2359233,Ruairi
 Marchio,Male Human,80,2359403,Ruairi
+Eshlongated,Female Human,21920,2359580,Ruairi
 Jackkauf,Male Human,601,2359771,Ruairi
 Feiiyan,Male Human,24421,2359825,Ruairi
 Malacrim,Male Elf,26666,2359895,Ruairi
@@ -2763,12 +2784,12 @@ Otowa,Male Human,25191,2363454,Ruairi
 July,Female Elf,5086,2363484,Ruairi
 Tsurage,Male Human,22540,2363592,Ruairi
 Diend,Female Elf,4009,2364390,Ruairi
-Adulations,Male Elf,51619,2364606,Ruairi
+Adulations,Male Elf,53819,2364606,Ruairi
 Tyrass,Male Human,11063,2364825,Ruairi
 Tekoa,Male Human,42664,2364838,Ruairi
 Eiternal,Male Human,56688,2365029,Ruairi
-Rikoy,Male Human,50783,2365143,Ruairi
-Lordklutch,Male Human,21417,2365606,Ruairi
+Rikoy,Male Human,51783,2365143,Ruairi
+Lordklutch,Male Human,23429,2365606,Ruairi
 Arymi,Female Elf,11103,2366134,Ruairi
 Psionn,Male Human,23534,2366192,Ruairi
 Kewoh,Male Human,23910,2366533,Ruairi
@@ -2831,7 +2852,7 @@ Brando12121,Male Human,3681,2391324,Ruairi
 Tim808,Male Human,21184,2392052,Ruairi
 Faerinthe,Female Human,21777,2392060,Ruairi
 Stanflanagan,Male Giant,39443,2392226,Ruairi
-Taikoubou,Male Elf,60832,2392252,Ruairi
+Taikoubou,Male Elf,66032,2392252,Ruairi
 Wendelordss,Male Human,5435,2392318,Ruairi
 Yuelove,Female Human,8761,2392649,Ruairi
 Natasuki,Female Elf,4391,2393176,Ruairi
@@ -2862,6 +2883,7 @@ Efrenia,Female Elf,51251,2404552,Ruairi
 Cheylily,Female Human,12346,2405149,Ruairi
 Derpmuffinz,Female Human,45244,2405675,Ruairi
 Nahtsuki,Female Human,22849,2406433,Ruairi
+Natsu1996,Male Elf,35652,2406480,Ruairi
 Summerdays+Ruairi,Male Elf,5666,2406963,Ruairi
 Neiaa+Ruairi,Female Human,447,2407322,Ruairi
 Jazzana,Female Human,15872,2407350,Ruairi
@@ -2893,6 +2915,7 @@ Sorrowdark,Male Elf,4888,2416851,Ruairi
 Princesspeachy,Female Elf,18970,2417195,Ruairi
 Rayna2,Female Human,21888,2417293,Ruairi
 Naoisa,Male Elf,33975,2417426,Ruairi
+Loveiathan,Female Elf,12963,2417434,Ruairi
 Jent,Male Elf,57205,2417453,Ruairi
 Ziptied,Male Human,24035,2418002,Ruairi
 Sweetcoffee,Female Elf,2446,2418240,Ruairi
@@ -2928,8 +2951,8 @@ Metafire64,Male Human,19658,2425335,Ruairi
 Goatmomments,Female Elf,12154,2425625,Ruairi
 Jeem,Male Elf,10923,2425703,Ruairi
 Shikoba,Female Elf,47200,2425845,Ruairi
-Feix3,Female Human,38481,2425852,Ruairi
-Poker,Female Human,28698,2425948,Ruairi
+Feix3,Female Human,41881,2425852,Ruairi
+Poker,Female Human,35972,2425948,Ruairi
 Wufle,Male Human,40332,2427149,Ruairi
 Reeves,Male Human,20135,2427509,Ruairi
 Neutralbomb,Male Human,9076,2427735,Ruairi
@@ -2948,7 +2971,7 @@ Miibi,Female Elf,3709,2432281,Ruairi
 Sunsetblvd,Female Human,40118,2432476,Ruairi
 Tilk,Male Elf,22461,2432621,Ruairi
 Draeklen,Male Human,931,2432791,Ruairi
-Kross,Female Human,23231,2432948,Ruairi
+Kross,Female Human,23467,2432948,Ruairi
 Sleepyloaf,Female Elf,13206,2433090,Ruairi
 Beeii,Female Elf,2309,2433240,Ruairi
 Thebenjy,Male Human,26416,2433250,Ruairi
@@ -2995,7 +3018,7 @@ FRANKCASTLE,Male Giant,53719,2443534,Ruairi
 Khams,Female Giant,533,2443537,Ruairi
 Luannsnow,Male Elf,22370,2443707,Ruairi
 Drakiusmike,Male Human,880,2443773,Ruairi
-CRACKWEEDLIF,Female Human,29524,2443874,Ruairi
+CRACKWEEDLIF,Female Human,38006,2443874,Ruairi
 Keirah,Female Human,21952,2444012,Ruairi
 Xronas,Female Elf,22906,2444160,Ruairi
 Eirr,Female Human,23933,2444174,Ruairi
@@ -3074,7 +3097,7 @@ Lewdeca,Female Elf,26944,2458626,Ruairi
 Khosani,Female Elf,275,2458960,Ruairi
 Grimlox,Female Human,11018,2459012,Ruairi
 Leazion,Male Human,24162,2459474,Ruairi
-Alucard82,Male Human,47081,2460027,Ruairi
+Alucard82,Male Human,49668,2460027,Ruairi
 Lazyleaks,Female Human,7473,2461277,Ruairi
 Alexflanagan,Male Human,44072,2461841,Ruairi
 Nintai,Female Human,51689,2461912,Ruairi
@@ -3094,7 +3117,7 @@ enilla,Female Human,47484,2465427,Ruairi
 Evildark1,Female Human,30261,2465665,Ruairi
 Karmadide,Male Human,29015,2465712,Ruairi
 LNL101,Female Human,8482,2465763,Ruairi
-Danry,Male Human,34026,2466794,Ruairi
+Danry,Male Human,37094,2466794,Ruairi
 Mayer,Male Human,46023,2467560,Ruairi
 Aramaiti+Ruairi,Female Elf,6077,2467888,Ruairi
 Sweetn,Female Human,4154,2468121,Ruairi
@@ -3122,14 +3145,16 @@ Miki,Female Elf,14867,2477916,Ruairi
 Anlii,Female Elf,6246,2478579,Ruairi
 Alaesura,Female Human,25725,2478766,Ruairi
 Repressd,Male Human,24094,2479098,Ruairi
-Pibbles,Female Human,47829,2479255,Ruairi
+Pibbles,Female Human,55345,2479255,Ruairi
 Detached,Male Giant,50756,2479502,Ruairi
 Rosanoire,Female Human,44358,2480175,Ruairi
 Zenichibi,Female Human,4491,2480525,Ruairi
 Zeroplayer,Male Human,20282,2481203,Ruairi
+Avreylan,Female Elf,1527,2481356,Ruairi
 Shuttap,Male Elf,8050,2481760,Ruairi
 Nightfiree3,Female Human,25989,2482454,Ruairi
 leftintears,Female Human,10753,2482690,Ruairi
+Eelkenia,Female Human,27554,2483079,Ruairi
 Erunex,Female Giant,105,2483196,Ruairi
 Ashes,Male Elf,47099,2483253,Ruairi
 Nighren,Male Human,25472,2483954,Ruairi
@@ -3143,6 +3168,7 @@ Sunson,Male Giant,105164,2486060,Ruairi
 ymablaze,Female Human,55490,2486144,Ruairi
 Yuuya,Male Elf,47175,2487008,Ruairi
 Nyanbelanya1,Female Human,21795,2487454,Ruairi
+Kylethefool,Male Elf,21650,2487472,Ruairi
 Ammitta,Female Human,200,2488528,Ruairi
 Tessaroselyn,Female Human,20584,2489874,Ruairi
 samanthasan,Male Human,24891,2489915,Ruairi
@@ -3207,6 +3233,7 @@ Hiccup2,Female Human,24059,2509680,Ruairi
 Eurielle+Ruairi,Female Elf,32716,2509726,Ruairi
 Henriee,Male Elf,1413,2510925,Ruairi
 Kohonta,Female Elf,9250,2511637,Ruairi
+Eon,Female Human,9617,2511844,Ruairi
 Omeaden,Male Human,25376,2512023,Ruairi
 Candybunny,Female Giant,24280,2512044,Ruairi
 orlandomg,Male Human,26477,2512063,Ruairi
@@ -3225,7 +3252,7 @@ Puiy1314,Female Human,2737,2517532,Ruairi
 puic1314,Female Human,2805,2517534,Ruairi
 puiy13141,Female Human,2629,2517535,Ruairi
 gfgdfgdfgdf,Female Human,2820,2517536,Ruairi
-Neptis,Male Elf,13195,2517875,Ruairi
+Neptis,Male Elf,15440,2517875,Ruairi
 jarjarcookie,Female Human,19818,2517909,Ruairi
 Rhovathor,Male Elf,23459,2518761,Ruairi
 Slokai,Female Giant,23161,2518791,Ruairi
@@ -3252,7 +3279,7 @@ gturt5754,Female Human,316,2526660,Ruairi
 Nokarada,Female Human,34195,2527131,Ruairi
 Nekuline,Male Elf,22812,2527317,Ruairi
 Yuukitsune,Female Human,26771,2528034,Ruairi
-Arsage,Male Elf,32896,2528298,Ruairi
+Arsage,Male Elf,38535,2528298,Ruairi
 lvl,Female Human,51877,2529076,Ruairi
 Terpischora,Male Human,12237,2529119,Ruairi
 Kimmymiko,Female Elf,26901,2529461,Ruairi
@@ -3289,6 +3316,7 @@ bloodlessjn,Male Human,9875,2547295,Ruairi
 demonthrall,Female Human,28810,2547476,Ruairi
 Momibi,Female Human,26481,2547848,Ruairi
 Harleking,Male Human,41039,2548165,Ruairi
+Shulk,Male Human,20164,2548381,Ruairi
 jigglypluff,Female Elf,5289,2548537,Ruairi
 Beerguts,Female Human,5609,2548543,Ruairi
 Taisan+Ruairi,Male Human,23020,2548733,Ruairi
@@ -3309,7 +3337,7 @@ Lordjoosh,Female Human,26193,2554920,Ruairi
 kong2+Ruairi,Male Human,435,2555287,Ruairi
 Aurailea,Female Giant,30221,2555852,Ruairi
 Blueberrydoggy,Female Human,43145,2556031,Ruairi
-Hisako,Female Human,2315,2556304,Ruairi
+Hisako,Female Human,2424,2556304,Ruairi
 Ayakone,Female Human,21189,2556988,Ruairi
 Yulind,Female Human,30419,2557264,Ruairi
 Mama09,Female Human,500,2557674,Ruairi
@@ -3401,12 +3429,14 @@ Maxo,Male Human,27977,2591648,Ruairi
 Ayer,Male Elf,3003,2592583,Ruairi
 Garlano,Male Giant,9052,2594048,Ruairi
 Tenson,Male Giant,48180,2594761,Ruairi
-Lematoire,Female Elf,35925,2595769,Ruairi
+Lematoire,Female Elf,40125,2595769,Ruairi
 Sensation,Female Elf,40322,2595907,Ruairi
 Opt,Male Elf,5209,2597063,Ruairi
-Pethremora,Female Elf,1847,2597732,Ruairi
+Pethremora,Female Elf,3477,2597732,Ruairi
 Kiwisteene,Female Elf,20047,2598731,Ruairi
 Alarrin,Male Elf,25231,2600612,Ruairi
+Olibranch,Female Human,22738,2602396,Ruairi
+Caere+Ruairi,Female Human,3488,2602725,Ruairi
 Steinberg,Male Elf,4160,2602727,Ruairi
 Puckme,Female Human,91,2604622,Ruairi
 Mommanao,Female Human,2329,2604629,Ruairi
@@ -3466,7 +3496,7 @@ Anglemaker,Male Giant,652,2627564,Ruairi
 Noy,Female Giant,3328,2627595,Ruairi
 Zelkoven,Male Human,16097,2627941,Ruairi
 Fuil,Male Human,34099,2628393,Ruairi
-Johnnysins+Ruairi,Male Giant,244,2628434,Ruairi
+Johnnysins+Ruairi,Male Giant,245,2628434,Ruairi
 HOTXD,Male Giant,9168,2628541,Ruairi
 Belloon,Female Human,5513,2628741,Ruairi
 Enki,Male Human,6394,2628847,Ruairi
@@ -3476,7 +3506,7 @@ Creepy,Female Human,568,2629496,Ruairi
 Guthry,Male Human,7878,2630097,Ruairi
 Morjin,Male Human,30957,2630199,Ruairi
 Hieremihel,Female Giant,49708,2630458,Ruairi
-Glaive,Male Human,42313,2631002,Ruairi
+Glaive,Male Human,46513,2631002,Ruairi
 Ghostlad,Female Elf,27906,2631010,Ruairi
 Dictatortot,Male Human,53001,2631460,Ruairi
 Leovariant,Female Giant,32738,2631526,Ruairi
@@ -3512,7 +3542,7 @@ Nworbnitsuj,Male Human,46869,2639539,Tarlach
 Darthexile,Male Human,26158,2639868,Tarlach
 Emily,Female Human,117,2640039,Tarlach
 Iily,Female Human,24901,2640042,Tarlach
-Raruku,Female Human,93493,2641327,Tarlach
+Raruku,Female Human,100292,2641327,Tarlach
 Sharon+Tarlach,Female Human,32171,2641926,Tarlach
 Deacon,Male Human,29036,2642385,Tarlach
 Sorka,Female Human,24141,2643041,Tarlach
@@ -3531,7 +3561,7 @@ Milordog1,Male Human,53860,2649607,Tarlach
 Lordsubaki,Male Human,34112,2649636,Tarlach
 Faris,Female Human,72029,2649855,Tarlach
 Raize,Male Human,33892,2650714,Tarlach
-Skoduss,Male Human,32680,2650758,Tarlach
+Skoduss,Male Human,41260,2650758,Tarlach
 vaan22,Female Human,21629,2650911,Tarlach
 Dooth,Female Human,41141,2651262,Tarlach
 FFDagger,Male Human,5558,2651434,Tarlach
@@ -3540,7 +3570,7 @@ Tsukimisa,Female Human,48991,2651544,Tarlach
 FFBlade,Female Human,22073,2652163,Tarlach
 Michelle+Tarlach,Female Human,23415,2653034,Tarlach
 Bowsette,Female Human,27582,2654507,Tarlach
-Pandan,Female Human,38941,2654862,Tarlach
+Pandan,Female Human,41341,2654862,Tarlach
 Aspryn,Female Human,25564,2654873,Tarlach
 Lysistrata,Female Human,36549,2655084,Tarlach
 shortylisa,Female Human,23035,2655880,Tarlach
@@ -3595,7 +3625,7 @@ Teacup,Female Human,31289,2685110,Tarlach
 Larateuch,Female Human,15154,2685402,Tarlach
 Heegs,Male Human,47248,2686713,Tarlach
 Intensu,Female Human,36367,2686990,Tarlach
-Ivebeenme,Male Human,33639,2687011,Tarlach
+Ivebeenme,Male Human,36537,2687011,Tarlach
 Kenelm+Tarlach,Male Human,22494,2687090,Tarlach
 Foodfoodfood,Male Human,76608,2687818,Tarlach
 Kasiko,Male Human,7350,2689276,Tarlach
@@ -3615,10 +3645,11 @@ Ravn,Male Human,44969,2696099,Tarlach
 xong,Male Human,7338,2696281,Tarlach
 Vancet,Male Human,10499,2696432,Tarlach
 Suzana,Female Human,28854,2696764,Tarlach
-Shobee,Male Human,28407,2697047,Tarlach
+Shobee,Male Human,29234,2697047,Tarlach
 Vava,Female Human,14070,2697075,Tarlach
 Dagdadonn,Male Human,42618,2698099,Tarlach
 Dalvar,Female Human,2274,2698108,Tarlach
+skatepro5,Male Human,3306,2698513,Tarlach
 Draagun,Male Human,5937,2698713,Tarlach
 jago83,Male Human,14862,2698722,Tarlach
 Rafael,Male Human,34683,2698917,Tarlach
@@ -3636,6 +3667,7 @@ Leahthal,Female Human,24801,2704927,Tarlach
 Kumii,Male Human,42982,2705137,Tarlach
 Slander,Male Human,14441,2706326,Tarlach
 Erich,Male Human,21809,2706555,Tarlach
+Danadadaman,Male Human,22351,2706628,Tarlach
 Zelo,Female Human,25595,2707097,Tarlach
 Kein,Male Human,6703,2707314,Tarlach
 Amu465,Female Human,22225,2707723,Tarlach
@@ -3657,7 +3689,7 @@ Ginku,Male Human,25311,2714602,Tarlach
 Railynn,Female Human,4270,2714995,Tarlach
 Slayz,Male Human,44668,2715023,Tarlach
 Jaishii,Male Human,23195,2715546,Tarlach
-CICILIA,Female Human,71139,2716466,Tarlach
+CICILIA,Female Human,72853,2716466,Tarlach
 JUSTICEX,Female Human,2685,2716495,Tarlach
 Shoubu+Tarlach,Male Human,13418,2717412,Tarlach
 Slytiara,Female Human,4194,2717519,Tarlach
@@ -3675,7 +3707,7 @@ pandalord333,Female Human,28458,2721321,Tarlach
 Bellfall,Female Human,47613,2721873,Tarlach
 Toller,Female Human,34273,2722726,Tarlach
 Lilacsbloom,Female Human,51932,2723130,Tarlach
-yoyoking,Male Human,61981,2723267,Tarlach
+yoyoking,Male Human,65181,2723267,Tarlach
 Pancake19,Male Human,31145,2723616,Tarlach
 Karlmarxx,Male Human,25603,2724439,Tarlach
 Kumo,Male Human,3755,2724561,Tarlach
@@ -3692,7 +3724,7 @@ Shiotakashi,Male Human,533,2728124,Tarlach
 hitomieheart,Female Human,12735,2728157,Tarlach
 Shuiqiu,Male Human,13365,2728800,Tarlach
 KGigi,Female Human,24619,2729076,Tarlach
-Ethleyns,Female Human,27358,2729273,Tarlach
+Ethleyns,Female Human,27362,2729273,Tarlach
 Valkyrie,Female Human,50992,2729409,Tarlach
 nick99999999+Tarlach,Male Human,10128,2730470,Tarlach
 Meilus,Female Human,33492,2730723,Tarlach
@@ -3704,7 +3736,7 @@ lukewillison,Male Human,43958,2732879,Tarlach
 Taikomu,Male Human,22896,2733099,Tarlach
 Mlkanee,Female Human,20463,2734421,Tarlach
 Hero,Male Human,34591,2735704,Tarlach
-Powa,Male Human,39616,2736047,Tarlach
+Powa,Male Human,44524,2736047,Tarlach
 ORZ,Female Human,66887,2737229,Tarlach
 Mitchmatch,Male Human,25954,2737661,Tarlach
 Ororoa,Female Human,30139,2737786,Tarlach
@@ -3865,7 +3897,7 @@ Jeremiah,Male Human,47263,2816413,Tarlach
 Pankunchi,Female Elf,58933,2816721,Tarlach
 aaddoogg,Female Human,26886,2816834,Tarlach
 Ysidrazil,Female Elf,21371,2817790,Tarlach
-fofolala,Female Human,32720,2818133,Tarlach
+fofolala,Female Human,33568,2818133,Tarlach
 Sakura1617,Female Human,23072,2819226,Tarlach
 Spawnfestus,Male Human,42474,2819719,Tarlach
 Lunaxd,Male Human,25869,2820057,Tarlach
@@ -3881,7 +3913,7 @@ Idkgoogleit,Female Human,50564,2822612,Tarlach
 little,Female Human,7078,2822632,Tarlach
 nash,Female Human,21493,2822735,Tarlach
 Rytel,Male Human,59912,2822945,Tarlach
-Goodinflavor,Female Elf,21749,2823067,Tarlach
+Astroursa,Female Elf,24719,2823067,Tarlach
 Yumemi,Female Elf,30567,2823820,Tarlach
 Dawna+Tarlach,Female Human,37609,2823994,Tarlach
 Balzirus,Female Human,542,2824331,Tarlach
@@ -3901,7 +3933,7 @@ Ayayasenpai,Male Elf,8945,2828585,Tarlach
 Sixa,Female Human,38576,2828893,Tarlach
 Kryuel,Male Elf,5021,2829100,Tarlach
 Xever,Male Human,23057,2829203,Tarlach
-wvbox,Female Giant,6676,2829242,Tarlach
+wvbox,Female Giant,6678,2829242,Tarlach
 Chaos00,Female Human,55254,2829501,Tarlach
 Luke3556,Male Human,50538,2829916,Tarlach
 minigiant9,Female Giant,40862,2831090,Tarlach
@@ -3996,7 +4028,7 @@ Kuranor,Male Elf,53392,2881633,Tarlach
 Tinali,Female Human,42116,2881837,Tarlach
 Ruma+Tarlach,Male Elf,28019,2882294,Tarlach
 Lint,Male Giant,54453,2882499,Tarlach
-Aphrodities,Female Human,26365,2882805,Tarlach
+Aphrodities,Female Human,26479,2882805,Tarlach
 Hinochan,Female Giant,53337,2883055,Tarlach
 Satsuko,Female Elf,34823,2883276,Tarlach
 Lilychans,Female Elf,40202,2884569,Tarlach
@@ -4064,7 +4096,7 @@ allador+Tarlach,Male Human,8857,2914631,Tarlach
 Ravendavid,Male Human,5963,2915051,Tarlach
 Komach,Male Human,41897,2915155,Tarlach
 Zennith,Female Elf,22682,2915664,Tarlach
-kkami,Male Human,24461,2916754,Tarlach
+kkami,Male Human,30407,2916754,Tarlach
 Pes,Female Human,35991,2916853,Tarlach
 Aideen,Female Human,10429,2917046,Tarlach
 Adahne,Female Human,57000,2917372,Tarlach
@@ -4132,6 +4164,7 @@ Frowny,Female Elf,23944,2940660,Tarlach
 silvertides,Male Human,23521,2940771,Tarlach
 Thavidu,Male Human,27956,2940958,Tarlach
 dirtypagan,Female Human,25362,2941935,Tarlach
+Hain+Tarlach,Female Human,549,2942205,Tarlach
 Alucard,Male Giant,37198,2944268,Tarlach
 Pawssibility,Female Giant,23755,2944599,Tarlach
 Bloombriar,Male Human,39312,2945543,Tarlach
@@ -4144,14 +4177,14 @@ detlakiller,Male Human,21661,2948347,Tarlach
 Mugget,Male Human,50248,2948562,Tarlach
 Haoushoku,Male Human,20364,2949588,Tarlach
 Yanderetsundere,Female Elf,6670,2949868,Tarlach
-Kaiba,Male Human,52321,2950003,Tarlach
+Kaiba,Male Human,53276,2950003,Tarlach
 Belladonna12,Female Human,32733,2950354,Tarlach
 DKM,Male Human,58926,2951334,Tarlach
 Thrislen,Female Elf,4455,2951917,Tarlach
 Saltiest,Female Giant,22521,2952902,Tarlach
 Muerde,Male Giant,41187,2953205,Tarlach
 Azazel,Male Elf,41042,2953842,Tarlach
-Kivori,Female Elf,49033,2953925,Tarlach
+Kivori,Female Elf,52833,2953925,Tarlach
 Dannylee62,Female Human,14442,2953965,Tarlach
 Vooduu,Male Human,27170,2954244,Tarlach
 Tyguur,Male Human,626,2954260,Tarlach
@@ -4193,7 +4226,7 @@ Queenofblades,Female Elf,22547,2974097,Tarlach
 Magestone7,Female Human,36128,2975741,Tarlach
 Bhram,Male Human,28404,2975931,Tarlach
 Saiite,Male Giant,37938,2976106,Tarlach
-Gumi,Female Human,48451,2976121,Tarlach
+Gumi,Female Human,50451,2976121,Tarlach
 Skyflakes+Tarlach,Female Human,34426,2976642,Tarlach
 Pindot,Male Giant,3072,2977549,Tarlach
 Sylvestre+Tarlach,Male Elf,57578,2978404,Tarlach
@@ -4201,8 +4234,9 @@ Starkiller,Male Human,3612,2978808,Tarlach
 Kelphead,Male Elf,20214,2978875,Tarlach
 faintflower,Female Human,50,2978991,Tarlach
 Chibimomoe,Female Human,8004,2979053,Tarlach
-Spectroman,Male Human,29615,2980248,Tarlach
-Hainy,Female Elf,23713,2981662,Tarlach
+Spectroman,Male Human,33940,2980248,Tarlach
+Alec,Male Giant,5209,2980629,Tarlach
+Hainy,Female Elf,24471,2981662,Tarlach
 Darkxstar64,Male Human,25774,2982172,Tarlach
 lke24,Female Human,20741,2982969,Tarlach
 Magica,Female Elf,13174,2983036,Tarlach
@@ -4230,7 +4264,7 @@ INocturne,Male Human,37838,2989217,Tarlach
 Catdancing,Male Human,40912,2989769,Tarlach
 Cannonpunch,Female Giant,33986,2990423,Tarlach
 Lenalumina,Female Elf,50546,2990928,Tarlach
-Meteosama,Male Human,27813,2991163,Tarlach
+Meteosama,Male Human,29187,2991163,Tarlach
 Paxseko,Female Elf,57339,2992317,Tarlach
 Eik,Male Elf,29379,2992330,Tarlach
 Yuukinozomi,Female Elf,32167,2992534,Tarlach
@@ -4258,7 +4292,7 @@ iholdstuff18,Female Human,46,2997106,Tarlach
 iholdstuff19,Female Human,46,2997107,Tarlach
 KPNY,Female Human,7673,2997495,Tarlach
 Yawbus+Tarlach,Male Human,55620,2998327,Tarlach
-Gyumi+Tarlach,Male Human,30569,2998614,Tarlach
+Gyumi+Tarlach,Male Human,32050,2998614,Tarlach
 Martymcfleek,Male Human,26950,2998830,Tarlach
 Fataleitsu,Female Elf,22886,2998939,Tarlach
 Spotsavior,Male Human,27896,2999259,Tarlach
@@ -4290,7 +4324,7 @@ Lukeu,Male Elf,2273,3007420,Tarlach
 RPE10,Female Giant,23561,3009171,Tarlach
 Shizakoo,Male Human,28221,3009384,Tarlach
 higgls,Male Human,26719,3009403,Tarlach
-Nastenary7,Male Human,32091,3009729,Tarlach
+Nastenary7,Male Human,36093,3009729,Tarlach
 Reikkan,Male Human,31816,3009740,Tarlach
 Mintea,Female Human,26312,3009743,Tarlach
 Desmu,Female Giant,6564,3010276,Tarlach
@@ -4300,7 +4334,7 @@ Overlordgod,Male Human,42141,3011980,Tarlach
 Kaem,Male Human,32659,3012086,Tarlach
 Husbando+Tarlach,Male Giant,2913,3012616,Tarlach
 Laerithin,Female Elf,34015,3012763,Tarlach
-Junhoo,Male Elf,6081,3012970,Tarlach
+Squirtinonme,Male Elf,10081,3012970,Tarlach
 Periwinkle,Female Human,15911,3013350,Tarlach
 Darkego78,Male Human,42442,3013533,Tarlach
 Ryoyas,Female Human,25269,3013550,Tarlach
@@ -4333,7 +4367,7 @@ Piyokko,Female Human,49696,3024797,Tarlach
 Ubergeek,Male Elf,50087,3025383,Tarlach
 Cranimere,Male Elf,57592,3025514,Tarlach
 Solarfangx,Male Giant,25635,3025610,Tarlach
-Noir,Female Elf,22095,3026059,Tarlach
+Noir,Female Elf,22790,3026059,Tarlach
 Serinnah,Female Human,2132,3026155,Tarlach
 Ershty,Female Human,33778,3026863,Tarlach
 Sionnach,,,3026969,Tarlach
@@ -4388,7 +4422,7 @@ tyrannwind24,Male Human,52332,3042338,Tarlach
 Yohari,Female Human,30542,3042647,Tarlach
 Alosera,Female Elf,48248,3042883,Tarlach
 Legendfairy,Female Elf,53000,3042968,Tarlach
-Fightdapowa+Tarlach,Male Human,20809,3043394,Tarlach
+Fightdapowa+Tarlach,Male Human,21152,3043394,Tarlach
 ALTEQT,Female Human,31314,3043562,Tarlach
 Alphashadow,Male Human,30537,3043645,Tarlach
 Pegdro,Male Human,27009,3043936,Tarlach
@@ -4410,7 +4444,7 @@ Enigema,Male Human,27316,3049311,Tarlach
 Pyrlis,Male Elf,29233,3049706,Tarlach
 Badain,Female Giant,23657,3050479,Tarlach
 Arkun+Tarlach,Male Human,574,3050504,Tarlach
-Lauxio,Female Giant,61212,3050741,Tarlach
+Lauxio,Female Giant,63011,3050741,Tarlach
 Ztrider,Female Human,23326,3051087,Tarlach
 Afhkarien,Female Giant,15277,3051185,Tarlach
 milillelf,Female Elf,40,3051744,Tarlach
@@ -4481,7 +4515,8 @@ Khaizin,Male Human,36574,3071236,Tarlach
 Nokoemi,Female Human,5704,3071366,Tarlach
 dotabao1,,,3071710,Tarlach
 Kaym,Male Human,42986,3071790,Tarlach
-Dim,Female Elf,64132,3072115,Tarlach
+Eriele,Female Elf,3497,3071814,Tarlach
+Dim,Female Elf,64732,3072115,Tarlach
 Draud+Tarlach,Male Human,3916,3072191,Tarlach
 Machosan,Male Human,22720,3072345,Tarlach
 Jovon+Tarlach,Female Human,2424,3072581,Tarlach
@@ -4491,7 +4526,7 @@ Cindebelle,Female Elf,51688,3073589,Tarlach
 ORIGINSFURY,Male Human,59818,3073653,Tarlach
 October,Female Elf,21239,3073799,Tarlach
 Teoz,Male Elf,22962,3073911,Tarlach
-Santoru,Female Human,32802,3073916,Tarlach
+Santoru,Female Human,36110,3073916,Tarlach
 xxnoobemxx,Male Human,8530,3074378,Tarlach
 Reginar+Tarlach,Male Giant,41060,3074527,Tarlach
 Venusology,Female Human,28450,3074677,Tarlach
@@ -4501,7 +4536,7 @@ Mimimouri,Female Human,6373,3075322,Tarlach
 Quivered,Male Elf,40918,3075406,Tarlach
 Emodokhan,Male Human,22870,3075800,Tarlach
 Musikerin,Female Elf,5653,3075860,Tarlach
-iry,Female Elf,24363,3075922,Tarlach
+iry,Female Elf,27563,3075922,Tarlach
 Xessa,Female Human,8921,3076130,Tarlach
 Ktty,Female Human,23929,3076571,Tarlach
 Yura,Female Human,33274,3076840,Tarlach
@@ -4577,7 +4612,7 @@ Lavanderrain,Female Elf,16463,3091385,Tarlach
 Mizumie,Female Elf,32776,3091716,Tarlach
 Forg,Female Human,6721,3091782,Tarlach
 FORGEX,Female Human,5465,3091783,Tarlach
-Spooky,Female Elf,59096,3091784,Tarlach
+Spooky,Female Elf,60896,3091784,Tarlach
 copykat+Tarlach,Female Human,1011,3092020,Tarlach
 CUZZBULLA,Female Human,21495,3092498,Tarlach
 Nijimiko,Female Elf,1026,3092639,Tarlach
@@ -4610,6 +4645,7 @@ Vespiel,Female Giant,64352,3100917,Tarlach
 Nehsi,Male Human,26624,3101682,Tarlach
 chinho6,Female Human,829,3101714,Tarlach
 Aoibheann,Female Elf,23622,3102574,Tarlach
+Vtlaghe,Male Human,32020,3105060,Tarlach
 Grimlokh,Male Human,26578,3105239,Tarlach
 Karenaa+Tarlach,Female Human,26213,3105313,Tarlach
 Reject,Male Giant,31262,3105352,Tarlach
@@ -4633,7 +4669,7 @@ Darien07,Male Human,22569,3111464,Tarlach
 Hawkmanitee,Male Human,24196,3111873,Tarlach
 Kruz+Tarlach,Male Elf,33338,3112469,Tarlach
 Logic000,Male Human,32617,3113027,Tarlach
-Roksim,Male Elf,33308,3113254,Tarlach
+Roksim,Male Elf,35240,3113254,Tarlach
 Darksonia,Female Human,13765,3113658,Tarlach
 Soriahh,Male Elf,350,3113688,Tarlach
 Pixellna,Female Elf,34385,3113829,Tarlach
@@ -4647,7 +4683,7 @@ Lastog,Male Giant,1491,3115260,Tarlach
 xxchinen,Male Human,25688,3115487,Tarlach
 Testme+Tarlach,Male Elf,1337,3116014,Tarlach
 Risk,Female Elf,71173,3116420,Tarlach
-Erlach,Male Human,49194,3116486,Tarlach
+Erlach,Male Human,52994,3116486,Tarlach
 Luckysstar+Tarlach,Female Human,42008,3116522,Tarlach
 Farwa,Male Elf,27711,3116639,Tarlach
 Keilyff,Female Human,26688,3116927,Tarlach
@@ -4667,12 +4703,12 @@ Cassafras,Female Elf,44212,3121911,Tarlach
 taikonbr,Male Human,39894,3122162,Tarlach
 Enziio,Male Human,34929,3122690,Tarlach
 Tsubenni,Female Elf,34195,3123234,Tarlach
-Woopawakeiya,Female Elf,24784,3123694,Tarlach
+Woopawakeiya,Female Elf,38504,3123694,Tarlach
 Asileia,Female Elf,15100,3123775,Tarlach
 Kaelin,Male Human,31912,3124142,Tarlach
 Min8,Female Human,26649,3124528,Tarlach
 Destruidorx,Male Giant,46993,3124621,Tarlach
-Faintsilence,Female Human,374,3124900,Tarlach
+Faintsilence,Female Human,378,3124900,Tarlach
 Haracles,Female Giant,33,3124988,Tarlach
 Myaralieu,Female Human,30312,3125773,Tarlach
 Nicksenpai,Male Human,20667,3127580,Tarlach
@@ -4722,7 +4758,7 @@ Sournips,Female Elf,1387,3145235,Tarlach
 svj,Female Human,44101,3145615,Tarlach
 Aerota,Male Human,37849,3145785,Tarlach
 Teeree,Male Human,24866,3145866,Tarlach
-Kitsunelf,Female Elf,16803,3146211,Tarlach
+Kitsunelf,Female Elf,20557,3146211,Tarlach
 Jasmila,Female Human,7634,3146860,Tarlach
 Kalia,Female Human,28784,3146987,Tarlach
 Alexyall,Male Human,19351,3147305,Tarlach
@@ -4736,7 +4772,7 @@ Griiever,Male Human,20876,3150967,Tarlach
 murpidalurp,Female Human,27507,3151662,Tarlach
 Nymphalii,Female Elf,35267,3151879,Tarlach
 lilhombroso,Male Human,21678,3151880,Tarlach
-Cozybun,Female Human,33143,3153115,Tarlach
+Cozybun,Female Human,35943,3153115,Tarlach
 Ronaldmyknox,Female Elf,84,3153131,Tarlach
 Leafyreef,Female Elf,12360,3153690,Tarlach
 iluvpancak,Female Elf,62,3153929,Tarlach
@@ -4752,7 +4788,7 @@ kip13,Male Elf,44728,3157428,Tarlach
 Navigator,Female Human,22459,3158336,Tarlach
 Montarious,Female Human,22739,3158362,Tarlach
 Jackieack,Male Human,22271,3158519,Tarlach
-Mwae,Female Elf,13725,3159176,Tarlach
+Mwae,Female Elf,13821,3159176,Tarlach
 Catsoul,Female Human,18033,3159243,Tarlach
 AIpha,Male Giant,26899,3159778,Tarlach
 Nagisastar,Female Human,2042,3159956,Tarlach
@@ -4838,10 +4874,11 @@ Aleynne,Female Elf,9560,3191888,Tarlach
 Local+Tarlach,Female Human,473,3191904,Tarlach
 Tommytom14,Male Human,11225,3192281,Tarlach
 Kaiynn,Female Human,16311,3192812,Tarlach
-Hikunin,Female Human,39304,3193062,Tarlach
+Hikunin,Female Human,39704,3193062,Tarlach
 Feraldus,Male Human,24165,3193270,Tarlach
 Hari,Male Elf,43996,3193375,Tarlach
-Youako,Female Elf,37628,3193927,Tarlach
+Songbird,Female Elf,15141,3193879,Tarlach
+Youako,Female Elf,38077,3193927,Tarlach
 Waitedespair,Female Human,47990,3193971,Tarlach
 Hikari,Female Elf,28674,3194011,Tarlach
 Miist,Female Human,40671,3194194,Tarlach
@@ -4855,7 +4892,7 @@ Kawazumi,Female Human,2282,3196327,Tarlach
 Suishou,Female Elf,5662,3198016,Tarlach
 Alyssia,Female Human,24899,3199066,Tarlach
 Tinykong10,Female Elf,27552,3199067,Tarlach
-Kayla,Female Elf,54291,3199432,Tarlach
+Kayla,Female Elf,60091,3199432,Tarlach
 Dunce10,Female Human,145,3201505,Tarlach
 playboijeri,Male Giant,21410,3201782,Tarlach
 Adorn,Female Human,12195,3201925,Tarlach
@@ -4874,11 +4911,11 @@ Cgrant,Female Human,1651,3206631,Tarlach
 Closestodds,Female Human,5278,3206638,Tarlach
 Akain+Tarlach,Female Human,5491,3206639,Tarlach
 Zerochuu,Male Human,823,3207301,Tarlach
-Luux,Male Human,64795,3208098,Tarlach
+Luux,Male Human,72051,3208098,Tarlach
 ilovezaneki,Female Elf,5128,3208346,Tarlach
 Denn,Male Human,29655,3208358,Tarlach
 Tomio,Female Elf,27700,3208401,Tarlach
-skygirl,Female Elf,40939,3209177,Tarlach
+skygirl,Female Elf,42339,3209177,Tarlach
 reapsoulz,Male Human,2784,3209697,Tarlach
 Puppycat11,Male Human,3926,3209710,Tarlach
 smoluniverse,Female Elf,17096,3210329,Tarlach
@@ -4917,7 +4954,7 @@ Captaintoad,Male Human,20468,3223428,Tarlach
 Stonetoss,Female Giant,10576,3223781,Tarlach
 janelily100,Female Elf,321,3224065,Tarlach
 Captaingaren,Male Giant,52620,3224557,Tarlach
-OCD,Female Giant,33071,3225053,Tarlach
+OCD,Female Giant,38056,3225053,Tarlach
 Patagum,Female Human,34603,3225138,Tarlach
 Mainmoon,Female Elf,11887,3226506,Tarlach
 ENOONMAI,Female Human,40517,3226699,Tarlach
@@ -4940,6 +4977,7 @@ Sadtaku,Male Elf,12997,3235741,Tarlach
 Apo,Male Human,24826,3235863,Tarlach
 evekristina,Female Elf,1619,3236095,Tarlach
 Ghostyshiro,Male Elf,16067,3236699,Tarlach
+toronigiri,Female Human,20275,3238355,Tarlach
 tatogiant,Male Giant,27258,3238824,Tarlach
 Lexs+Tarlach,Male Giant,7477,3239124,Tarlach
 Saberterios,Female Human,28142,3239343,Tarlach
@@ -5004,7 +5042,7 @@ Rosethefurry,Female Elf,31591,3268865,Tarlach
 Grazos,Male Giant,6203,3269622,Tarlach
 sulava,Female Elf,271,3270379,Tarlach
 Garrh,Male Giant,9335,3271351,Tarlach
-Sly,Female Human,62925,3271368,Tarlach
+Sly,Female Human,68200,3271368,Tarlach
 Zenzenyata,Female Human,3772,3272540,Tarlach
 Raidmaster,Male Giant,7863,3273407,Tarlach
 Raikiri,Male Giant,26774,3273430,Tarlach
@@ -5118,7 +5156,7 @@ Yomi95,Female Elf,29947,3319165,Tarlach
 KKiritsugu,Male Human,603,3319179,Tarlach
 Calyia,Male Elf,3665,3319824,Tarlach
 Emrythnett,Female Human,1170,3319907,Tarlach
-Miyabi95,Female Giant,30232,3319929,Tarlach
+Miyabi95,Female Giant,30542,3319929,Tarlach
 Slainehorned,Male Human,12734,3320639,Tarlach
 Coaxal,Female Human,57727,3320825,Tarlach
 Zoltaria,Male Human,18911,3320842,Tarlach
@@ -5172,6 +5210,7 @@ ISO57,Female Elf,1225,3327849,Tarlach
 ISO58,Female Giant,1225,3327850,Tarlach
 servicez,Female Giant,1266,3327886,Tarlach
 Chippawok,Male Human,11661,3328108,Tarlach
+Hainezslave,Female Giant,1051,3328518,Tarlach
 Zethie,Male Human,26895,4442024,Tarlach
 Abyssalss,Female Human,26150,4442067,Tarlach
 Vehafornus,Male Giant,24496,4442707,Tarlach
@@ -5189,16 +5228,17 @@ Usagixmoon,Female Human,47471,4448035,Tarlach
 llmiall,Female Human,33445,4448620,Tarlach
 Mogudan,Male Human,28541,4449274,Tarlach
 roleypoleyoley,Female Elf,132,4450124,Tarlach
-Musyoku,Female Human,28270,4451581,Tarlach
+Deydo,Male Giant,9705,4450532,Tarlach
+Musyoku,Female Human,28866,4451581,Tarlach
 RND,Male Giant,7618,4451671,Tarlach
 twigsnapper,Male Giant,41211,4451809,Tarlach
 Extraterrestrial,Male Human,25073,4452111,Tarlach
 Hungee,Male Human,40083,4452606,Tarlach
-Tiyen,Male Human,49374,4452813,
-Younjin,Female Giant,23277,4454725,
-Hitmeidareyou,Male Giant,6091,4454971,
-Giantgiantgs,Male Giant,10389,4455163,
-Mayara,Female Human,25147,4455300,
+Tiyen,Male Human,49374,4452813,Tarlach
+Younjin,Female Giant,23277,4454725,Nao
+Hitmeidareyou,Male Giant,6091,4454971,Nao
+Giantgiantgs,Male Giant,10389,4455163,Nao
+Mayara,Female Human,25147,4455300,Nao
 Dawy,Male Human,166,4457606,Nao
 Specialjessie,Female Giant,33526,4458390,Nao
 Makimazi,Female Human,35879,4458476,Nao
@@ -5213,10 +5253,10 @@ Sarvesh,Male Elf,25083,4460490,Nao
 Vivian,Female Human,33174,4460493,Nao
 Angelofdarkness,Female Elf,7250,4460571,Nao
 Midorikaijuu,Female Giant,1159,4461587,Nao
-Sweatytoes,Female Human,16746,4462433,Nao
+Sweatytoes,Female Human,19874,4462433,Nao
 Demigod,Male Human,11170,4462501,Nao
 Skaeva,Male Human,26310,4462768,Nao
-chigourou,Female Human,8965,4463454,Nao
+chigourou,Female Human,9002,4463454,Nao
 Eniad,Female Human,50059,4463734,Nao
 Lowelli,Female Human,36026,4463795,Nao
 Zatorii,Female Elf,23434,4464149,Nao
@@ -5237,12 +5277,14 @@ Mediangel,Male Human,7569,4469418,Nao
 Dadte,Male Giant,19242,4469518,Nao
 Danoative,Male Human,43155,4469537,Nao
 Keisenhawthorn,Male Elf,14426,4470813,Nao
+Mugen33,Male Elf,5065,4472553,Nao
 Alltria,Female Elf,60,4472772,Nao
 Sdwcdrghost,Female Human,26015,4475980,Nao
 Hoshyuki,Male Elf,13430,4478776,Nao
 Caohmnoiir,Male Human,27537,4479705,Nao
 LLotuz,Female Giant,12598,4479835,Nao
 Bighobbit,Female Giant,25145,4481234,Nao
+Xersai,Male Human,25890,4481291,Nao
 Gangwel,Male Giant,3219,4484396,Nao
 Saxa,Female Giant,23837,4485380,Nao
 Kochukaru,Female Human,5460,4486429,Nao
@@ -5421,6 +5463,7 @@ Liucipher,Male Human,1955,4574445,Nao
 Ourlordjesus,Female Elf,1365,4574565,Nao
 Sxnpai,Female Elf,2396,4574679,Nao
 Whitebearsan,Male Human,28364,4574960,Nao
+Bluerr,Male Human,30194,4575391,Nao
 Exiras,Female Human,39903,4575395,Nao
 tteoktokki,Female Human,1413,4575647,Nao
 Lexadee,Female Human,23049,4575757,Nao
@@ -5436,6 +5479,7 @@ Decolonize,Female Elf,163,4577290,Nao
 Cornemea,Female Elf,5127,4577338,Nao
 Mizoire,Female Elf,5776,4578059,Nao
 Saffony,Female Elf,44030,4578344,Nao
+Artiosan,Female Elf,205,4578410,Nao
 Natsukashisa,Male Human,21246,4578658,Nao
 exbank6,Female Giant,44,4580729,Nao
 Tantegirang,Female Human,2978,4580870,Nao
@@ -5460,8 +5504,9 @@ Starmagnolia,Female Elf,3785,4597596,Nao
 Gyarin,Female Elf,4447,4597889,Nao
 Yesoo,Female Human,2824,4598338,Nao
 marlene278,Female Elf,164,4601002,Nao
-Kastillon,Male Giant,47592,4601175,Nao
+Kastillon,Male Giant,47641,4601175,Nao
 Ayanami02,Female Human,53357,4602248,Nao
+Marii01,Female Human,12293,4603703,Nao
 dannygsmom,Male Human,34163,4604174,Nao
 Iizzie31,Female Giant,21087,4606448,Nao
 Zephiam,Male Human,39536,4607191,Nao
@@ -5475,7 +5520,7 @@ HDTingle,Male Elf,1265,4613648,Nao
 Seirras,Male Human,27314,4613661,Nao
 Wizzro,Male Elf,495,4613666,Nao
 HDLincle,Male Elf,584,4613749,Nao
-JJOON,Female Elf,70407,4614867,Nao
+JJOON,Female Elf,74454,4614867,Nao
 Ahlashtur,Male Human,29517,4615282,Nao
 Surtrag,Female Giant,24289,4615418,Nao
 Vamplrella,Female Human,7443,4615630,Nao
@@ -5507,7 +5552,7 @@ Azuriania,Female Human,49161,4640516,Nao
 Bigfishbone,Male Giant,7453,4641751,Nao
 Serayna,Female Human,1005,4644098,Nao
 Texas,Male Giant,6247,4647336,Nao
-Taxxes,Male Giant,62750,4647569,Nao
+Taxxes,Male Giant,65737,4647569,Nao
 Nataline,Female Human,56089,4648734,Nao
 Aolaan,Female Elf,24545,4648958,Nao
 Ferezbot,Female Elf,5122,4649426,Nao
@@ -5539,7 +5584,7 @@ Gashnkah,Female Elf,3174,4673915,Nao
 Allycake,Female Elf,28704,4674583,Nao
 Valkyrieami,Female Giant,10078,4674903,Nao
 Treyselwyn,Male Human,4492,4675628,Nao
-Asuka95,Female Human,30839,4675782,Nao
+Asuka95,Female Human,31202,4675782,Nao
 Benienma,Female Human,8141,4676230,Nao
 Grymmreaper,Male Human,7376,4677616,Nao
 tanakatoshi,Female Human,52782,4677628,Nao
@@ -5577,6 +5622,7 @@ Magnuos,Male Human,19085,4703152,Nao
 POTBOT,Male Giant,3568,4703486,Nao
 COVID19,Female Human,33714,4703671,Nao
 pumkid,Female Elf,9693,4703813,Nao
+Deathlord66,Male Human,4511,4703992,Nao
 Oscultas,Female Human,6992,4705229,Nao
 Alextia,Female Human,43915,4705892,Nao
 Tensheetos,Male Elf,2556,4707272,Nao
@@ -5723,7 +5769,7 @@ Mable,Female Elf,33175,4762662,Nao
 Kookoo,Female Giant,291,4762735,Nao
 Kokokoko,Female Giant,291,4762748,Nao
 Leonara,Female Giant,34580,4762837,Nao
-Sucstoes,Female Elf,47773,4763250,Nao
+Sucstoes,Female Elf,52373,4763250,Nao
 Zendrill,Male Elf,4702,4763517,Nao
 Odiseo,Male Human,2796,4763573,Nao
 itskape,Female Giant,13694,4763588,Nao
@@ -5785,9 +5831,9 @@ Ranpha,Female Human,10889,4784009,Nao
 Uiharu,Female Human,10901,4784012,Nao
 Kailani,Female Human,9498,4785080,Nao
 bit,Male Human,29109,4785228,Nao
-Lumineh,Female Human,32865,4785383,Nao
+Lumineh,Female Human,36383,4785383,Nao
 Nexoun,Male Human,5438,4785597,Nao
-Papis,Female Giant,28110,4785609,Nao
+Papis,Female Giant,28824,4785609,Nao
 Aikibujin,Male Human,12640,4785840,Nao
 Taishi,Male Human,5104,4786970,Nao
 Myne,Female Human,40022,4787159,Nao
@@ -5819,7 +5865,7 @@ Craftedblend,Male Giant,24,4800925,Nao
 umbrawolf,Female Elf,13373,4801497,Nao
 Torpystrike,Male Giant,19547,4801810,Nao
 Aliyana,Female Human,4624,4802555,Nao
-Jansang,Female Human,39720,4804015,Nao
+Jansang,Female Human,40518,4804015,Nao
 Lumieus,Female Elf,27807,4804291,Nao
 Nemhesis,Female Giant,2410,4804479,Nao
 Zizare,Male Human,4888,4804908,Nao
@@ -5840,11 +5886,11 @@ Cypryss,Male Elf,30983,4837520,Nao
 Bluesky,Male Human,1674,4840772,Nao
 Koz,Male Human,10823,4841139,Nao
 Koriko,Female Elf,4911,4845863,Nao
-Vagatai,Male Human,36041,4851752,Nao
-Codswim,Male Human,30437,4858105,Nao
+Vagatai,Male Human,44012,4851752,Nao
+Codswim,Male Human,32777,4858105,Nao
 Lyneira,Female Giant,23600,4860159,Nao
 Hoyten,Male Elf,6438,4869626,Nao
-Nickiminach,Female Elf,7386,4870320,Nao
+Nickiminach,Female Elf,7399,4870320,Nao
 Leesha,Female Elf,2642,4871941,Nao
 Aleckhandz,Female Elf,561,4874266,Nao
 Azulah,Female Giant,6288,4875535,Nao
@@ -5904,7 +5950,7 @@ Silbaria,Female Elf,43069,5015630,Nao
 Jamess,Male Elf,63,5015966,Nao
 vesputa,Male Elf,6074,5016941,Nao
 respulas,Male Elf,6972,5016971,Nao
-Caliea,Female Elf,28806,5019894,Nao
+Caliea,Female Elf,29134,5019894,Nao
 Bakarina,Female Human,6099,5020288,Nao
 Shiraza,Female Human,1312,5021924,Nao
 Najenda,Female Human,1437,5022106,Nao
@@ -6059,7 +6105,7 @@ Sabrac009,Male Human,2116,5160686,Nao
 misaki009,Male Human,1794,5160849,Nao
 mei009,Female Human,1250,5160946,Nao
 Acezero,Female Human,46042,5161322,Nao
-Col,Male Human,31462,5161814,Nao
+Col,Male Human,37546,5161814,Nao
 Fukushou,Male Human,1889,5162470,Nao
 LFMemes,Female Human,5870,5162772,Nao
 Bappityboopi,Female Human,153,5165394,Nao
@@ -6197,6 +6243,7 @@ Kagebunshin2,Male Human,3230,5293399,Nao
 Flewfy,Female Elf,26718,5293836,Nao
 ILostchild,Female Giant,5231,5294322,Nao
 Lostchild,Female Giant,5055,5294325,Nao
+Ainzogown,Male Giant,2356,5294947,Nao
 Juubi,Female Giant,21546,5295531,Nao
 Iamyourgf,Female Human,7729,5296162,Nao
 Hutianbao,Female Giant,30167,5296407,Nao
@@ -6244,7 +6291,7 @@ mabidaily17,Female Human,2956,5330358,Nao
 mabidaily18,Female Human,2857,5330370,Nao
 Sedric,Male Human,9891,5331125,Nao
 Rainble,Female Human,20825,5331245,Nao
-ilovepanda,Male Elf,10623,5331656,Nao
+ilovepanda,Male Elf,10673,5331656,Nao
 Stravvberry,Female Elf,13749,5331734,Nao
 Notaalt0028,Female Human,2796,5331766,Nao
 Notanal0029,Female Human,2853,5331777,Nao
@@ -6259,6 +6306,7 @@ notanalt0038,Female Human,2848,5331832,Nao
 Notanalt0039,Female Human,2844,5331855,Nao
 Notanalt0040,Female Human,2982,5331857,Nao
 notanalt0041,Female Human,2660,5331893,Nao
+Shouine,Male Giant,414,5333668,Nao
 Bagboo,Male Giant,24506,5334651,Nao
 Alitsine,Female Elf,21543,5335624,Nao
 Fusilli,Female Elf,14806,5335648,Nao
@@ -6296,7 +6344,7 @@ Mokslayer,Female Giant,7595,5368922,Nao
 Tagetes,Male Giant,11400,5369317,Nao
 Vemith,Male Human,23366,5370177,Nao
 Arywen,Female Human,24446,5370987,Nao
-Spyduck,Male Human,36027,5371944,Nao
+Spyduck,Male Human,39131,5371944,Nao
 Shiratani,Male Elf,1589,5371946,Nao
 prnz,Male Giant,20636,5372535,Nao
 Taylor07,Female Human,21264,5372805,Nao
@@ -6325,7 +6373,7 @@ Hiendwyn,Male Human,38857,5387295,Nao
 Knismm,Male Human,21614,5388142,Nao
 Izabetn,Female Human,111,5388337,Nao
 Fullmetalchemist,Male Human,21270,5388628,Nao
-Chees,Female Elf,34475,5389596,Nao
+Chees,Female Elf,38644,5389596,Nao
 Fleemoan,Female Giant,28662,5389615,Nao
 Twistedfast,Male Giant,1331,5390446,Nao
 Kuyamiie,Male Human,35516,5390756,Nao
@@ -6462,6 +6510,7 @@ Cuticledruid,Male Human,5073,5466432,Nao
 MISTYCHAR,Female Human,25951,5466842,Nao
 Roza2,Female Elf,5658,5466871,Nao
 Kenoki,Male Human,299,5467633,Nao
+Freya,Female Elf,21635,5469572,Nao
 Rundelf,Male Elf,28712,5469638,Nao
 Aethia,Female Elf,2388,5470515,Nao
 Sadexistence,Male Human,33993,5470590,Nao
@@ -6506,6 +6555,7 @@ Lunarstar,Female Human,32775,5479779,Nao
 drobedaily,Female Elf,2969,5480084,Nao
 Bigootyood,Female Human,811,5480516,Nao
 gadogado,Female Elf,1125,5480575,Nao
+Kaiyfna,Female Elf,546,5481026,Nao
 esbuahmanis,Female Elf,1066,5481139,Nao
 burgermekdi,Female Elf,1193,5481145,Nao
 ayamkaepci,Female Elf,1079,5481147,Nao
@@ -6627,6 +6677,7 @@ Nemain,Female Elf,44224,5531844,Nao
 nuhong2,Female Giant,10490,5534525,Nao
 Dosierrily,Male Elf,5118,5534643,Nao
 Elfonszo,Male Elf,10056,5535440,Nao
+Cremate,Male Giant,4667,5537192,Nao
 Nekrodancer,Male Human,24242,5537220,Nao
 cuzsun,Male Elf,1148,5540358,Nao
 Daevaneo,Female Giant,231,5540407,Nao
@@ -6739,7 +6790,7 @@ Angelinat,Female Human,1388,5604356,Nao
 Oldario,Male Human,1354,5604373,Nao
 Princessarii,Female Human,1282,5605281,Nao
 Piroulinae,Female Human,1218,5605298,Nao
-Damai,Male Human,26228,5605413,Nao
+Damai,Male Human,27130,5605413,Nao
 Tonera,Female Elf,34129,5605580,Nao
 Aak,Male Elf,31840,5606229,Nao
 Meronkisu,Female Elf,2006,5606803,Nao
@@ -6872,18 +6923,18 @@ Goltane,Female Human,31820,5656177,Nao
 Alexandrius,Male Elf,12055,5657632,Nao
 Eulalia,Female Human,10031,5658206,Nao
 Celano,Female Giant,37195,5658240,Nao
-froenixc,Female Human,37392,5659237,Nao
+froenixc,Female Human,38253,5659237,Nao
 Fuq,Female Elf,2145,5659593,Nao
 Razmir,Male Human,11539,5660246,Nao
 Ceeneri,Female Human,27262,5660396,Nao
-Kelphae,Female Elf,26739,5660678,Nao
+Kelphae,Female Elf,30960,5660678,Nao
 Mabylon,Male Human,200,5661049,Nao
 xmizukix,Female Human,140,5662692,Nao
 Quietdays,Female Elf,2094,5663533,Nao
 Valrunea,Female Human,9241,5663561,Nao
 Kurosu00,Male Human,21040,5663754,Nao
 Faenor,Male Elf,9009,5663830,Nao
-Hooyaahh,Female Elf,46440,5665472,Nao
+Hooyaahh,Female Elf,51640,5665472,Nao
 Yoshiya,Male Giant,33857,5666558,Nao
 Tirapiedra,Male Human,1599,5668327,Nao
 Fumeke,Male Human,1540,5668333,Nao
@@ -6892,7 +6943,9 @@ Cogotero,Male Human,1726,5668344,Nao
 Beasa,Female Human,10858,5668628,Nao
 Lynde,Female Elf,5862,5668659,Nao
 Ibguertena,Female Human,5685,5668847,Nao
+Marmalader,Female Elf,296,5669644,Nao
 Lumafreak,Male Elf,3564,5670250,Nao
+Kanasgz,Female Elf,318,5670263,Nao
 Eom,Male Elf,25231,5670557,Nao
 Dragonfire,Male Human,23320,5670674,Nao
 Isadora,Female Human,24204,5670825,Nao
@@ -6958,7 +7011,7 @@ Lowass,Female Human,284,5698552,Nao
 Loowsa,Female Human,308,5698553,Nao
 Blackraven,Female Human,19048,5700083,Nao
 Elesence,Female Human,6437,5700102,Nao
-Spontaneous,Female Human,22823,5700146,Nao
+Spontaneous,Female Human,27137,5700146,Nao
 Vivvlee,Female Human,10614,5703537,Nao
 Corvix,Male Human,2012,5704084,Nao
 Rizziie,Female Human,471,5705053,Nao
@@ -6971,6 +7024,8 @@ Dispute,Male Elf,30929,5706843,Nao
 Candyelf,Female Elf,505,5707826,Nao
 Echoed,Male Elf,505,5707937,Nao
 Lofiboi,Male Elf,505,5708008,Nao
+Kaifynefas,Female Elf,204,5708289,Nao
+Mailmansa,Female Elf,163,5708295,Nao
 Shinntei,Male Human,22925,5708397,Nao
 Kristal77,Female Human,15712,5708495,Nao
 Celleste,Female Elf,505,5713153,Nao
@@ -7243,7 +7298,7 @@ Doombringer+Alexina,Male Giant,2240,5790103,Alexina
 Edeott,Male Human,24162,5791233,Alexina
 Xaeok,Male Human,5866,5791234,Alexina
 fread,Male Human,33989,5791848,Alexina
-aniteku+Alexina,Male Human,21367,5792030,Alexina
+Anitekuh,Male Human,21652,5792030,Alexina
 Splatulated+Alexina,Female Elf,6756,5792977,Alexina
 Feroze,Male Human,27135,5793552,Alexina
 Brightheart+Alexina,Female Human,3109,5793691,Alexina
@@ -7292,7 +7347,7 @@ Cammily,Female Elf,39234,5811846,Alexina
 Leighold+Alexina,Male Human,11963,5812381,Alexina
 Huxianshi,Female Human,26546,5812804,Alexina
 Digit+Alexina,Male Human,60339,5812894,Alexina
-Pluse00,Male Human,300000,5813059,Alexina
+Pluse00,Male Human,264999,5813059,Alexina
 Bam,Male Elf,89021,5813388,Alexina
 Shahrubah,Male Human,25026,5813398,Alexina
 artsidea,Female Elf,7334,5813411,Alexina
@@ -7311,6 +7366,7 @@ Salah,Male Human,6967,5818235,Alexina
 Tokihanatsu+Alexina,Male Elf,500,5818889,Alexina
 kyolight+Alexina,Male Human,15940,5818984,Alexina
 Nenmclovin,Male Elf,22872,5819480,Alexina
+mathras,Male Human,24000,5820201,Alexina
 Regios,Male Human,15009,5820274,Alexina
 Demonbiscuit,Male Human,41377,5820353,Alexina
 almond1221+Alexina,Male Human,21492,5820372,Alexina
@@ -7335,16 +7391,16 @@ Compiler,Female Human,43894,5832262,Alexina
 Yasushi+Alexina,Male Human,51373,5832344,Alexina
 Guinivire,Female Human,51089,5832389,Alexina
 slayer770,Female Human,79093,5832550,Alexina
-Sanctaria,Female Elf,41000,5832588,Alexina
+Sanctaria,Female Elf,45212,5832588,Alexina
 velvetsrose,Female Elf,6932,5832939,Alexina
 xhoniyuteda,Male Human,44053,5834948,Alexina
 Kyotaro,Female Human,32119,5835630,Alexina
-Darthjawafet,Female Elf,40495,5835707,Alexina
+Darthjawafet,Female Elf,41695,5835707,Alexina
 Vexie+Alexina,Female Human,21087,5835725,Alexina
-Viy,Female Elf,49012,5835784,Alexina
+Viy,Female Elf,55012,5835784,Alexina
 Qaj,Female Human,29096,5835921,Alexina
 Nizmew,Female Human,13334,5836195,Alexina
-lnya,Female Human,19670,5837060,Alexina
+lnya,Female Human,19691,5837060,Alexina
 Yasuhiko,Male Human,40302,5837360,Alexina
 Vengenance,Male Human,22467,5837439,Alexina
 Nuru+Alexina,Male Human,27619,5837923,Alexina
@@ -7384,13 +7440,13 @@ Eulnie,Male Giant,43707,5849700,Alexina
 Slow+Alexina,Female Giant,23973,5850679,Alexina
 Ascina,Female Elf,38944,5850867,Alexina
 Talkla,Female Elf,24785,5851188,Alexina
-emptyvessel,Male Elf,1592,5851273,Alexina
+emptyvessel,Male Elf,1604,5851273,Alexina
 Tropakev,Male Human,27871,5851621,Alexina
 Blobmcstomp,Male Human,20734,5852440,Alexina
 slayer077,Male Human,10084,5852559,Alexina
 Samuelster,Female Elf,22427,5852783,Alexina
 Megacrash,Female Human,36489,5852909,Alexina
-Ayamo+Alexina,Female Elf,21480,5852932,Alexina
+Ayamoskysong,Female Elf,27335,5852932,Alexina
 Fireprincess,Female Human,14472,5853547,Alexina
 Akutare,Male Human,43730,5854880,Alexina
 Insharai,Female Elf,27561,5855113,Alexina
@@ -7426,7 +7482,7 @@ ROYphx,Male Human,56352,5868199,Alexina
 Kizuko,Male Elf,47784,5868765,Alexina
 Wolfswain,Male Human,40984,5870877,Alexina
 abysswolf,Female Human,16578,5871173,Alexina
-ifti,Female Giant,40736,5871673,Alexina
+ifti,Female Giant,42498,5871673,Alexina
 Arkanon,Male Elf,20801,5871780,Alexina
 abcd+Alexina,Male Human,1688,5873123,Alexina
 dismissem,Male Human,25158,5873412,Alexina
@@ -7501,7 +7557,7 @@ Mrpirate,Male Human,14193,5907962,Alexina
 Rahzenshia,Female Elf,9003,5908659,Alexina
 link911,Female Elf,58902,5909179,Alexina
 owens+Alexina,Male Human,10009,5910444,Alexina
-Exokiller,Male Human,51461,5912030,Alexina
+Exokiller,Male Human,56259,5912030,Alexina
 Pandoravail,Female Human,27888,5913581,Alexina
 Shiroshini,Male Elf,3314,5913627,Alexina
 eupraxia,Female Human,29048,5914302,Alexina
@@ -7574,10 +7630,10 @@ Auroros,Female Human,35951,5949384,Alexina
 Demma,Female Elf,26000,5949460,Alexina
 Shanso,Male Elf,20660,5949678,Alexina
 vertigoalex,Female Human,24250,5949680,Alexina
-Kaoh,Male Elf,51239,5950662,Alexina
+Kaoh,Male Elf,55439,5950662,Alexina
 venedam,Female Human,7441,5950899,Alexina
 Royadon,Female Human,65431,5951048,Alexina
-Seghart,Male Human,1419,5951393,Alexina
+Seghart,Male Human,1421,5951393,Alexina
 Vatsalya,Female Elf,28631,5951737,Alexina
 butterfly123+Alexina,Female Human,21374,5951963,Alexina
 Spongeruss,Male Human,2814,5952429,Alexina
@@ -7586,7 +7642,7 @@ prencessxion,Female Elf,29612,5952994,Alexina
 nek7,Male Human,48013,5953455,Alexina
 Deol,Female Human,69746,5954093,Alexina
 Lulacakez,Male Human,6100,5954693,Alexina
-Enryan,Male Human,40053,5955196,Alexina
+Enryan,Male Human,43853,5955196,Alexina
 Miraiko,Female Human,21532,5955596,Alexina
 Senkugoshoha,Male Human,48491,5955866,Alexina
 alicesa,Female Human,24508,5955942,Alexina
@@ -7611,7 +7667,7 @@ Davith,Male Human,22705,5965116,Alexina
 Akrasan,Male Human,56517,5965160,Alexina
 Stephwolf,Female Human,7770,5965674,Alexina
 johnsparta+Alexina,Male Human,38088,5966135,Alexina
-Funds,Male Human,48348,5966341,Alexina
+Funds,Male Human,50148,5966341,Alexina
 Jakjak+Alexina,Male Human,48657,5966612,Alexina
 Syrinia,Female Human,26498,5967146,Alexina
 Colissa,Female Human,34588,5967324,Alexina
@@ -7623,6 +7679,7 @@ Reign224,Male Human,4345,5968823,Alexina
 Haguseika,Female Elf,12640,5969544,Alexina
 Laretheniel,Female Elf,24978,5969850,Alexina
 lilboss,Male Human,33873,5970172,Alexina
+Fearz,Female Elf,20696,5970207,Alexina
 maerong,Female Elf,1501,5970375,Alexina
 Relishamiyu,Female Human,21953,5970727,Alexina
 Anarchyxx,Female Human,15945,5970828,Alexina
@@ -7640,7 +7697,7 @@ Donutlover,Female Human,39930,5975681,Alexina
 pegases778,Male Human,33704,5976830,Alexina
 Quintesence+Alexina,Female Human,22367,5977918,Alexina
 Maiotome,Female Human,18354,5977921,Alexina
-Eirynteris,Female Human,22566,5978146,Alexina
+Eirynteris,Female Human,23140,5978146,Alexina
 Qixion,Male Human,62,5978411,Alexina
 Basia123+Alexina,Male Human,25749,5978471,Alexina
 Romanji,Male Giant,28698,5979930,Alexina
@@ -7663,8 +7720,8 @@ Projectkinesis,Male Human,25001,5988337,Alexina
 Yukizawa,Female Human,9635,5989326,Alexina
 Helsa0151+Alexina,Female Giant,9464,5989628,Alexina
 Jeremyblue19,Male Human,47585,5989691,Alexina
-Aruuya,Female Elf,31317,5989900,Alexina
-Gom,Male Elf,54135,5990574,Alexina
+Aruuya,Female Elf,31917,5989900,Alexina
+Gom,Male Elf,54735,5990574,Alexina
 Vymn,Female Human,23902,5990723,Alexina
 Mirabell,Female Human,38377,5991066,Alexina
 istrkeflames,Male Human,23129,5991980,Alexina
@@ -7711,8 +7768,8 @@ Waeng,Female Human,43074,6010376,Alexina
 Jeulz,Female Human,32461,6010643,Alexina
 Sumisawa,Female Human,55168,6012315,Alexina
 Bardox+Alexina,Male Elf,8282,6013260,Alexina
-Nyllyn,Female Human,46976,6014785,Alexina
-Natsuyuuhi,Female Giant,45805,6015648,Alexina
+Nyllyn,Female Human,51176,6014785,Alexina
+Natsuyuuhi,Female Giant,48005,6015648,Alexina
 vampryn+Alexina,Female Human,31045,6015665,Alexina
 shino41,Male Human,71729,6016251,Alexina
 windhero,Male Human,5580,6016489,Alexina
@@ -7721,7 +7778,7 @@ Jackson111,Male Giant,22638,6017450,Alexina
 Saikun,Male Human,4781,6017799,Alexina
 opticelf,Male Elf,32616,6019155,Alexina
 Mollystar+Alexina,Female Human,32525,6020144,Alexina
-Lastxhope,Male Human,21318,6020199,Alexina
+Lastxhope,Male Human,21474,6020199,Alexina
 Pureyes,Female Human,28847,6020418,Alexina
 ludd3,Female Human,4034,6020712,Alexina
 airaka+Alexina,Female Elf,21817,6021606,Alexina
@@ -7737,6 +7794,7 @@ zaniawildflo,Male Human,6771,6024024,Alexina
 Kusachihou,Female Human,31369,6024282,Alexina
 Cookiey,Female Human,20909,6025080,Alexina
 ukikun,Female Human,48268,6025193,Alexina
+cigolooz4,Male Giant,32009,6026056,Alexina
 Yorozuya+Alexina,Male Human,51420,6026345,Alexina
 Yumikura,Female Human,69749,6026799,Alexina
 Alaguesia,Female Human,53412,6026901,Alexina
@@ -7755,6 +7813,7 @@ Queenreign,Female Human,22802,6033386,Alexina
 Nereida+Alexina,Male Human,600,6033742,Alexina
 Greyranger+Alexina,Male Elf,13521,6033794,Alexina
 Casketkicker,Female Human,47262,6033947,Alexina
+Winterxx,Female Human,10090,6034183,Alexina
 Yuesi,Female Elf,16754,6034291,Alexina
 Beastwing+Alexina,Male Giant,23959,6034622,Alexina
 Hanari+Alexina,Female Elf,25417,6035470,Alexina
@@ -7768,10 +7827,10 @@ Forevurnoob,Male Human,8368,6038384,Alexina
 Zadark,Male Human,22621,6039944,Alexina
 Strawberrymilk,Female Elf,24774,6041257,Alexina
 Celathia,Female Human,5281,6041935,Alexina
-Yomey,Female Human,37511,6042066,Alexina
+Yomey,Female Human,38111,6042066,Alexina
 snake1234567+Alexina,Male Human,23590,6042317,Alexina
 Bronzebreak,Male Human,43208,6042708,Alexina
-Koutaryu,Male Human,35578,6042965,Alexina
+Koutaryu,Male Human,37318,6042965,Alexina
 Ringoing+Alexina,Male Human,7654,6043612,Alexina
 jing321,Male Human,71706,6044580,Alexina
 Misani,Female Elf,26290,6045379,Alexina
@@ -7814,12 +7873,12 @@ Ryusakenz,Male Human,40002,6062910,Alexina
 Klarinette,Female Elf,28666,6063887,Alexina
 Heekon,Male Human,42914,6063931,Alexina
 Kushbomb,Female Human,30431,6064084,Alexina
-Teenuh,Female Human,25124,6064588,Alexina
-Robokyano,Female Human,31525,6064825,Alexina
+Teenuh,Female Human,26089,6064588,Alexina
+Robokyano,Female Human,31930,6064825,Alexina
 Kurmiki,Female Human,2045,6066684,Alexina
 Impureyes,Female Elf,3678,6066917,Alexina
 Avoidant+Alexina,Male Human,2421,6067508,Alexina
-Jynx,Female Human,28366,6068201,Alexina
+Jynx,Female Human,28766,6068201,Alexina
 Arcsiyus,Male Elf,32651,6068879,Alexina
 Bentobunnii,Female Human,31757,6070048,Alexina
 Almott,Male Human,39545,6071414,Alexina
@@ -7860,7 +7919,7 @@ darkmoon242,Male Human,28600,6087058,Alexina
 Popsicles+Alexina,Male Elf,13558,6087595,Alexina
 shadowygirl,Female Elf,6453,6088084,Alexina
 Perkules,Male Human,34297,6088324,Alexina
-Aero1,Male Human,89118,6088452,Alexina
+Aero1,Male Human,89318,6088452,Alexina
 Seiryuyasha,Male Human,23594,6088838,Alexina
 Ropers,Male Human,26619,6089719,Alexina
 Kiwun,Male Human,40826,6090051,Alexina
@@ -7868,6 +7927,7 @@ Hiisao,Male Human,21112,6090120,Alexina
 mandatorii,Female Human,20667,6090961,Alexina
 Latteluv,Male Human,14344,6091586,Alexina
 Sylpi+Alexina,Female Elf,48087,6091601,Alexina
+iftie,Female Elf,25498,6091883,Alexina
 tdeumb,Female Human,2900,6091953,Alexina
 rdiqsw,Male Elf,2839,6092673,Alexina
 Wyllhell,Female Human,51497,6092713,Alexina
@@ -7881,6 +7941,7 @@ Darkrai47,Male Human,5698,6094749,Alexina
 Lorang,Female Human,37264,6095011,Alexina
 Danysama,Male Human,13670,6095183,Alexina
 Lyf,Female Human,90212,6095840,Alexina
+Bladecut,Male Human,1896,6096525,Alexina
 Myfkinhedra,Male Human,10197,6096683,Alexina
 Anakym,Female Giant,26615,6096786,Alexina
 Darkxgem,Female Human,15941,6097091,Alexina
@@ -7901,9 +7962,9 @@ Senter921+Alexina,Male Elf,20270,6108241,Alexina
 yuki000,Female Elf,40453,6109284,Alexina
 Shadowtemla,Male Human,4659,6109609,Alexina
 Crimescene,Female Elf,51341,6109636,Alexina
-iho,Male Elf,50635,6109938,Alexina
+iho,Male Elf,54635,6109938,Alexina
 Alex96,Female Elf,25784,6110355,Alexina
-Hanatsukii,Female Elf,17892,6110517,Alexina
+Hanatsukii,Female Elf,24961,6110517,Alexina
 Totooro,Male Elf,42578,6110527,Alexina
 Neireidelle,Female Elf,25199,6111043,Alexina
 Pokupo,Female Elf,28388,6112956,Alexina
@@ -7979,6 +8040,7 @@ Daano,Male Human,49200,6150433,Alexina
 Omoki,Female Elf,55,6150536,Alexina
 Boogerr,Male Human,22413,6150757,Alexina
 carly130,Female Human,22486,6150946,Alexina
+Mesmi,Male Human,16320,6152217,Alexina
 Angelbeets,Female Elf,40638,6152463,Alexina
 Prodchar,Female Human,918,6153260,Alexina
 aceraprentes,Male Human,16707,6154561,Alexina
@@ -8042,6 +8104,7 @@ pecaboo,Female Elf,5439,6186849,Alexina
 Kawaiian,Female Human,31758,6187101,Alexina
 Nonskiller,Male Human,26340,6187110,Alexina
 Vru,Male Human,49732,6187389,Alexina
+Expulsion,Male Giant,21941,6188064,Alexina
 Ryouza,Female Human,22162,6188986,Alexina
 Minalon,Female Elf,49861,6189964,Alexina
 Teerex,Male Human,22573,6190105,Alexina
@@ -8059,7 +8122,7 @@ Sayya,Female Human,12221,6195519,Alexina
 matchacco,Female Elf,62929,6196050,Alexina
 Kylln,Male Human,19009,6196976,Alexina
 Zoonoo,Male Human,26251,6197390,Alexina
-Sutokkingu,Female Giant,24925,6197765,Alexina
+Sutokkingu,Female Giant,25384,6197765,Alexina
 Yoshi18,Male Elf,23731,6198076,Alexina
 Knausen,Male Human,23250,6198190,Alexina
 Bakakame,Female Elf,33738,6198254,Alexina
@@ -8097,6 +8160,7 @@ Maeveriks,Male Human,26088,6213141,Alexina
 Totomoii,Male Giant,8816,6213386,Alexina
 Yurari,Female Human,11232,6213399,Alexina
 nicole44,Female Elf,31562,6213544,Alexina
+Kyoseii,Male Giant,29826,6214002,Alexina
 xmisax,Female Elf,21338,6214212,Alexina
 Giantguards,Male Giant,28573,6215285,Alexina
 Mason11,Male Human,56570,6215313,Alexina
@@ -8129,6 +8193,7 @@ Onetrickster,Male Giant,33069,6223493,Alexina
 Trannyth,Male Human,8277,6223781,Alexina
 Variantz,Female Elf,103,6224147,Alexina
 Tengokuboshi,Female Human,5234,6224565,Alexina
+Shappo,Female Human,7553,6224571,Alexina
 Berriebunz,Female Human,22769,6224762,Alexina
 Gemmychi,Female Human,301,6224934,Alexina
 Yvochi,Female Human,76004,6225171,Alexina
@@ -8137,7 +8202,7 @@ ilyasviell,Female Human,29109,6225469,Alexina
 leogalhardo,Male Human,37863,6225534,Alexina
 Rabaibou,Male Human,4504,6225718,Alexina
 Yvy,Female Human,249,6225800,Alexina
-Pandora,Female Human,40457,6225930,Alexina
+Pandora,Female Human,41571,6225930,Alexina
 Clarge,Female Human,8792,6225989,Alexina
 Helliofire,Male Human,42797,6226351,Alexina
 Hatssu,Female Elf,50437,6226569,Alexina
@@ -8200,7 +8265,7 @@ Sugarnips+Alexina,Male Elf,3063,6247837,Alexina
 Vastramund,Male Human,48115,6249193,Alexina
 loisibros82,Female Human,21105,6249304,Alexina
 Synax,Male Human,46362,6249438,Alexina
-Bluepanties,Female Elf,35631,6249644,Alexina
+Bluepanties,Female Elf,43807,6249644,Alexina
 Samagiah,Female Human,24273,6250906,Alexina
 Kao973,Male Human,10506,6251136,Alexina
 Feomatar,Male Elf,28672,6251899,Alexina
@@ -8310,7 +8375,7 @@ Suyaa,Female Elf,12038,6290478,Alexina
 Secret,Female Human,45499,6290502,Alexina
 Dracules,Male Elf,19751,6290694,Alexina
 Masterpuppet,Male Elf,25929,6291749,Alexina
-Alldvine,Male Human,29380,6292032,Alexina
+Alldvine,Male Human,31671,6292032,Alexina
 Neafryn,Male Elf,52198,6292426,Alexina
 Syrr,Female Elf,20654,6292612,Alexina
 Kazuyakirito,Male Human,400,6292640,Alexina
@@ -8320,10 +8385,11 @@ Kyunziu,Female Human,52248,6292785,Alexina
 Ririria,Female Elf,23442,6293127,Alexina
 Luvsy,Female Human,44578,6293672,Alexina
 dearbia,Female Human,3272,6294080,Alexina
-Albain,Male Human,52558,6294397,Alexina
+Albain,Male Human,54416,6294397,Alexina
 Yemaya+Alexina,Female Elf,7222,6294573,Alexina
 Mercbenz1212,Male Human,4227,6294637,Alexina
 Praeludium+Alexina,Female Human,10999,6294777,Alexina
+Kazukiri+Alexina,Male Human,660,6295796,Alexina
 Evernal,Male Human,33507,6296227,Alexina
 Uolkh,Male Human,24007,6296521,Alexina
 Jya,Male Elf,29031,6296662,Alexina
@@ -8346,7 +8412,7 @@ Keroberotsu,Female Elf,51485,6301985,Alexina
 Kitsurii,Female Human,31644,6302216,Alexina
 Lucro,Male Human,53965,6302231,Alexina
 Epickristy,Female Human,28548,6302249,Alexina
-ilust00,Male Human,53815,6302408,Alexina
+ilust00,Male Human,57015,6302408,Alexina
 Heyseuss,Male Human,25034,6302916,Alexina
 Kurami9+Alexina,Female Elf,69987,6303197,Alexina
 Daiszz,Female Elf,31638,6303944,Alexina
@@ -8362,7 +8428,7 @@ Xerter+Alexina,Male Human,48737,6315510,Alexina
 Eruruw,Female Human,26075,6315527,Alexina
 Kelta+Alexina,Female Elf,1804,6315596,Alexina
 Yukisawa,Female Human,22138,6316124,Alexina
-Kubaro,Male Human,26439,6316361,Alexina
+Kubaro,Male Human,27550,6316361,Alexina
 Nyankoiix,Male Human,31683,6317965,Alexina
 Larkd,Male Elf,7773,6318065,Alexina
 Bunnibuu,Female Elf,27179,6318112,Alexina
@@ -8381,7 +8447,7 @@ Rakphazil,Female Human,6323,6323831,Alexina
 Taiichii,Male Human,9077,6323863,Alexina
 Kiritoyui,Female Elf,23791,6325308,Alexina
 JRC293,Male Human,19191,6325953,Alexina
-Sepherence,Female Elf,35013,6326017,Alexina
+Sepherence,Female Elf,37213,6326017,Alexina
 Chooi+Alexina,Male Human,21253,6326724,Alexina
 Yoho153,Male Human,42152,6327144,Alexina
 Amy189,Female Elf,24774,6327572,Alexina
@@ -8389,7 +8455,7 @@ Tokku,Female Elf,45865,6327740,Alexina
 Leafpetal,Female Elf,29304,6327762,Alexina
 Vevienne,Female Human,7703,6328504,Alexina
 Kritanaa,Female Human,29710,6328611,Alexina
-Hotao,Female Human,39150,6328893,Alexina
+Hotao,Female Human,40342,6328893,Alexina
 devinisboss,Female Human,23262,6329106,Alexina
 Aurabella,Female Human,21991,6329342,Alexina
 Seleniaa,Female Elf,30845,6329426,Alexina
@@ -8410,7 +8476,7 @@ Chihia,Female Elf,12904,6335159,Alexina
 Valdam,Male Human,25138,6335327,Alexina
 Wyk,Male Human,24832,6335800,Alexina
 Starryrealone,Female Elf,33981,6336159,Alexina
-Rabikhun,Female Elf,68383,6336735,Alexina
+Rabikhun,Female Elf,68649,6336735,Alexina
 Yza,Female Elf,22978,6337083,Alexina
 Merumiku,Female Elf,18,6338087,Alexina
 Twilikai,Female Human,75080,6339209,Alexina
@@ -8470,7 +8536,7 @@ Ohsovash,Male Human,23152,6358116,Alexina
 Wimpryoku,Male Elf,50194,6358189,Alexina
 Rhawell,Female Human,22727,6358345,Alexina
 Juliajones,Female Giant,21441,6358390,Alexina
-Elisalle,Female Elf,34466,6358630,Alexina
+Elisalle,Female Elf,34584,6358630,Alexina
 Velise,Female Human,24118,6358729,Alexina
 Poesums,Male Elf,34461,6358912,Alexina
 Saibogu,Female Human,59233,6358993,Alexina
@@ -8481,13 +8547,13 @@ Kururumiku,Female Human,327,6360043,Alexina
 Shotachi,Male Human,327,6360045,Alexina
 Shoutarro,Male Human,336,6360046,Alexina
 Lynnz,Male Human,28437,6360289,Alexina
-Vashstampeed+Alexina,Male Giant,6518,6360718,Alexina
+Vashstampeed+Alexina,Male Giant,6521,6360718,Alexina
 Vashsnipes,Male Elf,3942,6360722,Alexina
 Lounge,Male Human,48599,6361421,Alexina
 Aeralah,Female Human,34697,6361455,Alexina
 Talitharine,Female Human,31821,6361853,Alexina
 Trannel,Male Human,31991,6362983,Alexina
-Lunairias,Female Human,37195,6363040,Alexina
+Lunairias,Female Human,38395,6363040,Alexina
 Treefrog,Male Human,56456,6363456,Alexina
 Niryana+Alexina,Female Human,29779,6363536,Alexina
 thepoo,Male Human,42292,6364682,Alexina
@@ -8510,8 +8576,8 @@ Goddesszelda,Female Elf,6591,6370429,Alexina
 Nands,Female Human,11005,6370905,Alexina
 Figulus,Male Human,63701,6371218,Alexina
 Spugh18,Male Giant,36869,6372099,Alexina
-Weissclover,Female Elf,61428,6372392,Alexina
-Kilayox,Male Human,49953,6374038,Alexina
+Weissclover,Female Elf,69228,6372392,Alexina
+Kilayox,Male Human,50353,6374038,Alexina
 Lominella,Female Elf,71145,6374633,Alexina
 Terasuko,Male Human,39805,6375254,Alexina
 Bardicet+Alexina,Male Human,25908,6376010,Alexina
@@ -8572,14 +8638,14 @@ pachichan+Alexina,Female Human,4269,6395664,Alexina
 stabyoface+Alexina,Male Human,7671,6396275,Alexina
 Xyros,Male Human,3613,6396568,Alexina
 Dark,Female Human,42155,6396795,Alexina
-Claptunerada,Male Elf,382,6396878,Alexina
+Claptunerada,Male Elf,390,6396878,Alexina
 Games,Male Human,49850,6397288,Alexina
 HTism,Female Human,1593,6398029,Alexina
 Shara999,Female Human,33523,6398057,Alexina
 Yamizure,Male Human,20284,6398656,Alexina
-tristin421,Male Human,41254,6398937,Alexina
+tristin421,Male Human,45254,6398937,Alexina
 Yishii,Female Human,26842,6398950,Alexina
-Burtol+Alexina,Female Elf,500,6399129,Alexina
+Burtol+Alexina,Female Elf,506,6399129,Alexina
 Araylina,Female Elf,10116,6399493,Alexina
 Quaddie,Female Elf,21762,6399526,Alexina
 Zaneaura,Male Human,9871,6399549,Alexina
@@ -8633,7 +8699,7 @@ Riatsan,Male Human,32223,6414001,Alexina
 Cade000,Female Human,13286,6414014,Alexina
 Lylivian,Male Human,14135,6414208,Alexina
 Khorazon,Female Human,318,6414479,Alexina
-tno,Male Human,23601,6414797,Alexina
+tno,Male Human,26368,6414797,Alexina
 Armay,Female Human,41789,6415407,Alexina
 Navecesar,Female Human,25939,6415448,Alexina
 Theidu,Male Human,7461,6415550,Alexina
@@ -8657,6 +8723,7 @@ Louithree,Female Elf,10722,6422447,Alexina
 turtlecoffee,Male Human,21319,6423342,Alexina
 Shapez,Female Elf,19744,6423557,Alexina
 Prehistoriic,Female Elf,27644,6423606,Alexina
+Meladia,Female Human,38797,6423729,Alexina
 Velryn,Female Giant,50725,6425382,Alexina
 BMM+Alexina,Male Human,38336,6425533,Alexina
 Valdimirr,Male Giant,25491,6425548,Alexina
@@ -8707,6 +8774,7 @@ Cerae+Alexina,Female Elf,14206,6438678,Alexina
 Rengard,Male Elf,9693,6438688,Alexina
 Enhancements,Female Elf,32807,6438820,Alexina
 OGKashira,Male Human,30050,6439196,Alexina
+Excallypurr,Male Human,23120,6439286,Alexina
 Akaraa+Alexina,Female Elf,4295,6439740,Alexina
 wardogg,Female Human,3470,6440073,Alexina
 Fluffpi,Female Human,37195,6440226,Alexina
@@ -8748,7 +8816,7 @@ Katonel,Female Human,24203,6448824,Alexina
 Ventus230,Male Human,1870,6448964,Alexina
 Excellionace,Male Human,14571,6449097,Alexina
 natnatto,Female Human,23238,6449183,Alexina
-Vom,Female Giant,31609,6449290,Alexina
+Vom,Male Giant,34142,6449290,Alexina
 Plureon,Male Human,93928,6449368,Alexina
 Keaiko,Male Human,24678,6449477,Alexina
 Accurateshot,Female Elf,5762,6449600,Alexina
@@ -8758,7 +8826,7 @@ Posumon,Female Human,35156,6449808,Alexina
 Dillon7,Male Human,11320,6450122,Alexina
 Jdott,Male Elf,48962,6450168,Alexina
 Spankachine,Female Human,53783,6450410,Alexina
-Novarona,Female Human,23122,6450474,Alexina
+Novarona,Female Human,23173,6450474,Alexina
 Irameth,Female Human,21320,6450823,Alexina
 Banditofdoom,Female Human,22470,6451055,Alexina
 Pockiez,Female Human,4742,6453475,Alexina
@@ -8776,7 +8844,7 @@ Evuu,Female Human,20487,6456676,Alexina
 Ashirogi99,Male Human,7910,6456899,Alexina
 Matashichi,Male Elf,23625,6457019,Alexina
 ITSM,Male Giant,53115,6457280,Alexina
-Kiratu,Male Human,22959,6457522,Alexina
+Kiratu,Male Human,25095,6457522,Alexina
 Esterlinkage,Female Human,24574,6457553,Alexina
 YYumikura,Female Human,1512,6457944,Alexina
 Tedey,Male Elf,47803,6458256,Alexina
@@ -8945,7 +9013,7 @@ Bluekallie,Female Human,23902,6517715,Alexina
 Raello,Male Human,21122,6518440,Alexina
 Foithryn,Male Giant,636,6518652,Alexina
 gochubbahluh,Male Human,75983,6519083,Alexina
-Yureia,Female Elf,32909,6519631,Alexina
+Yureia,Female Elf,40882,6519631,Alexina
 Dahey,Male Elf,22829,6519728,Alexina
 Sinchky,Male Elf,37072,6520077,Alexina
 Meoli,Male Human,41541,6520732,Alexina
@@ -9008,7 +9076,7 @@ Vishicy,Female Elf,1428,6548331,Alexina
 Swagnetomage,Female Human,23931,6548423,Alexina
 Zaulris+Alexina,Male Human,23377,6549303,Alexina
 Dumnezeu,Female Human,21279,6549402,Alexina
-Kynakosan,Female Human,85036,6549449,Alexina
+Kynakosan,Female Human,90636,6549449,Alexina
 jizzdaughter,Female Human,946,6549548,Alexina
 Buden,Male Human,1507,6551036,Alexina
 Arikiu,Male Elf,48575,6551337,Alexina
@@ -9026,7 +9094,7 @@ Finaqua,Female Human,334,6554356,Alexina
 Eclipesen,Male Giant,28547,6555686,Alexina
 Seychell,Female Elf,23333,6555844,Alexina
 Goldenpixies,Female Human,2712,6555867,Alexina
-Eshya,Female Elf,40985,6556275,Alexina
+Eshya,Female Elf,41265,6556275,Alexina
 Nourforce,Female Human,25399,6556538,Alexina
 Drakemanah,Male Human,1087,6556703,Alexina
 Someboy,Male Human,52114,6556827,Alexina
@@ -9056,18 +9124,18 @@ Mohkis,Female Human,20959,6569450,Alexina
 Preyed,Male Human,13595,6569723,Alexina
 chubbywhale1,Female Human,1783,6569843,Alexina
 Minaxcrowe,Female Human,56690,6569890,Alexina
-teranozxz,Male Human,32702,6570945,Alexina
+teranozxz,Male Human,34969,6570945,Alexina
 silentbob420,Male Giant,6140,6572144,Alexina
 Meathook,Male Giant,8136,6573793,Alexina
-Slumbersome,Male Human,37975,6573809,Alexina
+Slumbersome,Male Human,38575,6573809,Alexina
 Yilden,Female Human,20662,6576283,Alexina
 Nahimanah+Alexina,Female Human,21815,6576679,Alexina
-Dontask,Female Elf,53641,6577681,Alexina
+Dontask,Female Elf,58041,6577681,Alexina
 Gummisweet,Female Elf,20105,6578153,Alexina
 Shinabozu,Male Human,12539,6578155,Alexina
 Melen,Female Human,30164,6578251,Alexina
 Eluusive,Male Human,90,6578272,Alexina
-Minkiemoo,Female Giant,5709,6578525,Alexina
+Minkiemoo,Female Giant,22228,6578525,Alexina
 Vincennes,Male Human,41403,6578568,Alexina
 DJSCREW,Male Human,10406,6579385,Alexina
 Rijinyunqi,Female Elf,24187,6579814,Alexina
@@ -9097,7 +9165,7 @@ Shinyquarter,Female Giant,7711,6587300,Alexina
 Taeryis,Female Human,27234,6587583,Alexina
 Akawtmat,Female Elf,12740,6588170,Alexina
 Olx,Female Human,1208,6588446,Alexina
-Gunless,Male Elf,29699,6589022,Alexina
+Gunless,Male Elf,33609,6589022,Alexina
 dingigraphi+Alexina,Male Human,23179,6589810,Alexina
 Juevess,Male Human,45605,6589894,Alexina
 Urikurai,Male Human,25526,6590100,Alexina
@@ -9107,6 +9175,7 @@ Mizanstrel,Female Elf,27451,6590727,Alexina
 oktavya,Female Human,29468,6591394,Alexina
 Antimagnetic,Male Giant,21354,6591571,Alexina
 Gem,Female Elf,54918,6592136,Alexina
+bardock912,Male Human,35507,6592625,Alexina
 Yasurra,Female Human,20759,6592689,Alexina
 Shizumichan+Alexina,Female Human,5278,6592745,Alexina
 Lone007,Male Human,37648,6593083,Alexina
@@ -9133,7 +9202,7 @@ Sherim,Male Giant,39490,6600562,Alexina
 Nicolasz,Male Human,43920,6601944,Alexina
 Tiropat,Female Elf,58026,6602126,Alexina
 Hirokururi,Male Human,33717,6602182,Alexina
-Kaiikitsui,Female Human,16042,6602554,Alexina
+Kaiikitsui,Female Human,17124,6602554,Alexina
 Aevianne,Female Elf,36657,6602716,Alexina
 Rockman96,Male Human,4430,6602813,Alexina
 Tul,Male Giant,40226,6602840,Alexina
@@ -9147,7 +9216,7 @@ Annytenshi,Female Human,52399,6604384,Alexina
 Feralreaper,Male Human,27594,6604911,Alexina
 Dissociated,Male Elf,7976,6605019,Alexina
 Kaechie,Male Human,49475,6605874,Alexina
-Rangedo,Male Human,31794,6608809,Alexina
+Rangedo,Male Human,33952,6608809,Alexina
 Sanali+Alexina,Female Human,21351,6609441,Alexina
 Cyndakip,Female Human,39596,6610072,Alexina
 zarlazik,Female Human,16527,6610154,Alexina
@@ -9215,7 +9284,7 @@ Hewco,Male Human,22839,6630247,Alexina
 Novachrona,Female Human,5070,6630513,Alexina
 ssarrow,Female Elf,1025,6630515,Alexina
 Mouchaa,Female Human,397,6631229,Alexina
-Ryuseiiken,Male Human,33972,6631726,Alexina
+Ryuseiiken,Male Human,36386,6631726,Alexina
 Hassan495,Male Human,35118,6632089,Alexina
 Crowmeister,Male Human,25792,6632497,Alexina
 Hythonia,Female Human,197,6632558,Alexina
@@ -9283,6 +9352,7 @@ Bayona,Female Human,37354,6656081,Alexina
 Dracoknight0,Male Human,45044,6656126,Alexina
 annis1,Female Elf,6458,6656143,Alexina
 Zyias,Male Human,8617,6656200,Alexina
+Gengerz,Male Human,7030,6657491,Alexina
 Ryahe,Male Human,26852,6657503,Alexina
 Lamhda,Female Giant,26224,6657580,Alexina
 Crucsill,Female Giant,12258,6658039,Alexina
@@ -9433,6 +9503,7 @@ deadscared,Male Human,44410,6720619,Alexina
 Gesa,Male Giant,5403,6721149,Alexina
 Nisehikari,Female Elf,24641,6721375,Alexina
 Mewlikki,Female Elf,19792,6722001,Alexina
+Psylorei+Alexina,Female Elf,10031,6722003,Alexina
 Jonatansav,Male Human,21865,6722026,Alexina
 Stwong,Male Giant,33908,6722116,Alexina
 Dierks,Male Giant,469,6722925,Alexina
@@ -9481,9 +9552,10 @@ Azuresight,Female Human,29789,6743742,Alexina
 Demigob,Female Elf,15458,6744472,Alexina
 Floraenpso2,Female Giant,8018,6744563,Alexina
 Anocxymia,Female Human,9617,6744568,Alexina
+Ariaviola,Female Human,13981,6745364,Alexina
 Haeseo,Male Human,15942,6745366,Alexina
 Yosukekuroda,Male Human,33537,6746050,Alexina
-Yiv,Female Elf,6656,6746140,Alexina
+Yiv,Female Elf,6669,6746140,Alexina
 Couette,Female Human,31894,6746667,Alexina
 Pinple,Female Giant,15,6746675,Alexina
 Daisybomb+Alexina,Female Elf,22720,6746944,Alexina
@@ -9506,7 +9578,7 @@ Kuhakux32,Female Elf,26148,6756394,Alexina
 Takasai,Female Human,16208,6756605,Alexina
 Usamiliang,Female Human,54901,6756606,Alexina
 Harurinn,Female Human,14714,6757537,Alexina
-Humankind,Male Human,10723,6757585,Alexina
+Humankind,Male Human,16874,6757585,Alexina
 Tarukistark,Male Giant,20799,6757760,Alexina
 Lumiora,Female Elf,30375,6758350,Alexina
 Emotichan,Female Elf,20596,6758788,Alexina
@@ -9550,6 +9622,7 @@ Marshymoo+Alexina,Female Human,15536,6770873,Alexina
 Kaiserblade,Male Human,285,6771429,Alexina
 Nerreus,Male Giant,11326,6771688,Alexina
 toastybunz+Alexina,Male Human,2910,6771828,Alexina
+Locity,Male Human,31248,6772057,Alexina
 Startop,Female Human,31956,6772282,Alexina
 Didianex,Female Human,3012,6772966,Alexina
 Ejumies,Female Human,10316,6773445,Alexina
@@ -9574,12 +9647,12 @@ Desuga+Alexina,Female Giant,8058,6778805,Alexina
 Bishietatoe,Male Elf,3921,6779105,Alexina
 Blluehawk,Female Human,2614,6779266,Alexina
 Svebran,Male Human,22188,6782446,Alexina
-Phareeha+Alexina,Female Human,31673,6783444,Alexina
+Phareeha+Alexina,Female Human,34079,6783444,Alexina
 Azeleryn,Male Elf,24479,6783480,Alexina
-Kelcera,Female Human,24091,6783534,Alexina
+Kelcera,Female Human,26570,6783534,Alexina
 Mir102+Alexina,Female Giant,57,6783680,Alexina
 Nevermoregod,Female Elf,2789,6783982,Alexina
-Spiritlamb,Female Elf,44285,6784204,Alexina
+Spiritlamb,Female Elf,49485,6784204,Alexina
 Akemimiko,Female Elf,22227,6784760,Alexina
 Celestialtsuki,Female Human,3373,6785385,Alexina
 Eveswake,Female Human,19389,6785672,Alexina
@@ -9647,7 +9720,7 @@ Mehrenid,Female Human,32149,6805547,Alexina
 tato17,Male Human,26756,6805798,Alexina
 SFSjustin+Alexina,Male Human,558,6806048,Alexina
 Binayy,Female Elf,27103,6806082,Alexina
-Neosaga,Male Elf,52033,6806162,Alexina
+Neosaga,Male Elf,56430,6806162,Alexina
 firecat1022,Female Human,3737,6806212,Alexina
 Zobu,Male Human,22993,6806269,Alexina
 Vahlora,Female Human,27662,6806323,Alexina
@@ -9662,7 +9735,7 @@ Staaro,Male Human,2321,6808442,Alexina
 Caccini,Male Human,16947,6808498,Alexina
 MRTeddyburr,Male Giant,35111,6809175,Alexina
 emokitty1995,Female Human,20491,6809684,Alexina
-Chelseya,Female Human,23847,6809914,Alexina
+Chelseya,Female Human,24044,6809914,Alexina
 Sleepymeow,Female Elf,11947,6809972,Alexina
 Koutarax3,Female Human,5183,6810019,Alexina
 Ivaay,Female Elf,11217,6810487,Alexina
@@ -9674,7 +9747,7 @@ Sherrichi,Female Human,17855,6812046,Alexina
 Marna83,Female Human,6621,6812121,Alexina
 Absolc,Male Human,6268,6813417,Alexina
 Callmeaaron,Male Human,34216,6813802,Alexina
-kettima,Female Human,21656,6814066,Alexina
+kettima,Female Human,21669,6814066,Alexina
 Uzumar,Female Human,55384,6814302,Alexina
 Zenkaiboost,Male Human,23707,6814445,Alexina
 Waifumoo,Female Elf,6249,6815195,Alexina
@@ -9693,7 +9766,7 @@ Raephael+Alexina,Male Giant,11897,6817352,Alexina
 Bubaczynski,Male Human,27708,6818214,Alexina
 Kurozangetsu,Male Human,25341,6818337,Alexina
 Deltallye,Female Giant,32441,6818407,Alexina
-Lirexa,Female Human,47842,6818433,Alexina
+Lirexa,Female Human,48842,6818433,Alexina
 Allymayrose,Female Human,22709,6818917,Alexina
 Jangwonyoung,Female Elf,6104,6819845,Alexina
 Daklenn,Male Human,21124,6819916,Alexina
@@ -9709,7 +9782,7 @@ Kawapie,Female Elf,46272,6825332,Alexina
 Angeliclily,Female Elf,26621,6826070,Alexina
 Guardkitty,Female Human,21017,6826843,Alexina
 Aphinor,Female Elf,43910,6827144,Alexina
-Sig,Male Elf,47068,6827162,Alexina
+Sig,Male Elf,51068,6827162,Alexina
 Croxnar,Male Giant,22409,6827492,Alexina
 Gojoo,Male Giant,25689,6827592,Alexina
 Fsrtop,Male Human,692,6827764,Alexina
@@ -9728,9 +9801,9 @@ Severlyn,Female Human,41955,6833266,Alexina
 IIVOODOOll,Male Giant,21227,6834115,Alexina
 Greenboizoro,Male Giant,21734,6834332,Alexina
 AFKmostoftim,Male Giant,5281,6834759,Alexina
-Asobo+Alexina,Female Elf,41923,6835006,Alexina
+Asobo+Alexina,Female Elf,48728,6835006,Alexina
 macksauce,Female Elf,24811,6835322,Alexina
-Souhyun,Male Human,22196,6836496,Alexina
+Souhyun,Male Human,23150,6836496,Alexina
 Malisiyaa,Female Human,4623,6836643,Alexina
 Cerori,Female Human,32972,6837034,Alexina
 Ursia,Female Giant,9847,6837041,Alexina
@@ -9767,7 +9840,7 @@ Alshian,Female Human,32373,6849215,Alexina
 Joshpx,Male Human,32308,6849419,Alexina
 Ammiras,Male Human,5309,6850331,Alexina
 burntoutash,Female Elf,13721,6850645,Alexina
-Solairias,Male Human,40000,6850831,Alexina
+Solairias,Male Human,44200,6850831,Alexina
 Chisuji,Male Giant,9052,6851732,Alexina
 Noette,Female Human,28965,6851944,Alexina
 Chimmyo,Female Human,34342,6854224,Alexina
@@ -9802,7 +9875,7 @@ Izzytizzles,Female Elf,26375,6862882,Alexina
 Eleknight,Male Giant,8614,6863133,Alexina
 Lureg,Male Giant,24477,6863571,Alexina
 Nemming,Male Giant,459,6864229,Alexina
-Hogh,Female Giant,54453,6864357,Alexina
+Hogh,Female Giant,56453,6864357,Alexina
 Aerilyne,Female Human,397,6865052,Alexina
 Clairemont,Female Human,2131,6865062,Alexina
 Tamachino,Female Giant,18141,6865077,Alexina
@@ -9818,7 +9891,7 @@ Froxnar,Female Giant,37032,6866447,Alexina
 Shaelmaar,Male Giant,46892,6866594,Alexina
 Tsugiwa,Female Giant,23286,6866763,Alexina
 Miryuu04+Alexina,Male Elf,32336,6868214,Alexina
-Nydri,Female Human,29092,6868442,Alexina
+Nydri,Female Human,46805,6868442,Alexina
 Jianto,Male Human,11764,6868487,Alexina
 Lenaerie,Female Giant,29214,6868508,Alexina
 Sayakokoro,Female Elf,5213,6868587,Alexina
@@ -9829,7 +9902,7 @@ Lilfiction,Female Human,3876,6868949,Alexina
 Irvyn,Male Human,24322,6871048,Alexina
 Duskgod+Alexina,Male Human,4910,6871064,Alexina
 Sistinee,Female Human,911,6871562,Alexina
-Aihyori,Female Human,21808,6871762,Alexina
+Aihyori,Female Human,23026,6871762,Alexina
 Liveseeker,Female Human,51150,6872739,Alexina
 Supercasual,Male Giant,1515,6873406,Alexina
 Silversox,Female Human,18240,6873432,Alexina
@@ -9878,7 +9951,7 @@ Qotl,Female Elf,24580,6889333,Alexina
 Skjornsen,Male Giant,20478,6889343,Alexina
 Korsika,Female Human,27629,6890535,Alexina
 Usamaboy+Alexina,Male Human,27889,6891137,Alexina
-Avellane+Alexina,Female Human,35598,6891391,Alexina
+Avieave,Female Human,40689,6891391,Alexina
 Zerg89,Female Human,5082,6891658,Alexina
 Zerg79,Female Human,5007,6891679,Alexina
 Roxasclan+Alexina,Male Human,42180,6891939,Alexina
@@ -9927,6 +10000,7 @@ Hikka90,Female Elf,48171,6909508,Alexina
 Rebann,Male Human,25078,6909725,Alexina
 LApotato,Male Giant,6999,6909769,Alexina
 Aseriya,Female Human,21376,6909971,Alexina
+Switchgears,Female Elf,21635,6910276,Alexina
 Leconbi,Male Human,23778,6910584,Alexina
 Vampyr1066,Male Human,31180,6910674,Alexina
 Rainsa,Female Human,360,6911214,Alexina
@@ -9995,7 +10069,7 @@ Maymorie,Female Human,45945,6934019,Alexina
 Jakecatseye,Male Giant,5032,6934718,Alexina
 IEffigy,Male Elf,42069,6935332,Alexina
 Petitmoon+Alexina,Female Human,5993,6935493,Alexina
-Goktin,Female Human,25932,6935670,Alexina
+Goktin,Male Human,26233,6935670,Alexina
 Redprime,Female Elf,4842,6936085,Alexina
 Wildhunterz,Male Elf,5445,6937133,Alexina
 Bunned,Male Human,29162,6937435,Alexina
@@ -10003,10 +10077,11 @@ Serverlag+Alexina,Female Human,5415,6937663,Alexina
 Mooncapri1,Male Human,4978,6938812,Alexina
 Kurumi97,Female Human,26861,6940427,Alexina
 Magnarion,Female Human,22448,6940843,Alexina
-Shierathia,Female Elf,37750,6941759,Alexina
+Shierathia,Female Elf,39465,6941759,Alexina
 Beamies,Male Human,22115,6942967,Alexina
 Senseikonoi,Male Human,21430,6943766,Alexina
 Basswood,Male Elf,31432,6943877,Alexina
+Inovers,Male Elf,23854,6943950,Alexina
 Apeachii,Female Elf,19547,6944697,Alexina
 Necroticx,Male Giant,30072,6944712,Alexina
 Siiu,Female Elf,6443,6945069,Alexina
@@ -10026,6 +10101,7 @@ Necromuffin,Female Human,14406,6949268,Alexina
 asdg2103,Female Human,4640,6949294,Alexina
 asdg2104,Female Human,6013,6949302,Alexina
 asdg21055,Female Human,472,6949384,Alexina
+Piritta,Female Giant,29131,6949417,Alexina
 Wildkun,Male Elf,13473,6949921,Alexina
 Klancain,Male Human,9555,6950369,Alexina
 Savagecross,Male Human,28298,6950826,Alexina
@@ -10043,6 +10119,7 @@ Peachbutter,Male Elf,15090,6954052,Alexina
 shutupkp,Female Human,5957,6954140,Alexina
 Superkim,Female Elf,41690,6954299,Alexina
 Suppressive,Male Human,41735,6954611,Alexina
+Praetorien,Male Human,7406,6954941,Alexina
 Deathxchaser,Male Giant,4829,6955009,Alexina
 Saffran+Alexina,Female Elf,31033,6956009,Alexina
 Syakes,Male Elf,32751,6956352,Alexina
@@ -10070,6 +10147,7 @@ Xiezez,Male Human,46,6962606,Alexina
 Cloudysaint,Male Giant,29541,6962824,Alexina
 Irisily,Female Giant,40417,6962844,Alexina
 Spikeymuscle,Male Human,10354,6963174,Alexina
+rjc523,Male Human,22504,6963782,Alexina
 Pikmin,Male Elf,32914,6964646,Alexina
 Beorhtic+Alexina,Female Human,943,6965229,Alexina
 pinkstripes,Female Human,14404,6965695,Alexina
@@ -10155,7 +10233,7 @@ Zeher0,Male Human,22946,6994253,Alexina
 Veuliah+Alexina,Male Giant,21675,6994433,Alexina
 Ennarox,Female Elf,25251,6994612,Alexina
 Lumilu,Female Human,28279,6994706,Alexina
-Eryia1,Male Human,31052,6994963,Alexina
+Eryia1,Male Human,36799,6994963,Alexina
 Ineedav,Female Giant,7170,6995036,Alexina
 Speedy102,Female Human,5343,6996017,Alexina
 Realxi,Female Human,16672,6996035,Alexina
@@ -10187,7 +10265,7 @@ Fedo1,Male Elf,5985,7000246,Alexina
 as1231312,Female Human,2040,7000474,Alexina
 as12313212,Female Human,1957,7000482,Alexina
 ad1232131,Female Human,1947,7000484,Alexina
-Konatsuu,Female Human,24042,7001104,Alexina
+Konatsuu,Female Human,27864,7001104,Alexina
 Dreamizz,Female Human,22365,7001383,Alexina
 Suunneen,Female Giant,379,7002972,Alexina
 Raisintrap,Female Human,6587,7003430,Alexina
@@ -10205,7 +10283,7 @@ Cephie,Female Elf,24600,7007113,Alexina
 Frontsongs,Female Giant,7530,7007424,Alexina
 Kyrsina,Female Human,40140,7007488,Alexina
 Satoritter,Female Elf,24547,7007797,Alexina
-Tirusu,Male Human,10428,7007798,Alexina
+Tirusu,Male Human,21560,7007798,Alexina
 eeho343,Male Human,1403,7007900,Alexina
 Koopalock,Male Human,31506,7007982,Alexina
 Koguyaa,Female Giant,9654,7008376,Alexina
@@ -10238,7 +10316,7 @@ Dkimmy,Male Elf,20846,7014789,Alexina
 Deceived,Female Giant,28716,7014811,Alexina
 Piripon,Female Elf,6311,7015023,Alexina
 Rosalisea,Female Human,4142,7015097,Alexina
-Ancei,Female Human,28918,7015720,Alexina
+Ancei,Female Human,36111,7015720,Alexina
 Deathbook,Female Elf,12212,7015766,Alexina
 Pikalypuff,Male Elf,1064,7016366,Alexina
 Arkari,Male Human,26396,7016528,Alexina
@@ -10273,7 +10351,7 @@ takepon,Male Human,5210,7024669,Alexina
 Allcreation,Female Elf,47544,7024874,Alexina
 omgarmyonces,,,7024942,Alexina
 Meokei,Female Human,33083,7024990,Alexina
-sakuyumyum,Female Elf,23028,7025258,Alexina
+sakuyumyum,Female Elf,25134,7025258,Alexina
 Llamasan,Male Human,52899,7025429,Alexina
 Rosavnie,Female Giant,20973,7025437,Alexina
 Kaloula,Female Human,6882,7025777,Alexina
@@ -10287,7 +10365,7 @@ Raizze,Female Elf,29980,7027904,Alexina
 Zaendre,Female Human,25659,7028605,Alexina
 Eandes,Male Human,10129,7028965,Alexina
 Brieuc,Male Human,37763,7029129,Alexina
-Batton,Female Human,28846,7029302,Alexina
+Batton,Female Human,29012,7029302,Alexina
 tron84,Male Human,8115,7029314,Alexina
 Moorabella,Female Elf,33292,7029384,Alexina
 sentaired,Male Giant,5250,7030047,Alexina
@@ -10302,7 +10380,8 @@ Flamesgrace,Female Giant,23383,7031249,Alexina
 Kumena,Female Human,13290,7031368,Alexina
 ABYSSDRAGONGOD,Male Human,1346,7031459,Alexina
 DIVINEDRAGONGOD,Female Human,4814,7031461,Alexina
-Kojniam+Alexina,Male Human,14122,7031475,Alexina
+Committing,Male Elf,3686,7031464,Alexina
+Kojniam+Alexina,Male Human,14161,7031475,Alexina
 BIGCHUNGNZ,Male Giant,35954,7031611,Alexina
 Kajouayame,Female Human,49391,7031621,Alexina
 Ulriec,Female Giant,26662,7031643,Alexina
@@ -10310,9 +10389,9 @@ Auwu,Female Giant,20804,7031805,Alexina
 Dylete,Male Giant,8470,7031879,Alexina
 Honghi,Male Giant,10759,7031937,Alexina
 Swordl,Female Giant,9972,7031953,Alexina
-Azukiyo,Female Human,30506,7031982,Alexina
+Azukiyo,Female Human,34550,7031982,Alexina
 Calbon,Male Human,12328,7032057,Alexina
-Cathmore,Male Human,40809,7032108,Alexina
+Cathmore,Male Human,45409,7032108,Alexina
 MAGA2024,Male Human,22444,7032360,Alexina
 sentaiblue,Female Elf,5115,7032448,Alexina
 Lapidem,Female Elf,4609,7033729,Alexina
@@ -10338,7 +10417,7 @@ Aoi999,Female Human,21123,7041465,Alexina
 Pokanedios,Female Human,33884,7041528,Alexina
 Hollysalad,Male Elf,3374,7041843,Alexina
 Aceiro+Alexina,Female Human,5219,7042026,Alexina
-Alseiph,Male Elf,22741,7042179,Alexina
+Alseiph,Male Elf,22742,7042179,Alexina
 thehooverdam,Male Human,13141,7042502,Alexina
 Ratrii,Male Human,557,7042624,Alexina
 Himawarihime,Female Human,1290,7042736,Alexina
@@ -10377,7 +10456,7 @@ Yuukikana1,Male Elf,15448,7050866,Alexina
 dgr432342,Female Human,1,7050924,Alexina
 Sailormoone,Female Human,409,7050960,Alexina
 Battmann,Male Giant,744,7051022,Alexina
-Embeth,Female Giant,1656,7051443,Alexina
+Embeth,Female Giant,1659,7051443,Alexina
 Cassidy12,Female Elf,4379,7051709,Alexina
 LADYVALKYRIA,Female Human,1899,7052216,Alexina
 Luzn,Female Elf,26219,7052603,Alexina
@@ -10406,7 +10485,7 @@ Kinukatsu,Female Human,16242,7062402,Alexina
 Jayqua+Alexina,Female Human,6401,7062470,Alexina
 Ruruco,Female Elf,7377,7062915,Alexina
 Scarletpaws,Female Elf,48237,7062981,Alexina
-yunaa1,Female Human,4270,7063242,Alexina
+yunaa1,Female Human,4519,7063242,Alexina
 Tottin,Male Giant,3043,7063282,Alexina
 hippieskum,Female Elf,5645,7063703,Alexina
 Silver,Female Human,45219,7063855,Alexina
@@ -10433,7 +10512,7 @@ Klausmuffin,Male Human,6349,7068990,Alexina
 ejuice,Male Giant,28,7069032,Alexina
 Sennorikyu,Female Human,24503,7069257,Alexina
 Seldus00,Female Giant,29110,7069279,Alexina
-Sleohx,Male Human,20958,7069463,Alexina
+Sleohx,Male Human,21650,7069463,Alexina
 Kyamuiy,Female Human,6021,7069810,Alexina
 Kuraizen,Male Human,56532,7069970,Alexina
 Kuriwoo,Female Human,63699,7069971,Alexina
@@ -10502,7 +10581,7 @@ Mejiwoo,Female Human,27033,7084840,Alexina
 Kayble+Alexina,Male Human,19514,7084965,Alexina
 Reistsoul,Male Giant,41017,7085152,Alexina
 FROSTYMandy,Female Human,7467,7085271,Alexina
-Lieai,Female Human,52161,7085479,Alexina
+Lieai,Female Human,54361,7085479,Alexina
 Desides,Female Giant,20791,7085527,Alexina
 Sheba55,Female Elf,13631,7085784,Alexina
 Raags,Male Elf,9564,7086181,Alexina
@@ -10539,7 +10618,7 @@ BPI,Female Elf,10400,7090388,Alexina
 Unpredicted+Alexina,Male Elf,624,7090485,Alexina
 Pookabell,Male Human,26998,7090498,Alexina
 Uzuya,Female Human,3931,7090519,Alexina
-Kodevu,Male Human,33797,7090636,Alexina
+Kodevu,Male Human,34238,7090636,Alexina
 Elloise44,Female Giant,39146,7091394,Alexina
 Selvage,Male Human,6820,7091578,Alexina
 Marcus420,Male Elf,23130,7091679,Alexina
@@ -10556,7 +10635,7 @@ Skylark,Female Elf,22475,7094643,Alexina
 Satanslilpup,Female Elf,21105,7095206,Alexina
 Saakuuya,Female Elf,4619,7095678,Alexina
 Velaeri,Female Human,8069,7096094,Alexina
-rafla,Male Human,30495,7096116,Alexina
+rafla,Male Human,30524,7096116,Alexina
 Yif,Female Giant,5057,7096637,Alexina
 Capybb,Female Human,3461,7097110,Alexina
 Okomochi,Female Giant,54614,7097697,Alexina
@@ -10720,6 +10799,7 @@ Mistervyn,Male Elf,4968,7125988,Alexina
 Anahu,Male Human,28657,7125996,Alexina
 Arcangel14,Female Human,39609,7126018,Alexina
 emsensei,Female Human,21638,7126205,Alexina
+Sumihake,Female Elf,30479,7126237,Alexina
 EIdrin,Male Elf,17667,7126301,Alexina
 Fynn1,Female Giant,3168,7126377,Alexina
 Fynn5,Female Giant,705,7126400,Alexina
@@ -10782,7 +10862,7 @@ Dewalaut,Female Giant,2815,7129402,Alexina
 Cerahsekali,Female Elf,2715,7129410,Alexina
 Mabinoobi91,Male Human,764,7129442,Alexina
 Optix,Male Human,12473,7129587,Alexina
-Eseweii,Male Giant,7390,7129882,Alexina
+Eseweii,Male Giant,25110,7129882,Alexina
 Safirah,Female Elf,33020,7129942,Alexina
 freelfo,Female Elf,5976,7130111,Alexina
 BBCotton,Female Human,237,7130113,Alexina
@@ -10863,7 +10943,7 @@ larkstan3,Male Human,683,7135019,Alexina
 larkstan4,Female Human,680,7135020,Alexina
 larkstan5,Female Human,667,7135021,Alexina
 sedrf6,Female Elf,294,7135045,Alexina
-Verdantfox,Female Human,25406,7135172,Alexina
+Verdantfox,Female Human,36512,7135172,Alexina
 Cziraxis,Female Human,19428,7135441,Alexina
 Fomorlord,Male Giant,23234,7135503,Alexina
 Cosmiccherry,Female Human,22560,7135689,Alexina
@@ -10912,7 +10992,7 @@ Garages,Female Giant,160,7137583,Alexina
 Spanning,Female Giant,160,7137584,Alexina
 Quepasta,Male Giant,160,7137585,Alexina
 Darkmud,Male Giant,160,7137586,Alexina
-Mammula,Female Human,5110,7137605,Alexina
+Mammula,Female Human,5285,7137605,Alexina
 Yoland+Alexina,Female Human,8127,7137607,Alexina
 Seuoue,Female Human,3411,7137611,Alexina
 Strafes,Female Human,155,7137612,Alexina
@@ -10921,7 +11001,7 @@ Thiccmuffin,Female Giant,159,7137614,Alexina
 Tonkatuff+Alexina,Male Giant,159,7137615,Alexina
 Originated,Female Elf,160,7137626,Alexina
 Nosleeper,Male Giant,25683,7137631,Alexina
-Eggpresso+Alexina,Female Giant,24660,7137676,Alexina
+Eggpresso+Alexina,Female Giant,24873,7137676,Alexina
 Fareverell,Female Human,14143,7137700,Alexina
 IDomineer,Male Human,21802,7137767,Alexina
 janboterham,Male Human,3118,7137839,Alexina
@@ -10998,7 +11078,7 @@ gteal9,Female Human,505,7143570,Alexina
 grebma9,Female Giant,505,7143576,Alexina
 gxgrebma,Female Giant,505,7143583,Alexina
 Schwarzgre,Female Elf,505,7143592,Alexina
-Gaminggirl,Female Human,20842,7143692,Alexina
+Gaminggirl,Female Human,21789,7143692,Alexina
 Tomiyasu,Male Elf,1860,7143861,Alexina
 TBD420,Male Human,25233,7143933,Alexina
 sniperscope,Female Human,280,7144108,Alexina
@@ -11053,7 +11133,7 @@ Kaerou,Male Human,5730,8526092,Alexina
 Nizorua,Female Human,5081,8526125,Alexina
 Ducenta,Female Human,1088,8526237,Alexina
 Starsteps,Female Human,1260,8526246,Alexina
-Duuq,Male Giant,35497,8526508,Alexina
+Duuq,Male Giant,40097,8526508,Alexina
 Ichorwyn,Female Giant,20430,8528034,Alexina
 Polkamontrainer,Female Human,5340,8533497,Alexina
 Diancie,Female Elf,36133,8533866,Alexina
@@ -11096,7 +11176,7 @@ Ghedini,Male Human,385,8552311,Alexina
 Fiorio,Male Human,364,8552312,Alexina
 Aloreh,Female Human,9207,8552324,Alexina
 Sirenza,Female Human,10387,8552367,Alexina
-Ichikurii,Male Elf,27634,8556195,Alexina
+Ichikurii,Male Elf,32492,8556195,Alexina
 Ebitsu,Female Elf,23547,8556545,Alexina
 untalfelix,Female Giant,20952,8556781,Alexina
 Domenicali,Male Human,393,8556942,Alexina
@@ -11181,7 +11261,7 @@ Rafaelorn,Male Elf,1155,8596896,Erinn
 Bluanjell,Female Human,10972,8598462,Erinn
 Defalts2,Male Human,11580,8598597,Erinn
 Icedbrew,Male Elf,3065,8600061,Erinn
-Corinoza,Female Elf,32693,8602521,Erinn
+Corinoza,Female Elf,36492,8602521,Erinn
 createten,Male Giant,27970,8604998,Erinn
 Hkao,Male Giant,26555,8605108,Erinn
 Acceldrop1,Female Elf,3091,8606474,Erinn
@@ -11221,6 +11301,7 @@ thumbsuppog,Female Elf,119,8620598,Erinn
 notpogdown,Female Elf,119,8620599,Erinn
 countdracule,Female Elf,119,8620601,Erinn
 didmath55,Female Elf,119,8620607,Erinn
+Thomasdrache,Male Human,11442,8621122,Erinn
 Tuletelle,Female Giant,18147,8621862,Erinn
 Dinnerbells,Female Human,17946,8621989,Erinn
 Binibinii,Female Human,9532,8622319,Erinn
@@ -11247,6 +11328,11 @@ Nasigorengg,Female Elf,403,8632173,Erinn
 Sixmoons,Female Human,21711,8633048,Erinn
 IMD,Female Giant,42200,8633295,Erinn
 exhaustedone,Male Human,34740,8635538,Erinn
+Kaigandori,Male Giant,1279,8635720,Erinn
+Kingswarmi,Male Giant,1251,8635722,Erinn
+Diqiong,Female Giant,1168,8635724,Erinn
+Shixuewei,Female Giant,1251,8635725,Erinn
+Limingdu,Female Giant,1127,8636289,Erinn
 SOKID0,Male Elf,3471,8637177,Erinn
 ERIIE4,Female Giant,1793,8637219,Erinn
 Pokan,,,8637289,Erinn
@@ -11262,6 +11348,7 @@ Kevinblack,Male Elf,4412,8639250,Erinn
 Neslie,Female Human,7598,8639362,Erinn
 Zephylist,Male Elf,6348,8639427,Erinn
 EIUMIU9,Female Giant,1912,8639508,Erinn
+Captaintinki,Female Giant,15489,8640146,Erinn
 Majestra,Female Elf,21708,8641349,Erinn
 Estheriadne,Female Giant,24977,8641439,Erinn
 Deyaluva,Female Elf,973,8641623,Erinn
@@ -11275,6 +11362,7 @@ ayylyssaalt,Female Elf,302,8643439,Erinn
 Tuahe,Female Human,36230,8643567,Erinn
 Biggerald,Male Giant,31912,8643873,Erinn
 dikmmnu1,Female Giant,440,8644230,Erinn
+Cinnabumm,Female Elf,554,8645343,Erinn
 Qquejingh,Female Giant,458,8645721,Erinn
 Alereth,Male Giant,1312,8646233,Erinn
 Skelleten,Male Giant,1656,8647348,Erinn
@@ -11284,7 +11372,7 @@ lilpetal,Female Human,29942,8649197,Erinn
 Sheikahstone,Female Elf,2533,8649451,Erinn
 Ratishaa,Female Elf,951,8649494,Erinn
 cuckmaster74,Female Elf,676,8649782,Erinn
-Brehanos,Male Elf,35174,8650224,Erinn
+Brehanos,Male Elf,37917,8650224,Erinn
 cantan1,Female Giant,583,8650563,Erinn
 Her,Female Human,2416,8650677,Erinn
 Thomasblitz,Male Human,21263,8650906,Erinn
@@ -11411,7 +11499,7 @@ schuzka,Female Human,7340,8665643,Erinn
 Unlace,Male Elf,117,8665672,Erinn
 Malingen,Female Human,29617,8666469,Erinn
 tapaaminen,Male Elf,8357,8667387,Erinn
-Monasimp,Female Human,9990,8667834,Erinn
+Monasimp,Female Human,22129,8667834,Erinn
 Glennswanson,Male Elf,385,8668210,Erinn
 Cartfiend,Female Elf,663,8668318,Erinn
 Purrmaid,Female Elf,36887,8672824,Erinn
@@ -11508,7 +11596,7 @@ Minjinj,Female Giant,5208,8720430,Erinn
 Frankied,Female Elf,545,8722468,Erinn
 Gemmaretta,Female Human,24302,8723077,Erinn
 Zaylien,Male Giant,9418,8724760,Erinn
-Papiaqualips,Male Elf,20036,8725138,Erinn
+Papiaqualips,Male Elf,31900,8725138,Erinn
 Llewell,Male Elf,21872,8725182,Erinn
 Nefimi,Female Human,24998,8725259,Erinn
 oneesanlove,Female Elf,5894,8727142,Erinn
@@ -11549,7 +11637,7 @@ Elflaj,Male Elf,1292,8739116,Erinn
 Dre2001,Male Elf,1630,8739555,Erinn
 Nofuku,Male Elf,26686,8739704,Erinn
 Arminuss,Male Giant,21089,8740534,Erinn
-Eirriuwu,Female Elf,7900,8740607,Erinn
+Eirriuwu,Female Elf,8032,8740607,Erinn
 anekoss,Female Elf,5169,8740663,Erinn
 Glumbuslubms,Male Human,6110,8740665,Erinn
 Ojomo,Male Human,5368,8740944,Erinn
@@ -11570,7 +11658,7 @@ Hvntrezz,Female Elf,5287,8743741,Erinn
 Momicita,Female Elf,27023,8744682,Erinn
 Anyaforger,Female Human,12591,8745762,Erinn
 GPA,Male Elf,10745,8746168,Erinn
-Doouwu,Female Elf,7863,8746331,Erinn
+Doouwu,Female Elf,7995,8746331,Erinn
 Hades1422,Male Elf,31199,8746861,Erinn
 Aeonaeos,Male Giant,7108,8747398,Erinn
 Cassinius,Female Human,10401,8747478,Erinn
@@ -11598,10 +11686,10 @@ Pestilancei,Male Giant,3068,8752394,Erinn
 Compassed,Male Human,119,8752490,Erinn
 Emarinthia,Female Human,3452,8753041,Erinn
 Luckybuff,Female Elf,2114,8753377,Erinn
-Finalie,Female Human,40504,8753522,Erinn
+Finalie,Female Human,44304,8753522,Erinn
 Phantiosa,Female Human,3428,8753884,Erinn
 Quietude,Female Elf,1348,8755315,Erinn
-Ellieliu,Female Elf,29138,8755601,Erinn
+Ellieliu,Female Elf,30035,8755601,Erinn
 renyoi,Male Human,54,8756823,Erinn
 Tianhue,Male Human,5171,8757182,Erinn
 Valoirus,Female Giant,1418,8757186,Erinn
@@ -11622,6 +11710,7 @@ Listarawen,Female Giant,403,8763302,Erinn
 Eorleingas,Male Giant,362,8763320,Erinn
 Tennente,Male Elf,438,8763337,Erinn
 Cynoite,Female Human,11289,8763351,Erinn
+Solaire5,Female Human,314,8763767,Erinn
 Amg1147,Female Elf,505,8764226,Erinn
 Xanafiedneko,Male Elf,28221,8764559,Erinn
 Deszy,Female Elf,17744,8764847,Erinn
@@ -11702,7 +11791,7 @@ yoyoyo160,Female Elf,818,8781482,Erinn
 yoyoyo158,Female Giant,820,8781501,Erinn
 Giftixd,Female Giant,1887,8781522,Erinn
 Lorrah,Female Elf,7054,8781793,Erinn
-Sweatypotato,Female Elf,29112,8782426,Erinn
+Sweatypotato,Female Elf,39127,8782426,Erinn
 Dorgaf,Female Human,3413,8783205,Erinn
 Hinatami,Female Elf,805,8783737,Erinn
 Yeetmoswagnz,Female Human,24325,8783747,Erinn
@@ -11716,6 +11805,7 @@ Khoia,Female Elf,326,8785733,Erinn
 Takuyumia,Male Human,326,8785739,Erinn
 Cocolena,Female Giant,4533,8785875,Erinn
 Malformation,Female Giant,23754,8785983,Erinn
+Captaintokki,Female Elf,23949,8787189,Erinn
 Ethellise,Female Elf,5261,8787791,Erinn
 Blackouts69,Male Human,2260,8788389,Erinn
 Frelsi,Female Elf,20081,8788823,Erinn
@@ -11749,7 +11839,7 @@ Mulian84,Female Elf,9320,8801000,Erinn
 Crystalpher,Male Human,11056,8801397,Erinn
 Audoren,Male Human,26576,8801997,Erinn
 Aravoth,Female Elf,13400,8802465,Erinn
-Piw,Male Human,29151,8802959,Erinn
+Piw,Male Human,29646,8802959,Erinn
 Melliyu,Female Human,13312,8803003,Erinn
 Goobsin,Male Elf,20159,8803471,Erinn
 Saibanwo,Female Elf,7096,8804804,Erinn
@@ -11757,11 +11847,13 @@ Aretwodeetwo,Female Human,29400,8805482,Erinn
 Thaelle,Female Elf,5422,8806191,Erinn
 Caseille,Female Elf,5293,8806284,Erinn
 Sepholks,Male Human,481,8807011,Erinn
+Abissya,Female Elf,42838,8807312,Erinn
+Gronkar,Male Elf,10367,8807409,Erinn
 Yuuhazu,Male Giant,5737,8807724,Erinn
 Reggire,Male Giant,33744,8807971,Erinn
 Alukai,,,8808139,Erinn
 Jayypea,Female Elf,16787,8808338,Erinn
-Ayutari,Female Human,15181,8808397,Erinn
+Ayutari,Female Human,15225,8808397,Erinn
 Discoeve,Female Elf,69,8808976,Erinn
 Discokenny,Female Elf,69,8808985,Erinn
 Discodisco,Female Elf,75,8808990,Erinn
@@ -11894,7 +11986,7 @@ Brownaykitty,Male Human,13930,8866335,Erinn
 Aoibunnay,Female Elf,8584,8866336,Erinn
 Mukokoroko,Female Elf,3351,8866515,Erinn
 Tortrositia,Female Elf,1159,8867190,Erinn
-Wardein,Male Human,25908,8867281,Erinn
+Wardein,Male Human,26108,8867281,Erinn
 Jonobu,Female Elf,9893,8867561,Erinn
 Tanukiokuma,Male Human,8945,8868259,Erinn
 Eggqueen,Female Elf,395,8868376,Erinn
@@ -11989,6 +12081,7 @@ Yarihodo,Male Giant,35,8884465,Erinn
 Supportives,Female Human,1317,8884721,Erinn
 KUindhu,Female Giant,981,8884738,Erinn
 vvook,Male Human,3749,8884867,Erinn
+Iranet,Female Giant,54,8884916,Erinn
 Ghuniro,Male Giant,41,8884981,Erinn
 Janeto,Female Giant,49,8884982,Erinn
 Erenola,Female Giant,49,8884983,Erinn
@@ -12025,7 +12118,7 @@ KINGYY2,Female Giant,1670,8898093,Erinn
 Muddy123,Female Elf,27979,8898215,Erinn
 Leberblume,Female Human,127,8899274,Erinn
 Nerudasoy,Male Human,2363,8899385,Erinn
-JQueen,Female Human,23934,8899605,Erinn
+JQueen,Female Human,24995,8899605,Erinn
 Nosoymapache,Male Human,2462,8899717,Erinn
 Nieath,Female Human,11214,8900868,Erinn
 Klayree,Female Giant,5329,8901469,Erinn
@@ -12068,7 +12161,7 @@ Mangaras,Male Giant,52,8904123,Erinn
 Paparilio,Male Giant,56,8904129,Erinn
 Kwivster,Male Giant,29,8904130,Erinn
 Spiritemp,Female Elf,5818,8904366,Erinn
-Kage,Male Human,23239,8904427,Erinn
+Kage,Male Human,23334,8904427,Erinn
 Hagamusprime,Male Giant,105,8904999,Erinn
 Aoifecrumann,Female Giant,2039,8905289,Erinn
 Ottergirl,Female Human,10645,8905395,Erinn
@@ -12240,7 +12333,7 @@ Uravohi,Male Human,29,8923513,Erinn
 Silentslash,Male Human,22,8923539,Erinn
 Utility12,Male Giant,2506,8924473,Erinn
 Argaliah,Female Giant,42788,8925115,Erinn
-Nodle20,Male Giant,24018,8926861,Erinn
+Nodle20,Male Giant,33913,8926861,Erinn
 Coffeebean12,Female Human,527,8927104,Erinn
 Adorian666,Male Elf,4865,8927171,Erinn
 Rickyban,Male Human,6548,8927467,Erinn
@@ -12289,7 +12382,7 @@ Hweyn,Male Human,730,8956843,Erinn
 Tirtrecenti,Female Elf,111,8957153,Erinn
 Serraphial,Male Human,4997,8958061,Erinn
 Beullaegoli,Male Human,23761,8958582,Erinn
-Catcatbluebo,Female Elf,24166,8958831,Erinn
+Catcatbluebo,Female Elf,43564,8958831,Erinn
 Ashwolfy,Female Human,5525,8958891,Erinn
 Gotouhitori,Female Human,690,8958949,Erinn
 Welpi,Female Elf,5967,8960018,Erinn
@@ -12307,6 +12400,7 @@ Shizuruz,Male Giant,5278,8964142,Erinn
 Kyranon,Female Elf,3813,8964239,Erinn
 Pepperpanik,Female Elf,3847,8964698,Erinn
 Sonica11,Female Human,2791,8965456,Erinn
+Honestwhale6,Female Human,7209,8965795,Erinn
 Riseuwu,Female Elf,944,8966823,Erinn
 Noodel020,Female Giant,117,8967296,Erinn
 Noodel2014,Female Giant,113,8967340,Erinn
@@ -12348,6 +12442,7 @@ urgent,Male Giant,24032,8983739,Erinn
 Mew23324,,,8984345,Erinn
 Krolth,Male Human,79,8984379,Erinn
 hapcookietan,Female Human,2019,8984475,Erinn
+allt111,Female Human,3,8984486,Erinn
 ewaste,Male Elf,12948,8984575,Erinn
 Eraduhcated,Female Giant,6271,8985313,Erinn
 Yralissa,Female Elf,22650,8985958,Erinn
@@ -12508,7 +12603,7 @@ Yuuzai,Male Human,5228,9027611,Erinn
 astrodyned,Female Elf,3566,9027666,Erinn
 breadcheek,Female Human,11523,9027715,Erinn
 Mizukehana,Female Giant,7241,9027804,Erinn
-kaisa88,Female Human,21598,9027870,Erinn
+kaisa88,Female Human,21753,9027870,Erinn
 Nitroglyss,Female Human,1026,9027901,Erinn
 eonbae,Female Elf,46,9028094,Erinn
 FIoaroma,Male Human,23012,9028730,Erinn
@@ -12524,7 +12619,7 @@ Fascism,Male Human,1866,9030034,Erinn
 noturfae,Female Human,289,9030357,Erinn
 Mortingoth,Male Giant,8874,9030415,Erinn
 FINALdancer,Male Human,11241,9030641,Erinn
-Sunsetnova,Female Human,23172,9030689,Erinn
+Sunsetnova,Female Human,23213,9030689,Erinn
 Mistela,Female Human,25567,9030807,Erinn
 Yuniverse,Female Elf,42247,9030842,Erinn
 cometgoldie,Male Human,7169,9030959,Erinn
@@ -12819,6 +12914,7 @@ Eggnugget,Male Human,186,9072586,Erinn
 Agntfluffle,Male Human,2939,9073583,Erinn
 hsidfdf,Female Human,233,9073644,Erinn
 Mobikeer,Female Human,233,9074043,Erinn
+Willowwish,Female Elf,9326,9074045,Erinn
 Myminion74,Female Elf,7388,9074229,Erinn
 Narkonas,Female Giant,2371,9074251,Erinn
 Falavavia,Female Human,3012,9074498,Erinn
@@ -12903,6 +12999,7 @@ Joustguy,Male Human,7329,9087993,Erinn
 Wastedzeuss,Male Giant,6641,9088282,Erinn
 Ethical,Female Human,23662,9088672,Erinn
 Dealership,Male Giant,548,9089586,Erinn
+Pacembellum,Male Human,10561,9089626,Erinn
 Elycia1,Female Human,3752,9089627,Erinn
 Hildakos,Female Elf,698,9089662,Erinn
 Alumeia,Female Elf,4328,9089805,Erinn
@@ -13010,7 +13107,7 @@ Auditions,Female Human,103,9109493,Erinn
 Infirmly,Female Giant,103,9109502,Erinn
 Precociously,Male Elf,103,9109506,Erinn
 Cattleman,Male Elf,101,9109510,Erinn
-Crazybee7,Male Human,1671,9109915,Erinn
+Crazybee7,Female Human,4933,9109915,Erinn
 kikihpy,Female Human,941,9109981,Erinn
 starborst,Male Human,1594,9110086,Erinn
 Segz,Female Elf,796,9110088,Erinn
@@ -13056,7 +13153,7 @@ Despondently,Male Elf,99,9114680,Erinn
 Unfleeced,Female Elf,102,9114705,Erinn
 Skived,Female Elf,103,9114718,Erinn
 Evocable,Male Human,102,9114735,Erinn
-Everybee,Male Human,7422,9114763,Erinn
+Everybee,Male Human,29110,9114763,Erinn
 Unsteadiness,Male Elf,103,9114805,Erinn
 Backfires,Male Elf,99,9114848,Erinn
 Tolerators,Male Elf,99,9114851,Erinn
@@ -13197,7 +13294,7 @@ Bionk,Male Elf,8198,9128608,Erinn
 ILSOLEE,Male Human,5137,9128648,Erinn
 Smoush,Female Elf,6071,9128860,Erinn
 hohohihe,Male Human,1406,9128890,Erinn
-Nuggiess,Female Giant,31318,9129202,Erinn
+Nuggiess,Female Giant,34087,9129202,Erinn
 Twinflame,Female Elf,270,9129225,Erinn
 Bardica,Female Human,7362,9129352,Erinn
 Aymaya,Female Elf,7308,9129382,Erinn
@@ -13213,7 +13310,7 @@ Recoverylamb,Female Elf,2043,9130530,Erinn
 Patsypats,Female Elf,11948,9130593,Erinn
 Dezbun,Female Human,19197,9130655,Erinn
 Wumcake,Female Human,6038,9130673,Erinn
-Eshiya,Female Elf,30106,9130685,Erinn
+Eshiya,Female Elf,32491,9130685,Erinn
 Hakunni,Male Human,20601,9130806,Erinn
 Astreon,Male Human,5321,9130851,Erinn
 Cchiochan,Female Human,21767,9130882,Erinn
@@ -13434,11 +13531,11 @@ Vanillu,Female Elf,23047,9158492,Erinn
 Alethaero,Male Human,34928,9158774,Erinn
 Hysonn,Male Human,19283,9158824,Erinn
 Ngsall,Male Elf,2714,9158985,Erinn
-Sum,Female Giant,27464,9159212,Erinn
+Sum,Female Giant,27564,9159212,Erinn
 Morghun,Male Human,7992,9159843,Erinn
 tiralja,Female Human,11,9160191,Erinn
 Mhy,Female Human,28859,9160213,Erinn
-Juniperrus,Female Giant,20655,9160282,Erinn
+Juniperrus,Female Giant,26056,9160282,Erinn
 Seiaie,Female Elf,2375,9160429,Erinn
 ACBluecat,Female Elf,6013,9161545,Erinn
 Ambersol,Female Elf,25372,9161587,Erinn
@@ -13504,7 +13601,7 @@ Liiyon,Male Elf,19,9184121,Erinn
 Jakey80085,Male Human,2512,9186132,Erinn
 Furrybait3,Female Giant,526,9187002,Erinn
 GEFORCEGTX,Female Elf,8,9187042,Erinn
-Wow,Male Giant,9374,9188126,Erinn
+Wow,Female Giant,9421,9188126,Erinn
 Rioghain3,Male Human,11677,9188788,Erinn
 Nanachiie,Female Elf,2470,9188828,Erinn
 kohitsujisan,Male Human,506,9189234,Erinn
@@ -13519,7 +13616,7 @@ Rune1341,Male Human,26254,9191059,Erinn
 Reekky,Male Elf,22501,9191338,Erinn
 Lillilyanna,Female Elf,8,9191707,Erinn
 titania6,Female Elf,3053,9191939,Erinn
-Vixn,Male Human,8686,9192015,Erinn
+Vixn,Male Human,8690,9192015,Erinn
 Indoomie,Male Human,3872,9192116,Erinn
 Mafuchu,Male Human,22446,9192377,Erinn
 Ayasteri,Female Human,14,9192507,Erinn
@@ -13722,6 +13819,7 @@ dfsngf,Female Human,1,9350688,Erinn
 homucifer6,Male Human,1578,9351384,Erinn
 Couatl,Female Elf,4260,9351470,Erinn
 ytryrtyyuyuy,Female Human,1,9351627,Erinn
+Yuukikiryu,Male Human,4180,9351921,Erinn
 Veahyacinthe,Female Elf,278,9352389,Erinn
 Camnet,Male Human,3781,9352849,Erinn
 Habas,Male Human,4802,9352943,Erinn
@@ -13810,7 +13908,7 @@ lixiong,Female Human,4728,9385823,Erinn
 Dilujiao,Female Human,4728,9385825,Erinn
 Goodiebags,Female Elf,77,9385955,Erinn
 MEGUMIN5,Female Human,28,9386328,Erinn
-Yby,Female Giant,27639,9386829,Erinn
+Yby,Female Giant,27911,9386829,Erinn
 Maingains,Male Human,20865,9388130,Erinn
 Lalaliaso,Female Human,4729,9388429,Erinn
 Ooopsmousesl,Female Human,4729,9388430,Erinn
@@ -13853,8 +13951,9 @@ milkybreadd,Female Human,14326,9401172,Erinn
 YAMImutsu,Male Human,9369,9402283,Erinn
 Sojin95,Male Elf,13339,9403770,Erinn
 Chulz,Male Human,1755,9405145,Erinn
+cplvulvlu,Female Human,25013,9405185,Erinn
 Jees,Female Giant,17287,9405230,Erinn
-Shheen,Male Human,17095,9405231,Erinn
+Shheen,Male Human,20641,9405231,Erinn
 Lisamane,Female Giant,5919,9405382,Erinn
 Yggdralas,Female Giant,22789,9405404,Erinn
 kyattz,Female Elf,9896,9405894,Erinn
@@ -13877,6 +13976,7 @@ Baggrray,Female Human,4672,9406607,Erinn
 Ferguntress,Female Human,4693,9406611,Erinn
 Cagrown,Female Human,4669,9406612,Erinn
 Shawstinkie,Female Human,4692,9406615,Erinn
+Hunt443,Male Human,20960,9406772,Erinn
 Sunnyuwu,Male Human,281,9409286,Erinn
 stillmorebla,Female Elf,1113,9409599,Erinn
 hkd,Female Human,10658,9409631,Erinn
@@ -13905,6 +14005,7 @@ Oneirodynia,Female Human,328,9417047,Erinn
 vkmyst,Male Elf,4254,9417157,Erinn
 Riincelotte,Male Human,969,9417199,Erinn
 dhteththrthr,Female Human,3,9417276,Erinn
+Beebb,Male Elf,2074,9417619,Erinn
 Rangamuf,Female Giant,55,9417648,Erinn
 itachiuchiho,Male Human,5124,9417918,Erinn
 TLOFelix,Male Human,266,9419175,Erinn
@@ -13937,6 +14038,7 @@ Elfrongponti,Female Human,3110,9425639,Erinn
 Perezya,Female Human,3110,9425642,Erinn
 Gymjongkook,Male Giant,4968,9425740,Erinn
 Universalpog,Female Giant,10240,9425835,Erinn
+Empressraven,Female Giant,14117,9426158,Erinn
 Joshua1841,Male Human,10,9426258,Erinn
 Villei,Male Human,17904,9426329,Erinn
 Sveras,Female Elf,1792,9426930,Erinn
@@ -13954,12 +14056,12 @@ Lafaliatria0,Female Elf,20672,9429992,Erinn
 turnipshou,Male Human,5950,9430691,Erinn
 UWUCocona,Female Elf,5886,9432545,Erinn
 Wyntess,Female Elf,20,9432833,Erinn
-Yuurika,Female Human,16955,9432939,Erinn
+Yuurika,Female Human,20492,9432939,Erinn
 Anglewood,Female Human,5200,9433209,Erinn
 Viribi,Female Elf,2694,9433671,Erinn
 Saltyoni,Female Human,9906,9434088,Erinn
 Weissgunner,Male Giant,1194,9434221,Erinn
-Maoife,Female Elf,27147,9434453,Erinn
+Maoife,Female Elf,30013,9434453,Erinn
 fsavds,Female Human,1,9434930,Erinn
 god94,Female Human,62,9435192,Erinn
 Tweety87,Female Elf,13129,9435285,Erinn
@@ -13989,7 +14091,7 @@ Rasuido,Male Human,2726,9441104,Erinn
 Vlyhn,Female Human,1690,9441109,Erinn
 Lunasolovey,Female Human,5026,9441353,Erinn
 Chaifysh,Male Giant,127,9441434,Erinn
-Jadathan,Male Human,2308,9441489,Erinn
+Jadathan,Male Human,13273,9441489,Erinn
 Hasoono,Female Human,1603,9441814,Erinn
 Tempest634,Female Human,267,9442009,Erinn
 Joxelstrife,Male Human,3811,9442015,Erinn
@@ -14011,6 +14113,7 @@ Mrlobster,Male Human,188,9446010,Erinn
 Stingie,Male Elf,29735,9446716,Erinn
 shiguremyou,Female Human,10751,9447207,Erinn
 Baekkimchi,Male Elf,15033,9447431,Erinn
+Onlycakes,Female Human,26327,9447518,Erinn
 Jennycrag,Female Elf,2431,9447667,Erinn
 Multishot,Female Elf,12395,9447680,Erinn
 Momoohime,Female Giant,4865,9448442,Erinn
@@ -14040,7 +14143,7 @@ Iadyboy,Male Human,233,9454849,Erinn
 hamimeron,Female Giant,4999,9455098,Erinn
 Yanglongxiao,Female Human,5455,9455426,Erinn
 Gummystr,Male Elf,65,9455671,Erinn
-ironmousee,Female Elf,8,9455800,Erinn
+ironmousee,Female Elf,51,9455800,Erinn
 YDubu,Female Elf,3732,9456307,Erinn
 YDuyu,Female Elf,3622,9456308,Erinn
 Altiyr,Male Human,21148,9456526,Erinn
@@ -14049,6 +14152,7 @@ Finali,Female Giant,20780,9460398,Erinn
 Celestianari,Female Elf,6430,9460428,Erinn
 Orinnixi,Female Human,1770,9460944,Erinn
 Roselucke,Female Elf,503,9462695,Erinn
+Silverbright,Female Human,7595,9462752,Erinn
 Tsuberu,Male Human,2011,9463272,Erinn
 Demiem,Male Human,23345,9464467,Erinn
 Frowned,Female Elf,11522,9464623,Erinn
@@ -14070,7 +14174,7 @@ Appydappy,Female Giant,81,9472699,Erinn
 Breslla,Male Human,5008,9473043,Erinn
 blakkmamba,Female Elf,36,9473245,Erinn
 Krustycrabs,Male Human,1135,9473366,Erinn
-pepschan,Male Giant,11060,9474569,Erinn
+pepschan,Male Giant,11130,9474569,Erinn
 Teasni,Male Human,2057,9474741,Erinn
 Sirtaintlion,Male Human,3139,9475287,Erinn
 Sansamtea,Female Elf,2096,9475641,Erinn
@@ -14095,16 +14199,23 @@ Adamier,Male Elf,5260,9484330,Erinn
 Glazelily,Female Elf,5514,9484406,Erinn
 Pitzis,Female Giant,11339,9485249,Erinn
 Grancypher,Male Human,6965,9486070,Erinn
+Shatterred,Female Giant,28236,9486474,Erinn
 Altopoco,Female Human,5351,9489324,Erinn
 Fabbing,Female Elf,3468,9489946,Erinn
 Opeorkty,Female Human,257,9490351,Erinn
+Lazyxmeeper,Female Human,2291,9490581,Erinn
 Bruumhiilda,Female Elf,3828,9491046,Erinn
+Prillya,Female Elf,2231,9491182,Erinn
 Teasni,Male Human,1803,9492273,Erinn
+Skookers,Male Human,2311,9492788,Erinn
 Susyoum,Female Elf,1560,9494134,Erinn
 Bastillios,Female Elf,61,9495204,Erinn
+Mabisavefile,Male Human,4500,9495265,Erinn
 Klarixe,Female Human,3379,9496028,Erinn
 Chockalulu,Female Human,3925,9496296,Erinn
+Ealyn,Female Elf,27845,9496442,Erinn
 Gambei,Female Human,2084,9496671,Erinn
+Lelathon,Female Human,21867,9496844,Erinn
 Wintereprise,Male Human,5484,9497974,Erinn
 Jelight,Female Elf,1591,9499034,Erinn
 Derkante,Male Giant,755,9499302,Erinn
@@ -14114,13 +14225,28 @@ Duddeth,Female Human,247,9499718,Erinn
 poppyp,Female Elf,2743,9499794,Erinn
 Nyffre,Female Elf,14,9499857,Erinn
 Biggiefoot,Male Giant,1028,9499862,Erinn
+Vapexx,Female Human,3983,9501997,Erinn
 Theblackaxel,Male Human,12960,9502577,Erinn
+Sucuri,Female Giant,11687,9502971,Erinn
 Drownedorca,Male Elf,2262,9503078,Erinn
 fncute,Female Elf,2260,9504667,Erinn
+Aodv,Female Elf,2084,9505679,Erinn
 Misskyliee,Female Elf,721,9506598,Erinn
+Maraiena,Female Elf,5040,9506858,Erinn
+Ngait,Male Giant,5491,9507035,Erinn
+Kuronekotaro,Male Elf,10414,9507239,Erinn
 tiddlywinkss,Female Human,488,9507458,Erinn
 Syvalrie,Female Human,4625,9508287,Erinn
 Rapture666,Male Giant,2000,9509458,Erinn
 Galvinn,Male Giant,1793,9509682,Erinn
+Mynnerva,Female Elf,18,9509961,Erinn
 Wyvern92,Female Human,234,9510169,Erinn
 lchihayal,Female Human,32,9510352,Erinn
+Justintimed,Male Human,5,9511298,Erinn
+Ressesca,Female Human,2683,9511599,Erinn
+Aldrys,Male Human,2027,9513165,Erinn
+FRINGEWEAVER,Male Human,4,9513397,Erinn
+Eldrichpleb,Male Elf,710,9518753,Erinn
+Chromatana,Female Human,5354,9523571,Erinn
+exilefrankie,Male Human,2493,9528870,Erinn
+Mamemushishi,Male Human,13,9529055,Erinn
