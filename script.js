@@ -28,49 +28,44 @@ async function parseDataTable(url) {
         let text = rawData[i].split(",");
 
         if (text.includes("")) continue;
-
+        
         // Generating dicts for every row.
         text.forEach((val, j) => {
             val = val.trim();
 
-            if (headers[j] === "Race" && headers[j] === "Gender") {
-                val = val.split(" ");
-                const [gender, race] = val;
+            if (headers[j] === "Server" && val !== "") {
+                serverCounter[val] = serverCounter[val] ? serverCounter[val] + 1 : 1;
+            }
+            else if (headers[j] === "Level") {
+                let level = parseInt(val);
 
-                if (gender === "" || race === "") return;
+                // Binning by 1000 levels at a time.
+                level = Math.floor(level / 1000);
 
-                // Bin based on race then gender.
-                if (!raceCounter[race]) {
-                    raceCounter[race] = {[gender]: 1};
-                }
-                else {
-                    if (raceCounter[race][gender]) {
-                        raceCounter[race][gender]++;
-                    }
-                    else {
-                        raceCounter[race][gender] = 1;
-                    }
-                }
+                levelCounter[level] = levelCounter[level] ? levelCounter[level] + 1 : 1;
+            }
+            else if (headers[j] === "Date Modified") {
+                val = val.split(" ")[0]
+            }
 
-                row["Gender"] = gender;
-                row["Race"] = race;
+            row[headers[j]] = isNaN(val) ? val : parseInt(val);
+        });
+
+        const gender = row["Gender"];
+        const race = row["Race"];
+
+        // Bin based on race then gender.
+        if (!raceCounter[race]) {
+            raceCounter[race] = {[gender]: 1};
+        }
+        else {
+            if (raceCounter[race][gender]) {
+                raceCounter[race][gender]++;
             }
             else {
-                if (headers[j] === "Server" && val !== "") {
-                    serverCounter[val] = serverCounter[val] ? serverCounter[val] + 1 : 1;
-                }
-                else if (headers[j] === "Level") {
-                    let level = parseInt(val);
-
-                    // Binning by 1000 levels at a time.
-                    level = Math.floor(level / 1000);
-
-                    levelCounter[level] = levelCounter[level] ? levelCounter[level] + 1 : 1;
-                }
-
-                row[headers[j]] = isNaN(val) ? val : parseInt(val);
+                raceCounter[race][gender] = 1;
             }
-        });
+        }
 
         data.push(row);
     }
