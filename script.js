@@ -33,7 +33,7 @@ async function parseDataTable(url) {
         text.forEach((val, j) => {
             val = val.trim();
 
-            if (headers[j] === "Race") {
+            if (headers[j] === "Race" && headers[j] === "Gender") {
                 val = val.split(" ");
                 const [gender, race] = val;
 
@@ -54,12 +54,12 @@ async function parseDataTable(url) {
 
                 row["Gender"] = gender;
                 row["Race"] = race;
-            }
+            } 
             else {
                 if (headers[j] === "Server" && val !== "") {
                     serverCounter[val] = serverCounter[val] ? serverCounter[val] + 1 : 1;
                 }
-                else if (headers[j] === "Total Level") {
+                else if (headers[j] === "Level") {
                     let level = parseInt(val);
 
                     // Binning by 1000 levels at a time.
@@ -246,11 +246,12 @@ function buildLevelChart(data, playerTotal) {
 function buildPlayerTable(data) {
     $("#playerData").bootstrapTable({
         columns: [
-            {field: "IGN", title: "Name", sortable: true},
+            {field: "Name", title: "Name", sortable: true},
             {field: "Server", title: "Server", sortable: true},
             {field: "Race", title: "Race", sortable: true},
             {field: "Gender", title: "Gender", sortable: true},
-            {field: "Total Level", title: "Total Level", sortable: true},
+            {field: "Level", title: "Level", sortable: true},
+            {field: "Date Modified", title: "Date Modified", sortable: true},
         ],
         data: data,
         pagination: true,
@@ -261,7 +262,7 @@ function buildPlayerTable(data) {
             return pageNumber + " players per page.";
         },
         search: true,
-        sortName: "Total Level",
+        sortName: "Level",
         sortOrder: "desc"
     });
 }
