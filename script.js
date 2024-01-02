@@ -241,9 +241,9 @@ function buildPlayerTable(data) {
     $("#playerData").bootstrapTable({
         columns: [
             {field: "Name", title: "Name", sortable: true},
-            {field: "Server", title: "Server", sortable: true},
             {field: "Race", title: "Race", sortable: true},
             {field: "Gender", title: "Gender", sortable: true},
+            {field: "Server", title: "Server", sortable: true},
             {field: "Level", title: "Level", sortable: true},
             {field: "Date Modified", title: "Date Modified", sortable: true},
         ],
