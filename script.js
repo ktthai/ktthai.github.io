@@ -44,9 +44,9 @@ async function parseDataTable(url) {
 
                 levelCounter[level] = levelCounter[level] ? levelCounter[level] + 1 : 1;
             }
-            else if (headers[j] === "Date Modified") {
-                val = val.split(" ")[0]
-            }
+            // else if (headers[j] === "Date Modified") {
+            //     val = val.split(" ")[0]
+            // }
 
             row[headers[j]] = isNaN(val) ? val : parseInt(val);
         });
@@ -245,7 +245,7 @@ function buildPlayerTable(data) {
             {field: "Gender", title: "Gender", sortable: true},
             {field: "Server", title: "Server", sortable: true},
             {field: "Level", title: "Level", sortable: true},
-            {field: "Date Modified", title: "Date Modified", sortable: true},
+            // {field: "Date Modified", title: "Date Modified", sortable: true},
         ],
         data: data,
         pagination: true,
