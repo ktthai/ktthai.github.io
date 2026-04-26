@@ -206,7 +206,10 @@ export default defineComponent({
       return props.itemNames[key] || `Unknown Item (${id})`;
     };
 
-    const getIconId = (itemId) => (itemId === 3160151 ? 3160099 : itemId);
+    const getIconId = (itemId) => {
+      const aliases = { 3160151: 3160099, 104055: 1040055, 1640003: 1640004 };
+      return aliases[itemId] ?? itemId;
+    };
 
     const buildSearchString = (player) => {
       let s = `${player.name || ''} ${player.guild || ''} ${player.totalLevel || ''} ${player.race || ''}`.toLowerCase();
