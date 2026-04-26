@@ -7,267 +7,195 @@ import "bootstrap";
 import "bootstrap-table";
 import Chart from 'chart.js/auto';
 
-async function parseDataTable(url) {
+function relativeTime(unixSeconds) {
+    const now = Math.floor(Date.now() / 1000);
+    const diff = now - unixSeconds;
+    if (diff < 60) return "Just now";
+    if (diff < 3600) return Math.floor(diff / 60) + "m ago";
+    if (diff < 86400) return Math.floor(diff / 3600) + "h ago";
+    if (diff < 86400 * 30) return Math.floor(diff / 86400) + "d ago";
+    if (diff < 86400 * 365) return Math.floor(diff / (86400 * 30)) + "mo ago";
+    return Math.floor(diff / (86400 * 365)) + "y ago";
+}
+
+async function loadPlayerData(url) {
     const response = await fetch(url);
-    let rawData = await response.text();
+    if (!response.ok) throw new Error("Failed to load player data: " + response.status);
+    const json = await response.json();
 
-    if (rawData.length === 0) {
-        throw new Error("Data could not be loaded!");
-    }
-
-    rawData = rawData.replace("\r", "").split("\n");
-    const headers = rawData.shift().split(",");
-
-    const data = [];
-    const serverCounter = {};
     const raceCounter = {};
     const levelCounter = {};
 
-    for (let i = 0; i < rawData.length; i++) {
-        let row = {};
-        let text = rawData[i].split(",");
+    const rows = json.players.map(p => {
+        // Parse race string like "Human Male" into gender+race for charts
+        const parts = p.race ? p.race.split(" ") : [];
+        const gender = parts.length >= 2 ? parts[parts.length - 1] : "";
+        const raceName = parts.length >= 2 ? parts.slice(0, parts.length - 1).join(" ") : p.race || "";
 
-        if (text.includes("")) continue;
-        
-        // Generating dicts for every row.
-        text.forEach((val, j) => {
-            val = val.trim();
-
-            if (headers[j] === "Server" && val !== "") {
-                serverCounter[val] = serverCounter[val] ? serverCounter[val] + 1 : 1;
-            }
-            else if (headers[j] === "Level") {
-                let level = parseInt(val);
-
-                // Binning by 1000 levels at a time.
-                level = Math.floor(level / 1000);
-
-                levelCounter[level] = levelCounter[level] ? levelCounter[level] + 1 : 1;
-            }
-            // else if (headers[j] === "Date Modified") {
-            //     val = val.split(" ")[0]
-            // }
-
-            row[headers[j]] = isNaN(val) ? val : parseInt(val);
-        });
-
-        const gender = row["Gender"];
-        const race = row["Race"];
-
-        // Bin based on race then gender.
-        if (!raceCounter[race]) {
-            raceCounter[race] = {[gender]: 1};
-        }
-        else {
-            if (raceCounter[race][gender]) {
-                raceCounter[race][gender]++;
-            }
-            else {
-                raceCounter[race][gender] = 1;
-            }
+        if (raceName && gender) {
+            if (!raceCounter[raceName]) raceCounter[raceName] = {};
+            raceCounter[raceName][gender] = (raceCounter[raceName][gender] || 0) + 1;
         }
 
-        data.push(row);
-    }
+        const levelBin = Math.floor((p.totalLevel || 0) / 1000);
+        levelCounter[levelBin] = (levelCounter[levelBin] || 0) + 1;
+
+        return {
+            name: p.name || "",
+            guild: p.guild || "",
+            race: p.race || "",
+            totalLevel: p.totalLevel || 0,
+            items: Array.isArray(p.items) ? p.items.join(", ") : "",
+            lastSeen: p.lastSeen ? relativeTime(p.lastSeen) : "",
+            _lastSeenRaw: p.lastSeen || 0,
+        };
+    });
 
     return {
-        data: data, 
-        serverCounter: serverCounter, 
-        raceCounter: raceCounter, 
-        levelCounter: levelCounter
+        rows,
+        raceCounter,
+        levelCounter,
+        lastUpdated: json.lastUpdated,
+        count: json.count,
     };
 }
 
-function buildServerChart(data, playerTotal) {
-    new Chart(
-        document.getElementById("serverData"),
-        {
-            type: "bar",
-            data: {
-                datasets: [{ data: data }]
-            },
-            options: {
-                plugins: {
-                    legend: {
-                        display: false
-                    },
-                    tooltip: {
-                        callbacks: {
-                            footer: function(tooltipItems) {
-                                const y = tooltipItems[0].parsed.y;
-                                const percentage = Math.round(y / playerTotal * 10000) / 100;
-                                return "(" + percentage + "%)";
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    );
-}
-
-function buildRaceChart(data, playerTotal) {
+function buildRaceChart(raceCounter, playerTotal) {
     const raceTotal = {};
     const genderTotal = {};
 
-    // Accumulators for race and genders.
-    for (const [race, x] of Object.entries(data)) {
-        for (const [gender, y] of Object.entries(x)) {
-            raceTotal[race] = raceTotal[race] ? raceTotal[race] + y : y;
-            genderTotal[gender] = genderTotal[gender] ? genderTotal[gender] + y: y;
+    for (const [race, genders] of Object.entries(raceCounter)) {
+        for (const [gender, count] of Object.entries(genders)) {
+            raceTotal[race] = (raceTotal[race] || 0) + count;
+            genderTotal[gender] = (genderTotal[gender] || 0) + count;
         }
     }
 
-    new Chart(
-        document.getElementById("raceData"),
-        {
-            type: "bar",
-            data: {
-                labels: ["Male", "Female"],
-                datasets: [{
-                    label: "Human",
-                    data: data["Human"]
+    const maleData = {
+        Human: (raceCounter["Human"] || {})["Male"] || 0,
+        Elf: (raceCounter["Elf"] || {})["Male"] || 0,
+        Giant: (raceCounter["Giant"] || {})["Male"] || 0,
+    };
+    const femaleData = {
+        Human: (raceCounter["Human"] || {})["Female"] || 0,
+        Elf: (raceCounter["Elf"] || {})["Female"] || 0,
+        Giant: (raceCounter["Giant"] || {})["Female"] || 0,
+    };
+
+    new Chart(document.getElementById("raceData"), {
+        type: "bar",
+        data: {
+            labels: ["Human", "Elf", "Giant"],
+            datasets: [
+                { label: "Male", data: [maleData.Human, maleData.Elf, maleData.Giant], backgroundColor: "rgba(54, 162, 235, 0.7)" },
+                { label: "Female", data: [femaleData.Human, femaleData.Elf, femaleData.Giant], backgroundColor: "rgba(255, 99, 132, 0.7)" },
+            ],
+        },
+        options: {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        footer(tooltipItems) {
+                            const item = tooltipItems[0];
+                            const count = item.parsed.y;
+                            const pct = Math.round(count / playerTotal * 10000) / 100;
+                            return `(${pct}% of all players)`;
+                        },
+                    },
                 },
-                {
-                    label: "Elf",
-                    data: data["Elf"]
-                },
-                {
-                    label: "Giant",
-                    data: data["Giant"]
-                }]
             },
-            options: {
-                plugins: {
-                    legend: {
-                        display: false
-                    },
-                    tooltip: {
-                        callbacks: {
-                            footer: function(tooltipItems) {
-                                const gender = tooltipItems[0].label;
-                                const race = tooltipItems[0].dataset.label;
-                                const count = tooltipItems[0].parsed.y;
-
-                                const genderPercent = Math.round(count / genderTotal[gender] * 10000) / 100;
-                                const racePercent = Math.round(count / raceTotal[race] * 10000) / 100;
-                                const totalPercent = Math.round(count / playerTotal * 10000) / 100;
-
-                                let tooltip = "\n(" + genderPercent + "% of " + genderTotal[gender] + " " + gender + "s)\n";
-                                tooltip += "(" + racePercent + "% of " + raceTotal[race] + " " + race + "s)\n";
-                                tooltip += "(" + totalPercent + "% of " + playerTotal + " Players)";
-
-                                return tooltip;
-                            }
-                        }
-                    }
-                },
-                scales: {
-                    x: { 
-                        stacked: true
-                    },
-                    y: { 
-                        stacked: true
-                    }
-                }
-            }
-        }
-    );
+            scales: { x: { stacked: true }, y: { stacked: true } },
+        },
+    });
 }
 
-function buildLevelChart(data, playerTotal) {
-    // Generate array of cumulative keys sorted by level.
-    let levels = Object.keys(data);
-    levels = levels.map(ele => parseInt(ele));
-    levels = levels.sort((a, b) => a - b);
+function buildLevelChart(levelCounter, playerTotal) {
+    let levels = Object.keys(levelCounter).map(Number).sort((a, b) => a - b);
+    const counts = levels.map(l => levelCounter[l]);
 
-    // Reduce array to find accumulative players per level breakpoint.
-    let accumulator = [0];
-    levels.forEach((level, index) => {accumulator.push(accumulator[index] + data[level]);});
-    accumulator = accumulator.map(val => val / playerTotal * 100);
-    accumulator.shift();
+    let cumSum = 0;
+    const cumLine = counts.map(c => { cumSum += c; return Math.round(cumSum / playerTotal * 10000) / 100; });
 
-    new Chart(
-        document.getElementById("levelData"),
-        {
-            data: {
-                datasets: [
-                    { type: "bar", data: data, yAxisID: "y" },
-                    { type: "line", data: accumulator, yAxisID: "y2" }
-                ]
-            },
-            options: {
-                plugins: {
-                    legend: {
-                        display: false
-                    },
-                    tooltip: {
-                        callbacks: {
-                            title: function(tooltipItems) {
-                                // Switching to level based tooltip titles.
-                                const x = tooltipItems[0].label;
-                                if (x > 0) return "Level " + x + "000 to " + x + "999"; 
-                                else return "Level 1 to 999";
-                            },
-                            label: function(context) {
-                                // Switching to percentage for cumulative.
-                                if (context.datasetIndex === 1) {
-                                    const y = Math.round((100 - Math.round(context.parsed.y * 100) / 100) * 100) / 100;
-                                    return "Top " + Math.max(y, 0.01) + "% of all players";
-                                }
-                            },
-                            footer: function(tooltipItems) {
-                                // Switching to percentage of total players in bracket.
-                                if (tooltipItems[0].datasetIndex === 0) {
-                                    const y = tooltipItems[0].parsed.y;
-                                    const percentage = Math.round(y / playerTotal * 10000) / 100;
-                                    return "(" + percentage + "%)";
-                                }
+    new Chart(document.getElementById("levelData"), {
+        data: {
+            labels: levels,
+            datasets: [
+                { type: "bar", label: "Players", data: counts, yAxisID: "y" },
+                { type: "line", label: "Cumulative %", data: cumLine, yAxisID: "y2", pointRadius: 0 },
+            ],
+        },
+        options: {
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        title(items) {
+                            const x = items[0].label;
+                            return x > 0 ? `Level ${x}000–${x}999` : "Level 1–999";
+                        },
+                        label(context) {
+                            if (context.datasetIndex === 1) {
+                                const pct = Math.round((100 - context.parsed.y) * 100) / 100;
+                                return `Top ${Math.max(pct, 0.01)}% of all players`;
                             }
-                        }
-                    }
+                        },
+                        footer(items) {
+                            if (items[0].datasetIndex === 0) {
+                                const pct = Math.round(items[0].parsed.y / playerTotal * 10000) / 100;
+                                return `(${pct}%)`;
+                            }
+                        },
+                    },
                 },
-                scales: {
-                    x: { title: { display: true, text: "Total Level (x1000)" }},
-                    y2: { display: false }
-                },
-                maintainAspectRatio: false
-            }
-        }
-    );
+            },
+            scales: {
+                x: { title: { display: true, text: "Total Level (×1000)" } },
+                y2: { display: false },
+            },
+            maintainAspectRatio: false,
+        },
+    });
 }
 
-function buildPlayerTable(data) {
+function buildPlayerTable(rows) {
     $("#playerData").bootstrapTable({
         columns: [
-            {field: "Name", title: "Name", sortable: true},
-            {field: "Race", title: "Race", sortable: true},
-            {field: "Gender", title: "Gender", sortable: true},
-            {field: "Server", title: "Server", sortable: true},
-            {field: "Level", title: "Level", sortable: true},
-            // {field: "Date Modified", title: "Date Modified", sortable: true},
+            { field: "name", title: "Name", sortable: true },
+            { field: "guild", title: "Guild", sortable: true },
+            { field: "race", title: "Race", sortable: true },
+            { field: "totalLevel", title: "Total Level", sortable: true },
+            { field: "items", title: "Items", sortable: false },
+            { field: "lastSeen", title: "Last Seen", sortable: true,
+              sorter: (a, b, rowA, rowB) => rowA._lastSeenRaw - rowB._lastSeenRaw },
         ],
-        data: data,
+        data: rows,
         pagination: true,
-        formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return "Showing " + pageFrom + "-" + pageTo + " of " + totalRows + " players.";
-        },
-        formatRecordsPerPage: function(pageNumber) {
-            return pageNumber + " players per page.";
-        },
+        pageSize: 25,
+        formatShowingRows: (from, to, total) => `Showing ${from}–${to} of ${total} players.`,
+        formatRecordsPerPage: n => `${n} players per page.`,
         search: true,
-        sortName: "Level",
-        sortOrder: "desc"
+        sortName: "totalLevel",
+        sortOrder: "desc",
     });
 }
 
 $(async () => {
-    const url = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/PlayerData.csv';
-    const dataObj = await parseDataTable(url);
+    const url = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/players.json';
+    try {
+        const dataObj = await loadPlayerData(url);
+        const playerTotal = dataObj.rows.length;
 
-    const playerTotal = Object.values(dataObj.levelCounter).reduce((a, b) => a + b, 0);
-    buildServerChart(dataObj.serverCounter, playerTotal);
-    buildRaceChart(dataObj.raceCounter, playerTotal);
-    buildLevelChart(dataObj.levelCounter, playerTotal);
-    buildPlayerTable(dataObj.data);
+        if (dataObj.lastUpdated) {
+            const syncedEl = document.getElementById("lastSynced");
+            if (syncedEl) syncedEl.textContent = "Last synced: " + relativeTime(dataObj.lastUpdated) + ` (${playerTotal} players)`;
+        }
+
+        buildRaceChart(dataObj.raceCounter, playerTotal);
+        buildLevelChart(dataObj.levelCounter, playerTotal);
+        buildPlayerTable(dataObj.rows);
+    } catch (err) {
+        console.error(err);
+        const el = document.getElementById("errorMsg");
+        if (el) { el.textContent = "Failed to load player data. " + err.message; el.style.display = "block"; }
+    }
 });

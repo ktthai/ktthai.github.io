@@ -16,7 +16,6 @@
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
-
 		gtag('config', 'G-C8JVLC7NFZ');
 	</script>
 </head>
@@ -25,7 +24,9 @@
 	<div class="container">
 		<center>
 			<h1>Mabinogi Player Data</h1>
+			<p id="lastSynced" class="text-muted" style="font-size:0.9em;"></p>
 		</center>
+		<div id="errorMsg" style="display:none;color:red;text-align:center;margin-bottom:1em;"></div>
 		<br>
 		<div class="csvdatatable">
 			<table id="playerData" class="table table-striped"></table>
@@ -33,7 +34,6 @@
 		<br>
 		<center><h4>Visualized</h4></center>
 		<div class="graph-div">
-			<div class="small-graph-div"><canvas id="serverData" width="400" height="400"></canvas></div>
 			<div class="small-graph-div"><canvas id="raceData" width="400" height="400"></canvas></div>
 			<div class="large-graph-div"><canvas id="levelData" width="400" height="400"></canvas></div>
 		</div>
