@@ -4,7 +4,7 @@
       <v-container fluid>
         <v-row justify="center" class="mb-2 mt-2">
           <v-col cols="12" class="text-center">
-            <div class="text-h5 font-weight-bold">Mabinogi Player Data</div>
+            <div class="text-h5 font-weight-bold">MabiLog</div>
             <div v-if="lastSynced" class="text-caption text-grey mt-1">
               Last synced: {{ lastSynced }} &nbsp;·&nbsp; {{ playerCount }} players
             </div>
