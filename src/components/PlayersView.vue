@@ -107,7 +107,7 @@
       </template>
 
       <template v-slot:item.id="{ item }">
-        {{ item.id }}
+        {{ parseInt(item.id, 16) }}
       </template>
 
       <template v-slot:item.race="{ item }">
