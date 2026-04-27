@@ -17,6 +17,12 @@
                   :color="currentView === 'stats' ? 'primary' : 'grey'"
                   @click="currentView = 'stats'"
                 >Stats</v-btn>
+                <v-btn
+                  variant="text"
+                  size="small"
+                  :color="currentView === 'namechanges' ? 'primary' : 'grey'"
+                  @click="currentView = 'namechanges'"
+                >Name Changes</v-btn>
               </div>
               <div v-if="lastSynced" class="text-caption text-grey text-right">
                 Last synced: {{ lastSynced }} &nbsp;·&nbsp; {{ playerCount }} players
@@ -36,6 +42,7 @@
         <template v-else-if="players.length > 0">
           <PlayersView v-if="currentView === 'players'" :players="players" :item-names="itemNames" />
           <StatsView v-else-if="currentView === 'stats'" :players="players" />
+          <NameChangesView v-else-if="currentView === 'namechanges'" :name-changes="nameChanges" />
         </template>
       </v-container>
     </v-main>
@@ -46,8 +53,10 @@
 import { defineComponent, ref, onMounted } from 'vue';
 import PlayersView from './components/PlayersView.vue';
 import StatsView from './components/StatsView.vue';
+import NameChangesView from './components/NameChangesView.vue';
 
 const DATA_URL = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/players.json';
+const NAME_CHANGES_URL = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/name_changes.json';
 
 function relativeTime(unixSeconds) {
   const diff = Math.floor(Date.now() / 1000) - unixSeconds;
@@ -61,7 +70,7 @@ function relativeTime(unixSeconds) {
 
 export default defineComponent({
   name: 'App',
-  components: { PlayersView, StatsView },
+  components: { PlayersView, StatsView, NameChangesView },
   setup() {
     const currentView = ref('players');
     const loading = ref(true);
@@ -70,17 +79,25 @@ export default defineComponent({
     const itemNames = ref({});
     const lastSynced = ref('');
     const playerCount = ref(0);
+    const nameChanges = ref({});
 
     onMounted(async () => {
       try {
-        const res = await fetch(DATA_URL);
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data = await res.json();
+        const [playersRes, nameChangesRes] = await Promise.all([
+          fetch(DATA_URL),
+          fetch(NAME_CHANGES_URL),
+        ]);
+        if (!playersRes.ok) throw new Error(`HTTP ${playersRes.status}`);
+        const data = await playersRes.json();
 
         players.value = data.players || [];
         itemNames.value = data.itemNames || {};
         playerCount.value = data.count || data.players?.length || 0;
         if (data.lastUpdated) lastSynced.value = relativeTime(data.lastUpdated);
+
+        if (nameChangesRes.ok) {
+          nameChanges.value = await nameChangesRes.json();
+        }
       } catch (e) {
         error.value = 'Failed to load player data: ' + e.message;
       } finally {
@@ -88,7 +105,7 @@ export default defineComponent({
       }
     });
 
-    return { currentView, loading, error, players, itemNames, lastSynced, playerCount };
+    return { currentView, loading, error, players, itemNames, lastSynced, playerCount, nameChanges };
   },
 });
 </script>
