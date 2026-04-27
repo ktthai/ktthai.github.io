@@ -285,23 +285,23 @@
                 style="display:block;"
               >
                 <g v-for="(row, i) in guildStats" :key="row.name">
-                  <rect :x="0" :y="i * 32 + 4" width="340" height="26" rx="4" fill="#2a2a2a" />
+                  <rect :x="0" :y="i * 36 + 4" width="340" height="30" rx="4" fill="#2a2a2a" />
                   <rect
-                    :x="0" :y="i * 32 + 4"
-                    :width="(row.count / guildStats[0].count) * 280"
-                    height="26" rx="4"
+                    :x="0" :y="i * 36 + 4"
+                    :width="(row.count / guildStats[0].count) * 340"
+                    height="30" rx="4"
                     :fill="row.color" opacity="0.82"
                   />
                   <text
-                    x="8" :y="i * 32 + 21"
-                    fill="white" font-size="11" font-weight="600" font-family="inherit"
+                    x="8" :y="i * 36 + 23"
+                    fill="white" font-size="12" font-weight="600" font-family="inherit"
                   >
                     {{ row.displayName }}
                     <title>{{ row.name }}</title>
                   </text>
                   <text
-                    x="332" :y="i * 32 + 21"
-                    fill="rgba(255,255,255,0.65)" font-size="10"
+                    x="332" :y="i * 36 + 23"
+                    fill="rgba(255,255,255,0.65)" font-size="11"
                     text-anchor="end" font-family="inherit"
                   >{{ row.count.toLocaleString() }} ({{ row.pct.toFixed(1) }}%)</text>
                 </g>
@@ -529,7 +529,7 @@ export default defineComponent({
       }));
     });
 
-    const guildChartHeight = computed(() => guildStats.value.length * 32 + 10);
+    const guildChartHeight = computed(() => guildStats.value.length * 36 + 10);
 
     return {
       totalPlayers,
