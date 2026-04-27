@@ -114,6 +114,10 @@
         {{ item.race }}
       </template>
 
+      <template v-slot:item.server="{ item }">
+        {{ getServer(item.id) }}
+      </template>
+
       <template v-slot:item.lastSeen="{ item }">
         {{ new Date(item.lastSeen * 1000).toLocaleString() }}
       </template>
@@ -154,8 +158,9 @@ export default defineComponent({
       { title: 'Name', key: 'name' },
       { title: 'Items', key: 'specialItems', sortable: false },
       { title: 'Guild', key: 'guild' },
-      { title: 'Race', key: 'race' },
+      { title: 'Race', key: 'race', sortable: false },
       { title: 'Total Level', key: 'totalLevel' },
+      { title: 'Server', key: 'server', sortable: false },
       { title: 'Last Seen', key: 'lastSeen' },
       { title: '', key: 'data-table-expand' },
     ];
@@ -209,6 +214,23 @@ export default defineComponent({
     const getIconId = (itemId) => {
       const aliases = { 3160151: 3160099, 104055: 1040055, 1640003: 1640004 };
       return aliases[itemId] ?? itemId;
+    };
+
+    const SERVER_BOUNDS = [
+      [1984037, 'Mari'],
+      [2631701, 'Ruairi'],
+      [4452813, 'Tarlach'],
+      [5771331, 'Nao'],
+      [8565157, 'Alexina'],
+      [Infinity, 'Erinn'],
+    ];
+
+    const getServer = (hexId) => {
+      const id = parseInt(hexId, 16);
+      for (const [bound, name] of SERVER_BOUNDS) {
+        if (id <= bound) return name;
+      }
+      return 'Erinn';
     };
 
     const buildSearchString = (player) => {
@@ -287,6 +309,7 @@ export default defineComponent({
       getPlayerBadges,
       getNewTag,
       getIconId,
+      getServer,
     };
   },
 });
