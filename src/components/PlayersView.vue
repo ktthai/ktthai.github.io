@@ -147,6 +147,7 @@
 <script>
 import { defineComponent, ref, computed, watch } from 'vue';
 import PlayerEquipment from './PlayerEquipment.vue';
+import { getServer } from '../utils/playerStats.js';
 
 export default defineComponent({
   name: 'PlayersView',
@@ -222,23 +223,6 @@ export default defineComponent({
     const getIconId = (itemId) => {
       const aliases = { 3160151: 3160099, 104055: 1040055, 1640003: 1640004 };
       return aliases[itemId] ?? itemId;
-    };
-
-    const SERVER_BOUNDS = [
-      [1984037, 'Mari'],
-      [2631701, 'Ruairi'],
-      [4452813, 'Tarlach'],
-      [5771331, 'Nao'],
-      [8565157, 'Alexina'],
-      [Infinity, 'Erinn'],
-    ];
-
-    const getServer = (hexId) => {
-      const id = parseInt(hexId, 16);
-      for (const [bound, name] of SERVER_BOUNDS) {
-        if (id <= bound) return name;
-      }
-      return 'Erinn';
     };
 
     const buildSearchString = (player) => {
