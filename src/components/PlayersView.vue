@@ -1,5 +1,6 @@
 <template>
-  <v-card>
+  <v-card style="overflow: visible;">
+    <div style="position: sticky; top: 0; z-index: 10;" class="bg-surface">
     <v-card-title class="d-flex align-center flex-wrap">
       Players Cache
       <div v-if="searchStats.total > 0 && debouncedSearch" class="d-flex align-center ml-4" style="gap: 8px">
@@ -62,6 +63,7 @@
         hide-details
       ></v-text-field>
     </v-card-text>
+    </div>
 
     <v-data-table
       :headers="headers"
@@ -120,6 +122,12 @@
 
       <template v-slot:item.lastSeen="{ item }">
         {{ new Date(item.lastSeen * 1000).toLocaleString() }}
+      </template>
+
+      <template v-slot:bottom="slotProps">
+        <div style="position: sticky; bottom: 0; z-index: 10;" class="bg-surface">
+          <v-data-table-footer v-bind="slotProps" :items-per-page-options="[25, 50, 100, 200]" />
+        </div>
       </template>
 
       <template v-slot:expanded-row="{ columns, item }">
