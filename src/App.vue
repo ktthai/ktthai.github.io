@@ -3,10 +3,24 @@
     <v-main>
       <v-container fluid>
         <v-row justify="center" class="mb-2 mt-2">
-          <v-col cols="12" class="text-center">
-            <div class="text-h5 font-weight-bold">MabiLog</div>
-            <div v-if="lastSynced" class="text-caption text-grey mt-1">
-              Last synced: {{ lastSynced }} &nbsp;·&nbsp; {{ playerCount }} players
+          <v-col cols="12">
+            <div class="d-flex align-center justify-space-between px-2">
+              <div class="d-flex align-center" style="gap: 8px;">
+                <span
+                  class="text-h5 font-weight-bold"
+                  style="cursor: pointer;"
+                  @click="currentView = 'players'"
+                >MabiLog</span>
+                <v-btn
+                  variant="text"
+                  size="small"
+                  :color="currentView === 'stats' ? 'primary' : 'grey'"
+                  @click="currentView = 'stats'"
+                >Stats</v-btn>
+              </div>
+              <div v-if="lastSynced" class="text-caption text-grey text-right">
+                Last synced: {{ lastSynced }} &nbsp;·&nbsp; {{ playerCount }} players
+              </div>
             </div>
           </v-col>
         </v-row>
@@ -19,11 +33,10 @@
           <v-progress-circular indeterminate color="primary" size="64"></v-progress-circular>
         </div>
 
-        <PlayersView
-          v-else-if="players.length > 0"
-          :players="players"
-          :item-names="itemNames"
-        />
+        <template v-else-if="players.length > 0">
+          <PlayersView v-if="currentView === 'players'" :players="players" :item-names="itemNames" />
+          <StatsView v-else-if="currentView === 'stats'" :players="players" />
+        </template>
       </v-container>
     </v-main>
   </v-app>
@@ -32,6 +45,7 @@
 <script>
 import { defineComponent, ref, onMounted } from 'vue';
 import PlayersView from './components/PlayersView.vue';
+import StatsView from './components/StatsView.vue';
 
 const DATA_URL = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/players.json';
 
@@ -47,8 +61,9 @@ function relativeTime(unixSeconds) {
 
 export default defineComponent({
   name: 'App',
-  components: { PlayersView },
+  components: { PlayersView, StatsView },
   setup() {
+    const currentView = ref('players');
     const loading = ref(true);
     const error = ref('');
     const players = ref([]);
@@ -73,7 +88,7 @@ export default defineComponent({
       }
     });
 
-    return { loading, error, players, itemNames, lastSynced, playerCount };
+    return { currentView, loading, error, players, itemNames, lastSynced, playerCount };
   },
 });
 </script>
