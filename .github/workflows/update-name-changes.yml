@@ -1,0 +1,74 @@
+name: Update Name Changes
+
+on:
+  push:
+    branches: [main]
+    paths: [players.json]
+
+jobs:
+  detect-renames:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect name changes and update name_changes.json
+        run: |
+          python3 - <<'EOF'
+          import json, subprocess, time
+
+          def load_names(blob):
+              try:
+                  data = json.loads(blob)
+              except Exception:
+                  return {}
+              players = data.get("players", [])
+              return {p["id"]: p["name"] for p in players if "id" in p and "name" in p}
+
+          # Old players.json from the previous commit
+          old_blob = subprocess.check_output(["git", "show", "HEAD~1:players.json"])
+          # New players.json from the current commit
+          new_blob = subprocess.check_output(["git", "show", "HEAD:players.json"])
+
+          old_names = load_names(old_blob)
+          new_names = load_names(new_blob)
+
+          with open("name_changes.json", encoding="utf-8") as f:
+              nc = json.load(f)
+          changes = nc.get("changes", {})
+
+          added = 0
+          updated = 0
+          for hex_id, new_name in new_names.items():
+              if hex_id in changes:
+                  if new_name != changes[hex_id][-1]:
+                      changes[hex_id].append(new_name)
+                      updated += 1
+              else:
+                  old_name = old_names.get(hex_id)
+                  if old_name and old_name != new_name:
+                      changes[hex_id] = [old_name, new_name]
+                      added += 1
+
+          if added == 0 and updated == 0:
+              print("No name changes detected.")
+          else:
+              nc["changes"] = changes
+              nc["lastUpdated"] = int(time.time())
+              with open("name_changes.json", "w", encoding="utf-8") as f:
+                  json.dump(nc, f, ensure_ascii=False, indent=2)
+              print(f"Detected {added} new + {updated} updated name changes.")
+          EOF
+
+      - name: Commit updated name_changes.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet name_changes.json || (
+            git add name_changes.json &&
+            git commit -m "Auto-update name changes"
+          )
+          git push
