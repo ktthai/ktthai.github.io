@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1777595047,
+  "lastUpdated": 1777628547,
   "changes": {
     "153E63": [
       "Evestria",
@@ -915,7 +915,8 @@
     ],
     "A3F8E3": [
       "Ademuil",
-      "Noxel1"
+      "Noxel1",
+      "Bixio"
     ],
     "1B34": [
       "Taiga+Mari",
@@ -1245,6 +1246,42 @@
     "21408D": [
       "Dainne",
       "Valyea"
+    ],
+    "28561B": [
+      "Fujiwara+Tarlach",
+      "Owlski"
+    ],
+    "1F49E5": [
+      "Tikkir0",
+      "Tikkiro"
+    ],
+    "8B9E32": [
+      "Syphabell",
+      "Scypha"
+    ],
+    "268067": [
+      "Blookies",
+      "Nyaangela"
+    ],
+    "0E5469": [
+      "Tswvyim+Mari",
+      "Tswvyim"
+    ],
+    "58397A": [
+      "CRBN",
+      "Akiyuuhi"
+    ],
+    "629671": [
+      "Ansatsuha",
+      "asleepyhada"
+    ],
+    "2BEAE1": [
+      "Lilysheart",
+      "Yuehmoon"
+    ],
+    "466DCE": [
+      "Vamplrella",
+      "Vampirella"
     ]
   }
 }
