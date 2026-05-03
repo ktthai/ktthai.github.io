@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1777829894,
+  "lastUpdated": 1777836193,
   "changes": {
     "153E63": [
       "Evestria",
@@ -883,7 +883,8 @@
     ],
     "24D5B3": [
       "Jupiter",
-      "Emain"
+      "Emain",
+      "nujabea"
     ],
     "44F4C3": [
       "Bumpys",
@@ -1354,6 +1355,10 @@
     "6AA687": [
       "Absyre",
       "Syr"
+    ],
+    "0017C8": [
+      "Lyonet",
+      "Einricht"
     ]
   }
 }
