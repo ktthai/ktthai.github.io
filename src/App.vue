@@ -40,7 +40,7 @@
         </div>
 
         <template v-else-if="players.length > 0">
-          <PlayersView v-if="currentView === 'players'" :players="players" :item-names="itemNames" />
+          <PlayersView v-if="currentView === 'players'" :players="players" :item-names="itemNames" :item-history="itemHistory" />
           <StatsView v-else-if="currentView === 'stats'" :players="players" />
           <NameChangesView v-else-if="currentView === 'namechanges'" :name-changes="nameChanges" />
         </template>
@@ -80,6 +80,7 @@ export default defineComponent({
     const lastSynced = ref('');
     const playerCount = ref(0);
     const nameChanges = ref({});
+    const itemHistory = ref({});
 
     onMounted(async () => {
       try {
@@ -92,6 +93,7 @@ export default defineComponent({
 
         players.value = data.players || [];
         itemNames.value = data.itemNames || {};
+        itemHistory.value = data.itemHistory || {};
         playerCount.value = data.count || data.players?.length || 0;
         if (data.lastUpdated) lastSynced.value = relativeTime(data.lastUpdated);
 
@@ -105,7 +107,7 @@ export default defineComponent({
       }
     });
 
-    return { currentView, loading, error, players, itemNames, lastSynced, playerCount, nameChanges };
+    return { currentView, loading, error, players, itemNames, itemHistory, lastSynced, playerCount, nameChanges };
   },
 });
 </script>

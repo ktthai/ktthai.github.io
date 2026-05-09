@@ -8,20 +8,53 @@
             <div class="item-name">{{ getItemName(equip.itemId) }}</div>
             <div class="item-uid">UID: {{ equip.uniqueId }}</div>
           </div>
+          <v-btn
+            v-if="itemHistory[equip.uniqueId]"
+            icon="mdi-history"
+            size="x-small"
+            variant="text"
+            density="compact"
+            @click="showHistory(equip.uniqueId, equip.itemId)"
+          />
         </div>
       </div>
     </div>
   </div>
+
+  <v-dialog v-model="historyDialog.open" max-width="400">
+    <v-card>
+      <v-card-title class="text-body-1">{{ historyDialog.title }}</v-card-title>
+      <v-card-subtitle class="text-caption pb-1">Item ownership history</v-card-subtitle>
+      <v-divider />
+      <v-list density="compact">
+        <v-list-item
+          v-for="(entry, i) in historyDialog.owners"
+          :key="i"
+        >
+          <v-list-item-title>{{ entry.name }}</v-list-item-title>
+          <template v-slot:append>
+            <span class="text-caption text-grey">{{ entry.lastSeen }}</span>
+          </template>
+        </v-list-item>
+      </v-list>
+      <v-card-actions>
+        <v-spacer />
+        <v-btn size="small" @click="historyDialog.open = false">Close</v-btn>
+      </v-card-actions>
+    </v-card>
+  </v-dialog>
 </template>
 
 <script>
-import { defineComponent, computed } from 'vue';
+import { defineComponent, computed, ref } from 'vue';
 
 export default defineComponent({
   name: 'PlayerEquipment',
   props: {
     equipment: { type: Object, default: () => ({}) },
     itemNames: { type: Object, default: () => ({}) },
+    itemHistory: { type: Object, default: () => ({}) },
+    playerById: { type: Object, default: () => ({}) },
   },
   setup(props) {
     const pocketMap = {
@@ -68,7 +101,21 @@ export default defineComponent({
         });
     });
 
-    return { sortedGroups, getItemName };
+    const historyDialog = ref({ open: false, title: '', owners: [] });
+
+    const showHistory = (uniqueId, itemId) => {
+      const entries = props.itemHistory[uniqueId] || [];
+      historyDialog.value = {
+        open: true,
+        title: getItemName(itemId),
+        owners: entries.map((e) => ({
+          name: props.playerById[e.id] || e.id,
+          lastSeen: new Date(e.lastSeen * 1000).toLocaleString(),
+        })),
+      };
+    };
+
+    return { sortedGroups, getItemName, historyDialog, showHistory };
   },
 });
 </script>

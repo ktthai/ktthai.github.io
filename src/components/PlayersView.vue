@@ -136,6 +136,8 @@
             <PlayerEquipment
               :equipment="item.equipment"
               :item-names="itemNames"
+              :item-history="itemHistory"
+              :player-by-id="playerById"
             />
           </td>
         </tr>
@@ -155,6 +157,7 @@ export default defineComponent({
   props: {
     players: { type: Array, default: () => [] },
     itemNames: { type: Object, default: () => ({}) },
+    itemHistory: { type: Object, default: () => ({}) },
   },
   setup(props) {
     const search = ref('');
@@ -291,6 +294,12 @@ export default defineComponent({
       });
     });
 
+    const playerById = computed(() => {
+      const map = {};
+      for (const p of props.players) map[p.id] = p.name;
+      return map;
+    });
+
     return {
       search,
       debouncedSearch,
@@ -302,6 +311,7 @@ export default defineComponent({
       getNewTag,
       getIconId,
       getServer,
+      playerById,
     };
   },
 });
