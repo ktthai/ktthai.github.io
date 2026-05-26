@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1779596585,
+  "lastUpdated": 1779818781,
   "changes": {
     "153E63": [
       "Evestria",
@@ -879,7 +879,8 @@
     ],
     "13232F": [
       "Kapapon",
-      "Mimaoricecat"
+      "Mimaoricecat",
+      "chemiro"
     ],
     "21244A": [
       "Phantasmagoria",
@@ -1525,6 +1526,10 @@
     "941E43": [
       "Aquascorpio",
       "Aqquua"
+    ],
+    "2F2E27": [
+      "cglego",
+      "Gallowglasc"
     ]
   }
 }
