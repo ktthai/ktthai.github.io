@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1781133351,
+  "lastUpdated": 1781154091,
   "changes": {
     "153E63": [
       "Evestria",
@@ -1652,6 +1652,14 @@
     "62F766": [
       "Kyrestia",
       "Zaagaza"
+    ],
+    "6A372F": [
+      "Tendesu",
+      "GMs"
+    ],
+    "6538EC": [
+      "Cakesz",
+      "Elemental"
     ]
   }
 }
