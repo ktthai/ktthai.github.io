@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1783937625,
+  "lastUpdated": 1784053747,
   "changes": {
     "153E63": [
       "Evestria",
@@ -312,7 +312,8 @@
     ],
     "2480BC": [
       "Taikoubou",
-      "Apart"
+      "Apart",
+      "Azerilan"
     ],
     "254881": [
       "Sennari",
@@ -1866,6 +1867,22 @@
     "64F123": [
       "EIeknight",
       "IRoccia"
+    ],
+    "025989": [
+      "Altmarrios+Mari",
+      "Altmarrimaxx"
+    ],
+    "6C31CC": [
+      "Kodevu",
+      "Anuvu"
+    ],
+    "0B15A9": [
+      "Lightmelka1",
+      "Meilc"
+    ],
+    "23D836": [
+      "Heinrich",
+      "Laevinus"
     ]
   }
 }
