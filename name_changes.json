@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784363892,
+  "lastUpdated": 1784691110,
   "changes": {
     "153E63": [
       "Evestria",
@@ -790,7 +790,8 @@
     ],
     "82B1A5": [
       "Emotionalist",
-      "Enumaa"
+      "Enumaa",
+      "Sieghartl"
     ],
     "82E856": [
       "Hwn",
@@ -1562,7 +1563,8 @@
     ],
     "81650D": [
       "Buttonrk",
-      "Platinumcard"
+      "Platinumcard",
+      "Mastercard"
     ],
     "2108D6": [
       "Nativeg510",
@@ -1903,6 +1905,10 @@
     "581419": [
       "Popolaris",
       "Popular"
+    ],
+    "14DC23": [
+      "Dextro",
+      "Bebebunni"
     ]
   }
 }
