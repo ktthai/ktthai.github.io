@@ -94,7 +94,7 @@
             <v-tooltip location="top">
               <template v-slot:activator="{ props }">
                 <img
-                  :src="`/items/${getIconId(badge.itemId)}.png`"
+                  :src="`/items/${badge.itemId}.png`"
                   height="24"
                   width="24"
                   v-bind="props"
@@ -184,11 +184,13 @@ export default defineComponent({
         items: [
           1000059, 1010070, 1020004, 1040054, 1040055, 1050017, 1060011, 1070014, 1080048, 1090010,
           1200043, 1210067, 1220018, 1230039, 1250026, 1260020, 1270029, 1280018, 1400011, 1400012,
-          1420006, 1420007, 1430005, 1440006, 1460003, 1640003, 1640004, 1650001, 41233,
+          1420006, 1420007, 1430005, 1440006, 1460003, 1640003, 1640004, 1650001,
         ],
       },
+      { name: 'Soluna Blade', items: [41233] },
       { name: 'Destructive Robe', items: [19406, 19407] },
       { name: "Irusan's Bell", items: [3100003] },
+      { name: "Fleur's Grass Tiara", items: [29322, 2110270, 2110274] },
     ];
 
     const specialItemMap = new Map();
@@ -221,11 +223,6 @@ export default defineComponent({
     const getItemName = (id) => {
       const key = String(id);
       return props.itemNames[key] || `Unknown Item (${id})`;
-    };
-
-    const getIconId = (itemId) => {
-      const aliases = {};
-      return aliases[itemId] ?? itemId;
     };
 
     const buildSearchString = (player) => {
@@ -309,7 +306,6 @@ export default defineComponent({
       searchStats,
       getPlayerBadges,
       getNewTag,
-      getIconId,
       getServer,
       playerById,
     };
