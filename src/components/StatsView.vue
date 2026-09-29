@@ -291,12 +291,62 @@
       </v-col>
 
     </v-row>
+
+    <!-- Special Item Sets -->
+    <v-row class="mt-4">
+      <v-col cols="12">
+        <v-card>
+          <v-card-title class="d-flex align-center text-subtitle-1 font-weight-bold pb-0">
+            <v-icon size="18" class="mr-2">mdi-shield-star</v-icon>
+            Special Item Sets
+          </v-card-title>
+          <v-card-text>
+            <v-expansion-panels variant="accordion" multiple>
+              <v-expansion-panel v-for="set in specialItemSetStats" :key="set.name">
+                <v-expansion-panel-title>
+                  <div class="d-flex align-center justify-space-between" style="width:100%;padding-right:12px;">
+                    <span class="font-weight-medium">{{ set.name }}</span>
+                    <span class="text-caption text-grey">
+                      {{ set.totalOwners.toLocaleString() }} owner{{ set.totalOwners === 1 ? '' : 's' }}
+                      · {{ set.variants.length }} variant{{ set.variants.length === 1 ? '' : 's' }}
+                    </span>
+                  </div>
+                </v-expansion-panel-title>
+                <v-expansion-panel-text>
+                  <div v-if="set.variants.length === 0" class="text-caption text-grey">No data yet.</div>
+                  <div v-else class="d-flex flex-column" style="gap:8px;">
+                    <div v-for="v in set.variants" :key="v.itemId" class="d-flex align-center" style="gap:10px;">
+                      <img
+                        :src="`/items/${v.itemId}.png`"
+                        width="28"
+                        height="28"
+                        style="object-fit:contain;flex-shrink:0;"
+                        :alt="v.name"
+                      />
+                      <div style="flex:0 1 240px;min-width:120px;" class="text-truncate text-body-2">{{ v.name }}</div>
+                      <div class="flex-grow-1" style="position:relative;height:16px;background:#2a2a2a;border-radius:3px;overflow:hidden;min-width:60px;">
+                        <div
+                          style="height:100%;border-radius:3px;background:#4FC3F7;opacity:0.85;"
+                          :style="{ width: (set.maxCount ? (v.count / set.maxCount * 100) : 0) + '%' }"
+                        ></div>
+                      </div>
+                      <div style="flex:0 0 48px;text-align:right;" class="text-caption text-grey">{{ v.count.toLocaleString() }}</div>
+                    </div>
+                  </div>
+                </v-expansion-panel-text>
+              </v-expansion-panel>
+            </v-expansion-panels>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
 <script>
 import { defineComponent, computed, ref } from 'vue';
 import { getServer, getRaceBase } from '../utils/playerStats.js';
+import { specialItemSets, specialItemMap } from '../utils/specialItems.js';
 
 const SERVERS = ['Mari', 'Ruairi', 'Tarlach', 'Nao', 'Alexina', 'Erinn'];
 const RACES   = ['Human', 'Elf', 'Giant'];
@@ -344,6 +394,7 @@ export default defineComponent({
   name: 'StatsView',
   props: {
     players: { type: Array, required: true },
+    itemNames: { type: Object, default: () => ({}) },
   },
   setup(props) {
     const hovered   = ref(null);
@@ -456,6 +507,55 @@ export default defineComponent({
 
     const guildChartHeight = computed(() => guildStats.value.length * 36 + 10);
 
+    // --- Special Item Sets ---
+
+    const specialItemSetStats = computed(() => {
+      const bySet = new Map(
+        specialItemSets.map((set) => [
+          set.name,
+          { counts: new Map(set.items.map((id) => [id, 0])), owners: new Set() },
+        ])
+      );
+
+      for (const p of props.players) {
+        if (!p.equipment) continue;
+        const seenItems = new Set();
+        const seenSets = new Set();
+        for (const itemData of Object.values(p.equipment)) {
+          const itemId = typeof itemData === 'number' ? itemData : itemData.itemId;
+          const setName = specialItemMap.get(itemId);
+          if (!setName) continue;
+          if (!seenItems.has(itemId)) {
+            seenItems.add(itemId);
+            const entry = bySet.get(setName);
+            entry.counts.set(itemId, entry.counts.get(itemId) + 1);
+          }
+          seenSets.add(setName);
+        }
+        for (const setName of seenSets) bySet.get(setName).owners.add(p.id);
+      }
+
+      return specialItemSets.map((set) => {
+        const entry = bySet.get(set.name);
+        const variants = set.items
+          .map((id) => ({
+            itemId: id,
+            name: props.itemNames[String(id)],
+            count: entry.counts.get(id),
+          }))
+          .filter((v) => v.name || v.count > 0)
+          .map((v) => ({ ...v, name: v.name || `Unknown Item (${v.itemId})` }))
+          .sort((a, b) => b.count - a.count);
+        const maxCount = variants.reduce((m, v) => Math.max(m, v.count), 0);
+        return {
+          name: set.name,
+          totalOwners: entry.owners.size,
+          variants,
+          maxCount,
+        };
+      });
+    });
+
     return {
       totalPlayers,
       hovered,
@@ -468,6 +568,7 @@ export default defineComponent({
       totalGuildedPlayers,
       guildStats,
       guildChartHeight,
+      specialItemSetStats,
       SERVERS,
       RACES,
       SERVER_COLORS,

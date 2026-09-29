@@ -41,7 +41,7 @@
 
         <template v-else-if="players.length > 0">
           <PlayersView v-if="currentView === 'players'" :players="players" :item-names="itemNames" :item-history="itemHistory" />
-          <StatsView v-else-if="currentView === 'stats'" :players="players" />
+          <StatsView v-else-if="currentView === 'stats'" :players="players" :item-names="itemNames" />
           <NameChangesView v-else-if="currentView === 'namechanges'" :name-changes="nameChanges" />
         </template>
       </v-container>
