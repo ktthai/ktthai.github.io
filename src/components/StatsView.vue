@@ -356,7 +356,7 @@
             <div v-if="newPlayersWeek.length === 0" class="text-grey text-caption">
               No new players in the last 7 days.
             </div>
-            <div v-else style="max-height:360px;overflow-y:auto;">
+            <div v-else style="max-height:720px;overflow-y:auto;">
               <v-table density="compact">
                 <thead>
                   <tr>
