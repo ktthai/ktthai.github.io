@@ -340,11 +340,59 @@
         </v-card>
       </v-col>
     </v-row>
+
+    <!-- Recently Added Players -->
+    <v-row class="mt-4">
+      <v-col cols="12">
+        <v-card>
+          <v-card-title class="d-flex align-center text-subtitle-1 font-weight-bold pb-0">
+            <v-icon size="18" class="mr-2">mdi-account-plus</v-icon>
+            Recently Added Players
+          </v-card-title>
+          <v-card-text>
+            <div class="text-caption text-grey mb-2">
+              {{ newPlayersToday.length.toLocaleString() }} added today · {{ newPlayersWeek.length.toLocaleString() }} added this week
+            </div>
+            <div v-if="newPlayersWeek.length === 0" class="text-grey text-caption">
+              No new players in the last 7 days.
+            </div>
+            <div v-else style="max-height:360px;overflow-y:auto;">
+              <v-table density="compact">
+                <thead>
+                  <tr>
+                    <th class="text-caption text-uppercase text-grey">Name</th>
+                    <th class="text-caption text-uppercase text-grey">Server</th>
+                    <th class="text-caption text-uppercase text-grey">Race</th>
+                    <th class="text-caption text-uppercase text-grey text-right">Level</th>
+                    <th class="text-caption text-uppercase text-grey text-right">First Seen</th>
+                    <th class="text-caption text-uppercase text-grey"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="p in newPlayersWeek" :key="p.id">
+                    <td>{{ p.name }}</td>
+                    <td>{{ p.server }}</td>
+                    <td>{{ p.race }}</td>
+                    <td class="text-right">{{ p.level.toLocaleString() }}</td>
+                    <td class="text-right text-grey">{{ formatRelativeTime(p.firstSeen) }}</td>
+                    <td>
+                      <v-chip size="x-small" :color="p.tag === 'Today' ? 'green' : 'blue'" variant="flat">
+                        {{ p.tag === 'Today' ? 'Added Today' : 'Added This Week' }}
+                      </v-chip>
+                    </td>
+                  </tr>
+                </tbody>
+              </v-table>
+            </div>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
 <script>
-import { defineComponent, computed, ref } from 'vue';
+import { defineComponent, computed, ref, onMounted, onUnmounted } from 'vue';
 import { getServer, getRaceBase } from '../utils/playerStats.js';
 import { specialItemSets, specialItemMap } from '../utils/specialItems.js';
 
@@ -399,6 +447,16 @@ export default defineComponent({
   setup(props) {
     const hovered   = ref(null);
     const activeTab = ref('Overall');
+
+    // Ticks every minute so "Recently Added Players" ages out entries live.
+    const now = ref(Date.now());
+    let nowTimer = null;
+    onMounted(() => {
+      nowTimer = setInterval(() => { now.value = Date.now(); }, 60000);
+    });
+    onUnmounted(() => {
+      if (nowTimer) clearInterval(nowTimer);
+    });
 
     const serverStats = computed(() => {
       const counts = Object.fromEntries(SERVERS.map(s => [s, 0]));
@@ -556,6 +614,39 @@ export default defineComponent({
       });
     });
 
+    // --- Recently Added Players ---
+
+    const DAY = 86400;
+    const WEEK = 604800;
+
+    const formatRelativeTime = (unixSeconds) => {
+      const diff = now.value / 1000 - unixSeconds;
+      if (diff < 60) return 'just now';
+      if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+      if (diff < DAY) return `${Math.floor(diff / 3600)}h ago`;
+      return `${Math.floor(diff / DAY)}d ago`;
+    };
+
+    const newPlayersWeek = computed(() => {
+      const nowSec = now.value / 1000;
+      return props.players
+        .filter((p) => p.firstSeen && nowSec - p.firstSeen < WEEK)
+        .map((p) => ({
+          id: p.id,
+          name: p.name,
+          server: getServer(p.id),
+          race: getRaceBase(p.race),
+          level: p.totalLevel,
+          firstSeen: p.firstSeen,
+          tag: nowSec - p.firstSeen < DAY ? 'Today' : 'This Week',
+        }))
+        .sort((a, b) => b.firstSeen - a.firstSeen);
+    });
+
+    const newPlayersToday = computed(() =>
+      newPlayersWeek.value.filter((p) => p.tag === 'Today')
+    );
+
     return {
       totalPlayers,
       hovered,
@@ -569,6 +660,9 @@ export default defineComponent({
       guildStats,
       guildChartHeight,
       specialItemSetStats,
+      newPlayersWeek,
+      newPlayersToday,
+      formatRelativeTime,
       SERVERS,
       RACES,
       SERVER_COLORS,
