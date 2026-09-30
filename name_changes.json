@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790793317,
+  "lastUpdated": 1790801989,
   "changes": {
     "153E63": [
       "Evestria",
@@ -1008,7 +1008,8 @@
     ],
     "26D5D0": [
       "Biscuit",
-      "Sniping"
+      "Sniping",
+      "GZD"
     ],
     "2C4603": [
       "Rahntegoth",
@@ -2311,6 +2312,18 @@
     "A96936": [
       "Charover",
       "Sheepcast"
+    ],
+    "5ABB8E": [
+      "Legendstar+Alexina",
+      "Weiserstar"
+    ],
+    "61AAB1": [
+      "Indikatana",
+      "Duskskvader"
+    ],
+    "6CA64A": [
+      "Plumaria+Alexina",
+      "Plumariaa"
     ]
   }
 }
