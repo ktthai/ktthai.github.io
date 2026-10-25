@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1792605254,
+  "lastUpdated": 1792897550,
   "changes": {
     "153E63": [
       "Evestria",
@@ -2245,7 +2245,8 @@
     ],
     "5C31D2": [
       "Yomey",
-      "Virgoe"
+      "Virgoe",
+      "Prompts"
     ],
     "682B5B": [
       "Guardkitty",
@@ -2426,6 +2427,18 @@
     "5AEA4C": [
       "Zmo",
       "Zemo"
+    ],
+    "22E877": [
+      "Lelouch",
+      "Sutthaai"
+    ],
+    "530CEC": [
+      "Nicholette",
+      "Elishanna"
+    ],
+    "24F829": [
+      "Seoula+Ruairi",
+      "Rubinni"
     ]
   }
 }
