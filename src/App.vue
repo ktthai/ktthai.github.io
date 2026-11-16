@@ -2,34 +2,23 @@
   <v-app>
     <v-main>
       <v-container fluid>
-        <v-row justify="center" class="mb-2 mt-2">
-          <v-col cols="12">
-            <div class="d-flex align-center justify-space-between px-2">
-              <div class="d-flex align-center" style="gap: 8px;">
-                <span
-                  class="text-h5 font-weight-bold"
-                  style="cursor: pointer;"
-                  @click="currentView = 'players'"
-                >MabiLog</span>
-                <v-btn
-                  variant="text"
-                  size="small"
-                  :color="currentView === 'stats' ? 'primary' : 'grey'"
-                  @click="currentView = 'stats'"
-                >Stats</v-btn>
-                <v-btn
-                  variant="text"
-                  size="small"
-                  :color="currentView === 'namechanges' ? 'primary' : 'grey'"
-                  @click="currentView = 'namechanges'"
-                >Name Changes</v-btn>
-              </div>
-              <div v-if="lastSynced" class="text-caption text-grey text-right">
-                Last synced: {{ lastSynced }} &nbsp;·&nbsp; {{ playerCount }} players
-              </div>
+        <nav class="mb-nav">
+          <div class="mb-nav-left">
+            <span class="mb-logo" role="button" tabindex="0" @click="go('players')" @keydown.enter="go('players')">MabiLog</span>
+            <div class="mb-tabs">
+              <button
+                v-for="t in TABS"
+                :key="t.key"
+                class="mb-tab"
+                :class="{ on: currentView === t.key }"
+                @click="go(t.key)"
+              >{{ t.label }}</button>
             </div>
-          </v-col>
-        </v-row>
+          </div>
+          <div v-if="lastSynced" class="mb-sync">
+            Synced {{ lastSynced }} · {{ playerCount.toLocaleString() }} players
+          </div>
+        </nav>
 
         <v-alert v-if="error" type="error" variant="tonal" class="mb-4">
           {{ error }}
@@ -40,9 +29,9 @@
         </div>
 
         <template v-else-if="players.length > 0">
-          <PlayersView v-if="currentView === 'players'" :players="players" :item-names="itemNames" :item-history="itemHistory" />
-          <StatsView v-else-if="currentView === 'stats'" :players="players" :item-names="itemNames" />
-          <NameChangesView v-else-if="currentView === 'namechanges'" :name-changes="nameChanges" />
+          <PlayersView v-if="currentView === 'players'" :players="players" :item-names="itemNames" :item-history="itemHistory" :preset="playersPreset" />
+          <StatsView v-else-if="currentView === 'stats'" :players="players" :item-names="itemNames" @open-players="openPlayers" />
+          <NameChangesView v-else-if="currentView === 'namechanges'" :name-changes="nameChanges" :players="players" @open-players="openPlayers" />
         </template>
       </v-container>
     </v-main>
@@ -50,10 +39,11 @@
 </template>
 
 <script>
-import { defineComponent, ref, onMounted } from 'vue';
+import { defineComponent, defineAsyncComponent, ref, shallowRef, onMounted } from 'vue';
 import PlayersView from './components/PlayersView.vue';
-import StatsView from './components/StatsView.vue';
-import NameChangesView from './components/NameChangesView.vue';
+// Secondary pages load on first visit, so the Players page starts faster
+const StatsView = defineAsyncComponent(() => import('./components/StatsView.vue'));
+const NameChangesView = defineAsyncComponent(() => import('./components/NameChangesView.vue'));
 
 const DATA_URL = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/players.json';
 const NAME_CHANGES_URL = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/name_changes.json';
@@ -75,12 +65,32 @@ export default defineComponent({
     const currentView = ref('players');
     const loading = ref(true);
     const error = ref('');
-    const players = ref([]);
-    const itemNames = ref({});
+    // The data is read-only once loaded, so keep it out of Vue's deep reactivity
+    // (deep proxies over ~350k objects cost seconds of CPU and hundreds of MB).
+    const players = shallowRef([]);
+    const itemNames = shallowRef({});
     const lastSynced = ref('');
     const playerCount = ref(0);
-    const nameChanges = ref({});
-    const itemHistory = ref({});
+    const nameChanges = shallowRef({});
+    const itemHistory = shallowRef({});
+    const playersPreset = ref(null);
+
+    // Stats page links: open the Players view with filters (and optionally a search) applied
+    const TABS = [
+      { key: 'players', label: 'Players' },
+      { key: 'stats', label: 'Stats' },
+      { key: 'namechanges', label: 'Name Changes' },
+    ];
+    const go = (view) => {
+      playersPreset.value = null;
+      currentView.value = view;
+    };
+
+    const openPlayers = (preset) => {
+      playersPreset.value = { ...preset, at: Date.now() };
+      currentView.value = 'players';
+      window.scrollTo({ top: 0 });
+    };
 
     onMounted(async () => {
       try {
@@ -107,7 +117,24 @@ export default defineComponent({
       }
     });
 
-    return { currentView, loading, error, players, itemNames, itemHistory, lastSynced, playerCount, nameChanges };
+    return { currentView, loading, error, players, itemNames, itemHistory, lastSynced, playerCount, nameChanges, playersPreset, openPlayers, TABS, go };
   },
 });
 </script>
+
+<style>
+.mb-nav {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  padding: 10px 4px 18px;
+}
+.mb-nav-left { display: flex; align-items: center; gap: 20px; }
+.mb-logo { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.02em; cursor: pointer; color: var(--mb-text); }
+.mb-tabs { display: flex; gap: 4px; padding: 3px; border-radius: 10px; background: rgba(148, 163, 184, 0.05); }
+.mb-tab {
+  height: 30px; padding: 0 14px; border-radius: 8px; border: 0; background: transparent; cursor: pointer;
+  font: inherit; font-size: 0.85rem; font-weight: 500; color: var(--mb-text-2); transition: all 0.15s;
+}
+.mb-tab:hover { color: var(--mb-text); }
+.mb-tab.on { background: var(--mb-surface-2); color: var(--mb-text); box-shadow: 0 1px 0 rgba(148, 163, 184, 0.08) inset; }
+.mb-sync { font-size: 0.78rem; color: var(--mb-text-3); font-variant-numeric: tabular-nums; }
+</style>

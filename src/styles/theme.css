@@ -1,0 +1,44 @@
+/* MabiLog global theme — calm slate palette + Inter */
+:root {
+  --mb-font: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mb-mono: 'JetBrains Mono', ui-monospace, Consolas, monospace;
+
+  --mb-bg: #0f1218;
+  --mb-surface: #151922;
+  --mb-surface-2: #1b202b;
+  --mb-hover: rgba(148, 163, 184, 0.06);
+  --mb-border: rgba(148, 163, 184, 0.12);
+  --mb-border-soft: rgba(148, 163, 184, 0.07);
+
+  --mb-text: #e3e7ef;
+  --mb-text-2: #aab2c3;
+  --mb-text-3: #737c90;
+
+  --mb-accent: #8b9cf6;
+  --mb-accent-rgb: 139, 156, 246;
+  --mb-on-accent: #0f1218;
+}
+
+html, body { background: var(--mb-bg); }
+
+.v-application,
+.v-application [class*='text-'],
+.v-overlay-container {
+  font-family: var(--mb-font) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'cv11', 'ss01', 'ss03';
+  letter-spacing: -0.005em;
+}
+.v-application { color: var(--mb-text); }
+
+/* Tooltips: solid, readable, matching the slate surfaces */
+.v-tooltip > .v-overlay__content {
+  background: var(--mb-surface-2) !important;
+  color: var(--mb-text) !important;
+  border: 1px solid var(--mb-border);
+  border-radius: 8px;
+  padding: 6px 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
