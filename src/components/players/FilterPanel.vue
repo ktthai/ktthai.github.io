@@ -75,6 +75,8 @@
       </template>
     </FacetGroup>
 
+    <FacetGroup title="Marriage" icon="mdi-ring" v-model:selected="filters.marriage" :options="marriageOpts" />
+
     <FacetGroup title="Last Seen Within" icon="mdi-clock-outline" single v-model:selected="filters.seen" :options="seenOpts">
       <template #before>
         <div class="fp-spark" aria-hidden="true">
@@ -101,7 +103,7 @@
 import { defineComponent, computed } from 'vue';
 import FacetGroup from './FacetGroup.vue';
 import {
-  SERVERS, RACES, LEVEL_BUCKETS, SEEN_OPTIONS, ADDED_OPTIONS, ACTIVITY_DAYS,
+  SERVERS, RACES, LEVEL_BUCKETS, SEEN_OPTIONS, ADDED_OPTIONS, ACTIVITY_DAYS, MARRIAGE_OPTIONS,
   specialSetsWithIcons, countActive,
 } from '../../utils/playerFilters.js';
 
@@ -142,6 +144,9 @@ export default defineComponent({
       { key: 'has', label: 'In a guild', count: c('guild', 'has') },
       { key: 'none', label: 'No guild', count: c('guild', 'none') },
     ]);
+    const marriageOpts = computed(() =>
+      MARRIAGE_OPTIONS.map((o) => ({ key: o.key, label: o.label, icon: o.icon, count: c('marriage', o.key) }))
+    );
     const seenOpts = computed(() => SEEN_OPTIONS.map((o) => ({ key: o.key, label: o.label, count: c('seen', o.key) })));
     const addedOpts = computed(() => ADDED_OPTIONS.map((o) => ({ key: o.key, label: o.label, count: c('added', o.key) })));
     const guildNameItems = computed(() =>
@@ -171,7 +176,7 @@ export default defineComponent({
     });
 
     return {
-      toggle, serverOpts, raceOpts, genderOpts, levelOpts, setOpts, guildOpts,
+      toggle, serverOpts, raceOpts, genderOpts, levelOpts, setOpts, guildOpts, marriageOpts,
       seenOpts, addedOpts, guildNameItems, activeCount,
       share, levelMax, genderMax, setModeMax, spark, seenWindow,
     };

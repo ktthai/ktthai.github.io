@@ -16,7 +16,7 @@
           <input
             ref="searchEl"
             v-model="search"
-            placeholder="Search names, guilds, items, UIDs…"
+            placeholder="Search names, guilds, spouses, items, UIDs…"
             spellcheck="false"
             @focus="searchFocused = true"
             @blur="searchFocused = false"
@@ -164,7 +164,7 @@
           </template>
 
           <template #item.spouse="{ item }">
-            <span v-if="item.spouse" class="pc-guild" :title="item.spouse">{{ item.spouse }}</span>
+            <span v-if="item.spouse" class="pc-guild" :title="item.spouse"><template v-for="(part, i) in hl(item.spouse, 'spouse')" :key="i"><mark v-if="part.m" class="pc-hl">{{ part.t }}</mark><template v-else>{{ part.t }}</template></template></span>
           </template>
 
           <template #item._server="{ item }">
@@ -257,7 +257,7 @@ import FilterPanel from './players/FilterPanel.vue';
 import { showIds } from '../utils/preferences.js';
 import {
   enrichPlayers, evaluate, defaultFilters, countActive, relativeTime,
-  SCOPES, LEVEL_BUCKETS, SEEN_OPTIONS, ADDED_OPTIONS,
+  SCOPES, LEVEL_BUCKETS, SEEN_OPTIONS, ADDED_OPTIONS, MARRIAGE_OPTIONS,
 } from '../utils/playerFilters.js';
 
 const SORT_OPTIONS = [
@@ -271,13 +271,14 @@ const SORT_OPTIONS = [
 
 const FACET_LABELS = {
   server: 'Server', race: 'Race', gender: 'Gender', level: 'Level', sets: 'Item',
-  guild: 'Guild', guildNames: 'Guild', seen: 'Seen', added: 'Added',
+  guild: 'Guild', guildNames: 'Guild', marriage: 'Marriage', seen: 'Seen', added: 'Added',
 };
 const OPTION_LABELS = {
   level: Object.fromEntries(LEVEL_BUCKETS.map((b) => [b.key, b.label])),
   seen: Object.fromEntries(SEEN_OPTIONS.map((o) => [o.key, `< ${o.label}`])),
   added: Object.fromEntries(ADDED_OPTIONS.map((o) => [o.key, o.label])),
   guild: { has: 'In a guild', none: 'No guild' },
+  marriage: Object.fromEntries(MARRIAGE_OPTIONS.map((o) => [o.key, o.label])),
 };
 
 export default defineComponent({
@@ -311,7 +312,7 @@ export default defineComponent({
       const s = sortBy.value[0];
       if (s) sortBy.value = [{ key: s.key, order: s.order === 'desc' ? 'asc' : 'desc' }];
     };
-    const scope = reactive({ name: true, guild: true, item: true, race: true, id: true });
+    const scope = reactive({ name: true, guild: true, spouse: true, item: true, race: true, id: true });
 
     let t;
     watch(search, (v) => {

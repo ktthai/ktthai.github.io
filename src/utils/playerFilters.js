@@ -33,9 +33,16 @@ export const ADDED_OPTIONS = [
 
 export const ACTIVITY_DAYS = 30;
 
+export const MARRIAGE_OPTIONS = [
+  { key: 'married', label: 'Married', icon: 'mdi-ring' },
+  { key: 'divorced', label: 'Divorced', icon: 'mdi-heart-broken-outline' },
+  { key: 'single', label: 'No spouse', icon: 'mdi-account-outline' },
+];
+
 export const SCOPES = [
   { key: 'name', label: 'Name' },
   { key: 'guild', label: 'Guild' },
+  { key: 'spouse', label: 'Spouse' },
   { key: 'item', label: 'Items & UIDs' },
   { key: 'race', label: 'Race' },
   { key: 'id', label: 'ID' },
@@ -50,6 +57,7 @@ export const defaultFilters = () => ({
   setMode: 'any',
   guild: [],
   guildNames: [],
+  marriage: [],
   seen: [],
   added: [],
 });
@@ -119,7 +127,10 @@ export function enrichPlayers(players, itemNames) {
       _badges: badges,
       _nameL: (p.name || '').toLowerCase(),
       _guildL: (p.guild || '').toLowerCase(),
+      _marriage: p.spouse ? 'married' : p.previousSpouses?.length ? 'divorced' : 'single',
       _spouseL: (p.spouse || '').toLowerCase(),
+      // Current + previous spouses, so search finds who someone was married to
+      _spousesL: [p.spouse, ...(p.previousSpouses || []).map((s) => s.name)].filter(Boolean).join('\n').toLowerCase(),
       _raceL: race.toLowerCase(),
       _itemsL: null, // built lazily by itemSearchText()
     };
@@ -129,6 +140,7 @@ export function enrichPlayers(players, itemNames) {
 const matchField = {
   name: (p, q) => p._nameL.includes(q),
   guild: (p, q) => p._guildL.includes(q),
+  spouse: (p, q) => p._spousesL.includes(q),
   item: (p, q) => itemSearchText(p).includes(q),
   race: (p, q) => p._raceL.includes(q),
   id: (p, q) => p._numS.startsWith(q),
@@ -147,6 +159,7 @@ function buildPredicates(f, q, scope, now) {
   inSet('level', f.level, (p) => p._level);
   inSet('guild', f.guild, (p) => (p.guild ? 'has' : 'none'));
   inSet('guildNames', f.guildNames, (p) => p.guild);
+  inSet('marriage', f.marriage, (p) => p._marriage);
   if (f.sets.length) {
     const want = f.sets;
     preds.push([
@@ -181,6 +194,7 @@ function tally(counts, p, only, now) {
     const k = p.guild ? 'has' : 'none';
     counts.guild[k] = (counts.guild[k] || 0) + 1;
   }
+  if (all || only === 'marriage') counts.marriage[p._marriage] = (counts.marriage[p._marriage] || 0) + 1;
   if (all || only === 'sets') for (const s of p._sets) counts.sets[s] = (counts.sets[s] || 0) + 1;
   if (all || only === 'seen') {
     for (const o of SEEN_OPTIONS) if (now - p.lastSeen <= o.secs) counts.seen[o.key] = (counts.seen[o.key] || 0) + 1;
@@ -203,12 +217,12 @@ export function evaluate(players, filters, query, scope, now = Date.now() / 1000
   const q = query.trim().toLowerCase();
   const preds = buildPredicates(filters, q, scope, now);
   const counts = {
-    server: {}, race: {}, gender: {}, level: {}, guild: {}, sets: {}, seen: {}, added: {},
+    server: {}, race: {}, gender: {}, level: {}, guild: {}, marriage: {}, sets: {}, seen: {}, added: {},
     seenDays: new Array(ACTIVITY_DAYS).fill(0), // index 0 = today
     setMode: { any: 0, all: 0 },
   };
   const wantSets = filters.sets;
-  const scopeCounts = { name: 0, guild: 0, item: 0, race: 0, id: 0 };
+  const scopeCounts = { name: 0, guild: 0, spouse: 0, item: 0, race: 0, id: 0 };
   const results = [];
 
   for (const p of players) {
@@ -241,7 +255,7 @@ export function evaluate(players, filters, query, scope, now = Date.now() / 1000
 export function countActive(f) {
   return (
     f.server.length + f.race.length + f.gender.length + f.level.length + f.sets.length +
-    f.guild.length + f.guildNames.length + f.seen.length + f.added.length
+    f.guild.length + f.guildNames.length + f.marriage.length + f.seen.length + f.added.length
   );
 }
 
