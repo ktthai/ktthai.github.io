@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795387674,
+  "lastUpdated": 1795424188,
   "changes": {
     "153E63": [
       "Evestria",
@@ -2525,6 +2525,10 @@
     "304989": [
       "Malevaal",
       "Miann"
+    ],
+    "48A929": [
+      "cureerbase",
+      "FEWDAW"
     ]
   }
 }
