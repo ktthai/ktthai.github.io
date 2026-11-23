@@ -45,7 +45,8 @@ import PlayersView from './components/PlayersView.vue';
 const StatsView = defineAsyncComponent(() => import('./components/StatsView.vue'));
 const NameChangesView = defineAsyncComponent(() => import('./components/NameChangesView.vue'));
 
-const DATA_URL = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/players.json';
+// VITE_DATA_URL lets a local dev server preview an unpublished players.json
+const DATA_URL = import.meta.env.VITE_DATA_URL || 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/players.json';
 const NAME_CHANGES_URL = 'https://raw.githubusercontent.com/ktthai/ktthai.github.io/main/name_changes.json';
 
 function relativeTime(unixSeconds) {

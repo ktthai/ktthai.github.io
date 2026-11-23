@@ -210,6 +210,7 @@
           <template #expanded-row="{ columns, item }">
             <tr class="pc-expanded">
               <td :colspan="columns.length">
+                <SpouseCard :spouse="item.spouse" :previous="item.previousSpouses" />
                 <PlayerEquipment
                   :equipment="item.equipment"
                   :item-names="itemNames"
@@ -247,6 +248,7 @@
 import { defineComponent, ref, reactive, computed, watch, onMounted, onBeforeUnmount } from 'vue';
 import { useDisplay } from 'vuetify';
 import PlayerEquipment from './PlayerEquipment.vue';
+import SpouseCard from './SpouseCard.vue';
 import FilterPanel from './players/FilterPanel.vue';
 import { showIds } from '../utils/preferences.js';
 import {
@@ -276,7 +278,7 @@ const OPTION_LABELS = {
 
 export default defineComponent({
   name: 'PlayersView',
-  components: { PlayerEquipment, FilterPanel },
+  components: { PlayerEquipment, SpouseCard, FilterPanel },
   props: {
     players: { type: Array, default: () => [] },
     itemNames: { type: Object, default: () => ({}) },
