@@ -119,6 +119,7 @@ export function enrichPlayers(players, itemNames) {
       _badges: badges,
       _nameL: (p.name || '').toLowerCase(),
       _guildL: (p.guild || '').toLowerCase(),
+      _spouseL: (p.spouse || '').toLowerCase(),
       _raceL: race.toLowerCase(),
       _itemsL: null, // built lazily by itemSearchText()
     };

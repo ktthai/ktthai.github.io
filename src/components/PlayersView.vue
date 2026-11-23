@@ -163,6 +163,10 @@
             <span v-else class="pc-muted">—</span>
           </template>
 
+          <template #item.spouse="{ item }">
+            <span v-if="item.spouse" class="pc-guild" :title="item.spouse">{{ item.spouse }}</span>
+          </template>
+
           <template #item._server="{ item }">
             <span class="pc-tag">{{ item._server }}</span>
           </template>
@@ -210,7 +214,7 @@
           <template #expanded-row="{ columns, item }">
             <tr class="pc-expanded">
               <td :colspan="columns.length">
-                <SpouseCard :spouse="item.spouse" :previous="item.previousSpouses" />
+                <SpouseCard :previous="item.previousSpouses" />
                 <PlayerEquipment
                   :equipment="item.equipment"
                   :item-names="itemNames"
@@ -348,16 +352,16 @@ export default defineComponent({
     const perPage = ref(50);
     // Text columns sort on the precomputed lowercase fields (much faster than
     // locale-aware comparison across ~26k rows)
-    const SORT_FIELD = { name: '_nameL', guild: '_guildL', race: '_raceL' };
+    const SORT_FIELD = { name: '_nameL', guild: '_guildL', spouse: '_spouseL', race: '_raceL' };
     const sorted = computed(() => {
       const s = sortBy.value[0];
       if (!s) return results.value;
       const dir = s.order === 'desc' ? -1 : 1;
       const f = SORT_FIELD[s.key] || s.key;
-      const cmp = s.key === 'guild'
+      const cmp = s.key === 'guild' || s.key === 'spouse'
         ? (a, b) => {
             const x = a[f], y = b[f];
-            if (!x || !y) return x ? -1 : y ? 1 : 0; // players without a guild stay last
+            if (!x || !y) return x ? -1 : y ? 1 : 0; // players without a guild / spouse stay last
             return (x < y ? -1 : x > y ? 1 : 0) * dir;
           }
         : (a, b) => {
@@ -406,6 +410,7 @@ export default defineComponent({
     const baseHeaders = [
       { title: 'Player', key: 'name' },
       { title: 'Guild', key: 'guild' },
+      { title: 'Spouse', key: 'spouse' },
       { title: 'Server', key: '_server' },
       { title: 'Race', key: 'race' },
       { title: 'Level', key: 'totalLevel' },
