@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795748393,
+  "lastUpdated": 1795804670,
   "changes": {
     "153E63": [
       "Evestria",
@@ -1260,7 +1260,8 @@
     ],
     "6A7082": [
       "Shotto",
-      "Samorsi"
+      "Samorsi",
+      "Shoot"
     ],
     "588F1B": [
       "Shadowsbane+Alexina",
@@ -2558,6 +2559,30 @@
     "3103CA": [
       "Jaydesque",
       "Fawnsenic"
+    ],
+    "2E038C": [
+      "Yuqi",
+      "Palette"
+    ],
+    "623B21": [
+      "naghavi",
+      "sumireviolet"
+    ],
+    "669F41": [
+      "thefgtcnt",
+      "Ditconmemay"
+    ],
+    "302FF3": [
+      "Ruviene",
+      "Ruvioli"
+    ],
+    "25D4D6": [
+      "Sonjane",
+      "Cytx"
+    ],
+    "6AA307": [
+      "Archeleos",
+      "Cygnias"
     ]
   }
 }
